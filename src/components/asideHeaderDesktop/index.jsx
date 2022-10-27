@@ -61,7 +61,7 @@ export const AsideHeader = () => {
             <li className={styles.aside.navLi}>
               <a
                 className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
-                href="/"
+                href="#"
               >
                 <HomeIcon className={styles.aside.navIcon} />
                 Accueil
@@ -71,7 +71,7 @@ export const AsideHeader = () => {
             <li>
               <a
                 className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
-                href="/"
+                href="#"
               >
                 <PersonIcon className={styles.aside.navIcon} />A propos de moi
               </a>
@@ -80,7 +80,7 @@ export const AsideHeader = () => {
             <li className={styles.aside.navLi}>
               <a
                 className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
-                href="/"
+                href="#"
               >
                 <DataObjectIcon className={styles.aside.navIcon} />
                 Mes compétences
@@ -89,7 +89,7 @@ export const AsideHeader = () => {
             <li>
               <a
                 className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
-                href="/"
+                href="#"
               >
                 <TopicIcon className={styles.aside.navIcon} />
                 Mes projets
@@ -98,7 +98,7 @@ export const AsideHeader = () => {
             <li className={styles.aside.navLi}>
               <a
                 className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
-                href="/"
+                href="#"
               >
                 <FileOpenIcon className={styles.aside.navIcon} />
                 CV
