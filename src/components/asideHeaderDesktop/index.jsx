@@ -17,7 +17,7 @@ import EmailIcon from "@mui/icons-material/Email";
 
 // icon copyright
 import CopyrightIcon from "@mui/icons-material/Copyright";
-import { Copyright } from "@mui/icons-material";
+
 
 // aside for desktop
 export const AsideHeader = () => {
