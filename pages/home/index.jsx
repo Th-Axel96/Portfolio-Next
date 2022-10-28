@@ -1,12 +1,11 @@
-import { AsideHeader } from "@src/components/asideHeaderDesktop";
-import { ContentHeader } from "@src/components/contentHeader";
+import { HeaderGlobal } from "@src/components/headerGlobal";
+import { AboutMe } from "@src/components/aboutMe";
 
 const HomePage = () => {
   return (
     <>
-   <AsideHeader />
-   <ContentHeader />
-     
+      <HeaderGlobal />
+     <AboutMe />
     </>
   );
 };

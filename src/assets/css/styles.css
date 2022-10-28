@@ -1,1 +1,7 @@
+.bg-person-coding {
+    background-image: url(../img/person-coding-blur.jpg);
+}
 
+.bg-person-coding-mobile {
+    background-image: url(../img/person-coding-blur-mobile.jpg);
+}

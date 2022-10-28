@@ -25,7 +25,7 @@ export default function Document() {
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css"
         />
-        <Script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></Script>
+        <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
       </Head>
       <body>
         <Main />
