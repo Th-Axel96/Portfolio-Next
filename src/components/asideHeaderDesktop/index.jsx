@@ -18,11 +18,10 @@ import EmailIcon from "@mui/icons-material/Email";
 // icon copyright
 import CopyrightIcon from "@mui/icons-material/Copyright";
 
-
 // aside for desktop
 export const AsideHeader = () => {
   return (
-    <aside className={styles.grid.gridCol6}>
+    <aside className={`${styles.grid.gridCol6}`}>
       {/* div for fixed bar */}
       <div className={styles.aside.asideBg}>
         {/* content aside fixed */}
@@ -107,10 +106,13 @@ export const AsideHeader = () => {
           </ul>
         </nav>
         {/* copyright */}
-        <div className={`${styles.flex.itemsEnd} ${styles.aside.copyrightDiv} ${styles.flex.justifyCenter}`}>
+        <div
+          className={`${styles.flex.itemsEnd} ${styles.aside.copyrightDiv} ${styles.flex.justifyCenter}`}
+        >
           <p>
             <CopyrightIcon className={`${styles.aside.copyrightIco} `} />
-            Copyright <span className={styles.text.fontBold}>Moussart Axel</span>
+            Copyright &nbsp;
+            <span className={styles.text.fontBold}>Moussart Axel</span>
           </p>
         </div>
       </div>

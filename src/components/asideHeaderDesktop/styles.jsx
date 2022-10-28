@@ -1,3 +1,5 @@
+// CSS asideHeader template 
+
 export const styles = {
   // grid
   grid: {
@@ -23,10 +25,11 @@ export const styles = {
     navLi: "py-8",
     HoverBlue: "hover:text-blue-400",
     // social icon
-    socialIconBg: "w-12 h-12 my-10 bg-gray-600 rounded-full hover:bg-blue-400",
-    socialIcon: "text-3xl text-white",
-    copyrightIco: "text-lg text-white",
-    copyrightDiv: "h-60 text-white",
+    socialIconBg:
+      "w-12 h-12 my-10 bg-gray-600 rounded-full hover:bg-blue-400 hover:animate-pulse",
+    socialIcon: "text-3xl text-white ",
+    copyrightIco: "text-lg text-white mr-2",
+    copyrightDiv: "h-40 text-white",
   },
   // text
   text: {
@@ -36,4 +39,8 @@ export const styles = {
 
   // padding // margin
   mx4: "mx-4",
+
+  // hidden block
+
+  lgBlock: "hidden lg:block",
 };
