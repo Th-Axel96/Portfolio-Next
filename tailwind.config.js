@@ -13,9 +13,6 @@ module.exports = {
         open: ["Open Sans", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
       },
-      backgroundImage: {
-        "person-coding": "url('/img/person-coding.jpg')",
-      },
     },
   },
  
