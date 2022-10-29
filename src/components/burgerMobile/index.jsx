@@ -38,7 +38,7 @@ export const BurgerMenu = () => {
 
       {/* div for OFF CANVA */}
       <div
-        class="offcanvas offcanvas-start  fixed bottom-0  bg-gray-600 invisible bg-clip-padding shadow-sm outline-none transition duration-1000 ease-in-out text-gray-700 top-0 left-0 border-none w-80"
+        className={styles.offCanvaMenuBurger}
         tabindex="-1"
         id="offcanvasExample"
       >
