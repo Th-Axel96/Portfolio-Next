@@ -14,6 +14,9 @@ export const styles = {
     justifyColItemsCenter: "flex flex-col justify-center items-center",
   },
 
+  offCanvaMenuBurger:
+    "offcanvas offcanvas-start  fixed bottom-0  bg-gray-600 invisible bg-clip-padding shadow-sm outline-none transition duration-1000 ease-in-out text-gray-700 top-0 left-0 border-none w-80",
+
   // background
 
   bgGLass:
@@ -53,7 +56,7 @@ export const styles = {
   mx4: "mx-4",
   mb8: "mb-8",
   marginIcoCLear: "mt-2 mr-2",
-  paddingIcoMenu:"pl-4 pt-4",
+  paddingIcoMenu: "pl-4 pt-4",
 
   // contentHeader
 
