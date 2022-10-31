@@ -17,7 +17,7 @@ export const styles = {
   // background
 
   bgGLass:
-    "w-5/12 h-40 bg-black/40 flex flex-col justify-center items-center rounded-full",
+    "p-8 bg-black/40 flex flex-col justify-center items-center rounded-full",
 
   // height
   hFull: "h-full",

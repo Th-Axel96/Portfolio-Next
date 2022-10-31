@@ -15,11 +15,11 @@ export const HeaderGlobal = () => {
   };
   return (
     <>
-      <header className="hidden lg:block">
+      <header className="hidden xl:block">
         <AsideHeader />
         <ContentHeader />
       </header>
-      <div  className="lg:hidden">
+      <div  className="xl:hidden">
         
         <ContentHeaderMobile />
       

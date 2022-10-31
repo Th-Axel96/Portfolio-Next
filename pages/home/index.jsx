@@ -6,8 +6,12 @@ const HomePage = () => {
   return (
     <>
       <HeaderGlobal />
+      
+
+
       <AboutMe />
       <SectionSkills />
+      
     </>
   );
 };

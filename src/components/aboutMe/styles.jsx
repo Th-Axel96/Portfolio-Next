@@ -3,8 +3,10 @@
 export const styles = {
   // grid
   grid: {
-    gridCol6: "grid grid-cols-6",
+    gridCol6: "xl:grid grid-cols-6",
+    gridCol2: "md:grid md:grid-cols-2",
     colStart2: "col-start-2 col-span-5",
+    colStart3: "col-start-3 col-span-5",
   },
   //   flex
   flex: {
@@ -12,6 +14,7 @@ export const styles = {
     itemsEnd: "flex items-end",
     itemsCenter: "flex items-center",
     justifyNameTyping: "h-5/6 flex flex-col justify-center items-center",
+    colCenter: "flex flex-col justify-center xl:mr-32",
   },
 
   // background
@@ -27,6 +30,9 @@ export const styles = {
   // padding // margin
   mx4: "mx-4",
   pt6: "pt-6",
+
+  // container
+  containerDiv: "mx-4 xl:ml-32",
 
   // contentHeader
 
