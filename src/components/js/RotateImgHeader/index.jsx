@@ -28,7 +28,7 @@ export const RotateAnimation = () => {
   }, [toggle]);
 
   return (
-    <div  onMouseOver={changeState} ref={cardRef}>
+    <div  onClick={changeState} ref={cardRef}>
       <Image src={DevImgHeader} width="230px" height="230px" />
     </div>
   );
