@@ -48,7 +48,6 @@ export const BurgerMenu = () => {
           <div className="flex justify-end">
             {/* bg icon rounded */}
             <button
-            
               className={`${styles.aside.socialIconBg} ${styles.marginIcoCLear}`}
               type="button"
               data-bs-toggle="offcanvas"
@@ -100,6 +99,9 @@ export const BurgerMenu = () => {
               {/* link about me */}
               <li>
                 <a
+                  // data-bs-toggle="offcanvas"
+                  // data-bs-target="#offcanvasExample"
+                  // aria-controls="offcanvasExample"
                   className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
                   href="#"
                 >
