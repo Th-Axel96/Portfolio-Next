@@ -11,7 +11,7 @@ export const SectionSkills = () => {
   return (
     // div for grid col6
     <div className={styles.grid.gridCol6}>
-      {/* contenair */}
+      {/* container */}
       <div className={styles.grid.colStart2}>
         <div className={styles.containerDiv}>
           {/* title */}
@@ -21,7 +21,7 @@ export const SectionSkills = () => {
           {/* div for border title */}
           <div className={styles.body.borderTitle}></div>
           {/* div for grid  */}
-          <div className={`${styles.grid.gridCol2} `}>
+          <div className={`${styles.grid.gridCol2} ${styles.grid.lgGridCol3}`}>
             {/* div for justify-content */}
             <div className={styles.flex.justifyCenter}>
               {/* box icon HTML */}

@@ -3,9 +3,10 @@
 export const styles = {
   // grid
   grid: {
-    gridCol6: "xl:grid grid-cols-6",
+    gridCol6: "xl:grid xl:grid-cols-6",
     gridCol2: "grid grid-cols-2",
     colStart2: "col-start-2 col-span-5",
+    lgGridCol3:"lg:grid lg:grid-cols-3"
   },
   //   flex
   flex: {
