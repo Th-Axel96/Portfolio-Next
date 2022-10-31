@@ -1,7 +1,14 @@
 import { styles } from "./styles"
+import Image from "next/image";
 // import burger menu
 import { BurgerMenu } from "../burgerMobile";
 import { Typing } from "../js/typeAnimation";
+
+// img
+import DevImgHeader from "../../assets/img/Developer-img.svg"
+import { RotateAnimation } from "../js/RotateImgHeader";
+
+
 
 export const ContentHeaderMobile = () => {
   return (
@@ -24,9 +31,18 @@ export const ContentHeaderMobile = () => {
                 <Typing />
               </span>
             </h2>
+{/* rotate IMG */}
+<div className={styles.pt20}>
+
+<RotateAnimation />
+</div>
+
           
         </div>
       </div>
     </>
   );
 };
+
+
+

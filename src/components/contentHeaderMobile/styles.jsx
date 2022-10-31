@@ -53,6 +53,7 @@ export const styles = {
 
   // padding // margin
   mx4: "mx-4",
+  pt20:"pt-20",
 
   // contentHeader
 
