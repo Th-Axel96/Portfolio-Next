@@ -24,8 +24,8 @@ export const AboutMe = () => {
         démontant, changeant les pièces des PC et assemblé des configurations.
       </p>
       <p className={`${styles.body.paragraph} ${styles.pt6}`}>
-        Décidant de me reconvertir, je voulais un métier qui me passionne, j'ai
-        donc décidé de me tourner vers le développement.
+        Décidant de me reconvertir, je voulais un métier qui me passionne,
+        j&apos;ai donc décidé de me tourner vers le développement.
       </p>
       <p className={`${styles.body.paragraph} ${styles.pt6}`}>
         Partant d&apos;aucune connaissance dans le domaine du developpement,
