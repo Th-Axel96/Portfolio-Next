@@ -41,7 +41,7 @@ export const SectionProject = () => {
                     <button type="button" className={styles.card.btnLink}>
                       <a
                         href="https://tp-landingpage.netlify.app/"
-                        target="_blank"
+                       
                         
                       >
                         Voir le projet
@@ -68,7 +68,7 @@ export const SectionProject = () => {
                     <button type="button" className={styles.card.btnLink}>
                       <a
                         href="https://axel-mazebank.netlify.app/"
-                        target="_blank"
+                       
                        
                       >
                         Voir le projet
@@ -94,7 +94,7 @@ export const SectionProject = () => {
                     <button type="button" className={styles.card.btnLink}>
                       <a
                         href="https://wana-agency.netlify.app/"
-                        target="_blank"
+                       
                        
                       >
                         Voir le projet
@@ -120,7 +120,7 @@ export const SectionProject = () => {
                     <button type="button" className={styles.card.btnLink}>
                       <a
                         href="https://moussart-cv.netlify.app/"
-                        target="_blank"
+                        
                        
                       >
                         Voir le projet
