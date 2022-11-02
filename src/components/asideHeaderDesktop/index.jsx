@@ -9,6 +9,7 @@ import PersonIcon from "@mui/icons-material/Person";
 import DataObjectIcon from "@mui/icons-material/DataObject";
 import TopicIcon from "@mui/icons-material/Topic";
 import FileOpenIcon from "@mui/icons-material/FileOpen";
+import CallIcon from "@mui/icons-material/Call";
 
 // icon Social
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -37,20 +38,36 @@ export const AsideHeader = () => {
         <h2 className={styles.aside.h2Name}>Moussart Axel</h2>
         {/* div for social icon */}
         <div className={styles.flex.justifyCenter}>
+          {/* link github */}
+          <a
+            href="https://github.com/Th-Axel96"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div
+              className={`${styles.aside.socialIconBg} ${styles.flex.justifyCenter} ${styles.flex.itemsCenter}`}
+            >
+              <GitHubIcon className={styles.aside.socialIcon} />
+            </div>
+          </a>
+
+          {/* link linkdin */}
+          <a
+            href="https://www.linkedin.com/in/axel-moussart/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div
+              className={`${styles.aside.socialIconBg} ${styles.flex.justifyCenter} ${styles.flex.itemsCenter} ${styles.mx4}`}
+            >
+              <LinkedInIcon className={`${styles.aside.socialIcon} `} />
+            </div>
+          </a>
+          {/* link open CV */}
           <div
             className={`${styles.aside.socialIconBg} ${styles.flex.justifyCenter} ${styles.flex.itemsCenter}`}
           >
-            <GitHubIcon className={styles.aside.socialIcon} />
-          </div>
-          <div
-            className={`${styles.aside.socialIconBg} ${styles.flex.justifyCenter} ${styles.flex.itemsCenter} ${styles.mx4}`}
-          >
-            <LinkedInIcon className={`${styles.aside.socialIcon} `} />
-          </div>
-          <div
-            className={`${styles.aside.socialIconBg} ${styles.flex.justifyCenter} ${styles.flex.itemsCenter}`}
-          >
-            <EmailIcon className={styles.aside.socialIcon} />
+            <FileOpenIcon className={styles.aside.socialIcon} />
           </div>
         </div>
         {/* aside nav */}
@@ -85,6 +102,7 @@ export const AsideHeader = () => {
                 Mes compétences
               </a>
             </li>
+            {/* link project */}
             <li>
               <a
                 className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
@@ -93,14 +111,15 @@ export const AsideHeader = () => {
                 <TopicIcon className={styles.aside.navIcon} />
                 Mes projets
               </a>
+              {/* link contact */}
             </li>
             <li className={styles.aside.navLi}>
               <a
                 className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
                 href="#"
               >
-                <FileOpenIcon className={styles.aside.navIcon} />
-                CV
+                <CallIcon className={styles.aside.navIcon} />
+                Contact
               </a>
             </li>
           </ul>
