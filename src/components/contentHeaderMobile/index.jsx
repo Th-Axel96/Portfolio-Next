@@ -13,9 +13,9 @@ import { RotateAnimation } from "../js/RotateImgHeader";
 export const ContentHeaderMobile = () => {
   return (
     <>
-      <div className="h-screen bg-gray-600 ">
+      <div >
         {/*  */}
-        <BurgerMenu />
+        <BurgerMenu  />
         <div
           className={`${styles.flex.justifyNameTyping} `}
         >
@@ -32,7 +32,7 @@ export const ContentHeaderMobile = () => {
               </span>
             </h2>
 {/* rotate IMG */}
-<div className={styles.pt20}>
+<div className={styles.py20}>
 
 <RotateAnimation />
 </div>

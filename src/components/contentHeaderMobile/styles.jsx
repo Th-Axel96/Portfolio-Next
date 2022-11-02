@@ -41,7 +41,7 @@ export const styles = {
     copyrightIco: "text-lg text-white",
     copyrightDiv: "h-20 text-white",
     // burger menu mobile
-    burgerIco: "",
+    burgerIco: "text-black",
     clearBurgerIco: " text-4xl text-white",
   },
 
@@ -54,6 +54,7 @@ export const styles = {
   // padding // margin
   mx4: "mx-4",
   pt20:"pt-20",
+  py20:"py-20",
 
   // contentHeader
 
@@ -61,11 +62,11 @@ export const styles = {
     bgHeader: "bg-person-coding bg-cover bg-no-repeat",
     bgBlur: " h-screen w-full",
     nameHeader:
-      "w-screen flex justify-center text-white text-2xl font-open font-bold",
+      "w-screen flex justify-center text-2xl font-open font-black pt-16",
     spanTypingBorder:
-      "flex items-center  text-white font-open text-xl border-b-2 border-blue-400",
+      "flex items-center font-open text-xl border-b-2 border-blue-400",
     spanTyping:
-      "flex flex-col items-center w-screen text-white font-open text-xl pt-4",
+      "flex flex-col items-center w-screen font-open text-xl pt-4 font-semibold",
   },
 
   // hidden block
