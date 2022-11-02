@@ -6,7 +6,7 @@ export const styles = {
     gridCol6: "xl:grid xl:grid-cols-6",
     gridCol2: "grid grid-cols-2",
     colStart2: "col-start-2 col-span-5",
-    lgGridCol3:"lg:grid lg:grid-cols-3"
+    lgGridCol3: "lg:grid lg:grid-cols-3",
   },
   //   flex
   flex: {
@@ -47,5 +47,5 @@ export const styles = {
   },
   // box ICON skilss
   boxIconSkills:
-    "flex flex-col text-white font-open text-lg font-bold uppercase justify-center items-center w-32 h-36 bg-black rounded-xl border-t-4 border-blue-400 p-4 mb-4 hover:scale-110 transition duration-1000 ease-in-out hover:bg-gray-300 hover:text-black",
+    "flex flex-col text-white font-open text-lg font-bold uppercase justify-center items-center w-32 h-36 bg-black rounded-xl border-t-4 border-blue-400 p-4 mb-8 hover:scale-110 transition duration-1000 ease-in-out hover:bg-gray-300 hover:text-black",
 };
