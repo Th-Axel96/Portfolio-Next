@@ -42,7 +42,7 @@ export const AsideHeader = () => {
           <a
             href="https://github.com/Th-Axel96"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener"
           >
             <div
               className={`${styles.aside.socialIconBg} ${styles.flex.justifyCenter} ${styles.flex.itemsCenter}`}
@@ -55,7 +55,7 @@ export const AsideHeader = () => {
           <a
             href="https://www.linkedin.com/in/axel-moussart/"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener"
           >
             <div
               className={`${styles.aside.socialIconBg} ${styles.flex.justifyCenter} ${styles.flex.itemsCenter} ${styles.mx4}`}
