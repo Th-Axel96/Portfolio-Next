@@ -69,11 +69,7 @@ export const BurgerMenu = () => {
           {/* div for social icon */}
           <div className={`${styles.flex.justifyCenter} ${styles.mb8}`}>
             {/* link github */}
-            <a
-              href="https://github.com/Th-Axel96"
-              target="_blank"
-              rel="noopener"
-            >
+            <a href="https://github.com/Th-Axel96" target="_blank">
               <div
                 className={`${styles.aside.socialIconBg} ${styles.flex.justifyCenter} ${styles.flex.itemsCenter} `}
               >
@@ -84,7 +80,6 @@ export const BurgerMenu = () => {
             <a
               href="https://www.linkedin.com/in/axel-moussart/"
               target="_blank"
-              rel="noopener"
             >
               <div
                 className={`${styles.aside.socialIconBg} ${styles.flex.justifyCenter} ${styles.flex.itemsCenter} ${styles.mx4}`}

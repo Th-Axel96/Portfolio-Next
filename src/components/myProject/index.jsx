@@ -42,7 +42,7 @@ export const SectionProject = () => {
                       <a
                         href="https://tp-landingpage.netlify.app/"
                         target="_blank"
-                        rel="noopener"
+                        
                       >
                         Voir le projet
                       </a>
@@ -69,7 +69,7 @@ export const SectionProject = () => {
                       <a
                         href="https://axel-mazebank.netlify.app/"
                         target="_blank"
-                        rel="noopener"
+                       
                       >
                         Voir le projet
                       </a>
@@ -95,7 +95,7 @@ export const SectionProject = () => {
                       <a
                         href="https://wana-agency.netlify.app/"
                         target="_blank"
-                        rel="noopener"
+                       
                       >
                         Voir le projet
                       </a>
@@ -121,7 +121,7 @@ export const SectionProject = () => {
                       <a
                         href="https://moussart-cv.netlify.app/"
                         target="_blank"
-                        rel="noopener"
+                       
                       >
                         Voir le projet
                       </a>
