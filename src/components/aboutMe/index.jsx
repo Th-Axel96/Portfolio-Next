@@ -15,7 +15,7 @@ export const AboutMe = () => {
           {/* grid col 2 */}
           <div className={styles.grid.gridCol2}>
             {/* col-1 */}
-            <div>
+            <div className={styles.flex.itemsCenter}>
               {/* img illustration */}
               <Image src={ImgCoding} />
             </div>
