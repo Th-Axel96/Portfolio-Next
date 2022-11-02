@@ -12,6 +12,7 @@ import HomeIcon from "@mui/icons-material/Home";
 import PersonIcon from "@mui/icons-material/Person";
 import DataObjectIcon from "@mui/icons-material/DataObject";
 import TopicIcon from "@mui/icons-material/Topic";
+import CallIcon from "@mui/icons-material/Call";
 import FileOpenIcon from "@mui/icons-material/FileOpen";
 
 // icon Social
@@ -39,7 +40,7 @@ export const BurgerMenu = () => {
       {/* div for OFF CANVA */}
       <div
         className={styles.offCanvaMenuBurger}
-        tabindex="-1"
+        // tabindex="-1"
         id="offcanvasExample"
       >
         {/* content aside fixed */}
@@ -67,20 +68,35 @@ export const BurgerMenu = () => {
           <h2 className={styles.aside.h2Name}>Moussart Axel</h2>
           {/* div for social icon */}
           <div className={`${styles.flex.justifyCenter} ${styles.mb8}`}>
-            <div
-              className={`${styles.aside.socialIconBg} ${styles.flex.justifyCenter} ${styles.flex.itemsCenter} `}
+            {/* link github */}
+            <a
+              href="https://github.com/Th-Axel96"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <GitHubIcon className={styles.aside.socialIcon} />
-            </div>
-            <div
-              className={`${styles.aside.socialIconBg} ${styles.flex.justifyCenter} ${styles.flex.itemsCenter} ${styles.mx4}`}
+              <div
+                className={`${styles.aside.socialIconBg} ${styles.flex.justifyCenter} ${styles.flex.itemsCenter} `}
+              >
+                <GitHubIcon className={styles.aside.socialIcon} />
+              </div>
+            </a>
+            {/* link linkdin */}
+            <a
+              href="https://www.linkedin.com/in/axel-moussart/"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <LinkedInIcon className={`${styles.aside.socialIcon} `} />
-            </div>
+              <div
+                className={`${styles.aside.socialIconBg} ${styles.flex.justifyCenter} ${styles.flex.itemsCenter} ${styles.mx4}`}
+              >
+                <LinkedInIcon className={`${styles.aside.socialIcon} `} />
+              </div>
+            </a>
+            {/* link cv */}
             <div
               className={`${styles.aside.socialIconBg} ${styles.flex.justifyCenter} ${styles.flex.itemsCenter}`}
             >
-              <EmailIcon className={styles.aside.socialIcon} />
+              <FileOpenIcon className={styles.aside.socialIcon} />
             </div>
           </div>
           {/* aside nav */}
@@ -118,6 +134,7 @@ export const BurgerMenu = () => {
                   Mes compétences
                 </a>
               </li>
+              {/* link projects */}
               <li>
                 <a
                   className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
@@ -127,13 +144,14 @@ export const BurgerMenu = () => {
                   Mes projets
                 </a>
               </li>
+              {/* link contact */}
               <li className={styles.aside.navLi}>
                 <a
                   className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
                   href="#"
                 >
-                  <FileOpenIcon className={styles.aside.navIcon} />
-                  CV
+                  <CallIcon className={styles.aside.navIcon} />
+                  Contact
                 </a>
               </li>
             </ul>

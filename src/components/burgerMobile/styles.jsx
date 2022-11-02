@@ -42,7 +42,7 @@ export const styles = {
     copyrightIco: "text-lg text-white",
     copyrightDiv: "h-20 text-white",
     // burger menu mobile
-    burgerIco: "text-5xl text-white",
+    burgerIco: "text-5xl text-black",
     clearBurgerIco: " text-4xl text-white",
   },
 
