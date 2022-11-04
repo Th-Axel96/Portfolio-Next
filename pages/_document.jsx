@@ -1,5 +1,6 @@
 import { Html, Head, Main, NextScript } from "next/document";
 import Script from "next/script";
+import { styles } from "./home/styles";
 
 export default function Document() {
   return (
@@ -30,7 +31,7 @@ export default function Document() {
           src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"
         ></script>
       </Head>
-      <body className="bg-gray-400">
+      <body className={styles.bgBlue100}>
         <Main />
         <NextScript />
       </body>
