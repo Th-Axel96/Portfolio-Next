@@ -24,7 +24,7 @@ export const SectionSkills = () => {
       <div className={styles.grid.colStart2}>
         <div className={styles.containerDiv}>
           {/* div for AOS title & border */}
-          <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="2000">
+          <div data-aos="fade-right" data-aos-delay="50" data-aos-duration="2000">
             {/* title */}
             <h2 className={`${styles.body.title} ${styles.pt6}`}>
               Mes compétences
@@ -38,7 +38,7 @@ export const SectionSkills = () => {
             <div className={styles.flex.justifyCenter}>
               {/* box icon HTML */}
               <div
-                data-aos="flip-right"
+                data-aos="flip-left"
                 data-aos-delay="50"
                 data-aos-duration="2000"
                 className={styles.boxIconSkills}
