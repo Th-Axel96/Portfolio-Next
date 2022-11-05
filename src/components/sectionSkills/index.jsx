@@ -38,7 +38,7 @@ export const SectionSkills = () => {
             <div className={styles.flex.justifyCenter}>
               {/* box icon HTML */}
               <div
-                data-aos="flip-left"
+                data-aos="flip-right"
                 data-aos-delay="50"
                 data-aos-duration="2000"
                 className={styles.boxIconSkills}
