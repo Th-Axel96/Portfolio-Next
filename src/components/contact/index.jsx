@@ -12,15 +12,27 @@ export const SectionContact = () => {
       {/* start grid */}
       <div className={styles.grid.colStart2}>
         <div className={`${styles.containerDiv}`}>
-          {/* title */}
-          <h2 className={styles.body.title}>Contact</h2>
-          {/* div for border title*/}
-          <div className={styles.body.borderTitle}></div>
+          {/* div for AOS title & border */}
+          <div
+            data-aos="fade-right"
+            data-aos-delay="50"
+            data-aos-duration="2000"
+          >
+            {/* title */}
+            <h2 className={styles.body.title}>Contact</h2>
+            {/* div for border title*/}
+            <div className={styles.body.borderTitle}></div>
+          </div>
           {/* div for rows on lg */}
           <div className={styles.flex.lgFlexRow}>
             {/* content contact */}
             {/* mail */}
-            <div className={styles.flex.justifyCenter}>
+            <div
+              data-aos="flip-left"
+              data-aos-delay="50"
+              data-aos-duration="2000"
+              className={styles.flex.justifyCenter}
+            >
               <a href="mailto:axelmoussart77@hotmail.com">
                 <div className={styles.contact.containerContact}>
                   <EmailIcon className={styles.contact.sizeIcon} />
@@ -31,8 +43,15 @@ export const SectionContact = () => {
               </a>
             </div>
             {/* Phone */}
-            <div className={`${styles.flex.justifyCenter}`}>
-              <div className={`${styles.contact.containerContact} ${styles.lgPx}`}>
+            <div
+              data-aos="flip-right"
+              data-aos-delay="50"
+              data-aos-duration="2000"
+              className={`${styles.flex.justifyCenter}`}
+            >
+              <div
+                className={`${styles.contact.containerContact} ${styles.lgPx}`}
+              >
                 <PhoneIphoneIcon className={styles.contact.sizeIcon} />
                 <p className={`${styles.body.paragraph} `}>
                   06 . 66 . 71 . 38 . 87
@@ -40,7 +59,12 @@ export const SectionContact = () => {
               </div>
             </div>
             {/* City Location */}
-            <div className={styles.flex.justifyCenter}>
+            <div
+              data-aos="flip-left"
+              data-aos-delay="50"
+              data-aos-duration="2000"
+              className={styles.flex.justifyCenter}
+            >
               <div className={styles.contact.containerContact}>
                 <LocationCityIcon className={styles.contact.sizeIcon} />
                 <p className={`${styles.body.paragraph}`}>Meaux (77100)</p>
