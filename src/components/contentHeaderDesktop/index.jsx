@@ -8,7 +8,7 @@ export const ContentHeader = () => {
       {/* div for grid start & bg image ? */}
       <div className={`${styles.grid.colStart2}  `}>
         {/* div for BG header */}
-        <div className={styles.contentHeader.bgHeader}>
+        <div  className={styles.contentHeader.bgHeader}>
           {/* div for blur */}
           <div className={styles.contentHeader.bgBlur}>
             {/* div for content text */}
@@ -17,7 +17,12 @@ export const ContentHeader = () => {
               className={`${styles.flex.justifyColItemsCenter}  ${styles.hFull}`}
             >
               {/* div for BG GLASS */}
-              <div className={styles.bgGLass}>
+              <div
+                data-aos="flip-right"
+                data-aos-delay="50"
+                data-aos-duration="3000"
+                className={styles.bgGLass}
+              >
                 <h1 className={`${styles.contentHeader.nameHeader}`}>
                   Portfolio Moussart Axel
                 </h1>
