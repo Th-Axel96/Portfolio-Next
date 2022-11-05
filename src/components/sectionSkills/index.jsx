@@ -7,25 +7,42 @@ import IconNode from "../../assets/img/icon-node.svg";
 import IconReact from "../../assets/img/icon-react.svg";
 import IconPhp from "../../assets/img/icon-php.svg";
 
+// aos animate
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 export const SectionSkills = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     // div for grid col6
     <div className={styles.grid.gridCol6}>
       {/* container */}
       <div className={styles.grid.colStart2}>
         <div className={styles.containerDiv}>
-          {/* title */}
-          <h2 className={`${styles.body.title} ${styles.pt6}`}>
-            Mes compétences
-          </h2>
-          {/* div for border title */}
-          <div className={styles.body.borderTitle}></div>
+          {/* div for AOS title & border */}
+          <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="2000">
+            {/* title */}
+            <h2 className={`${styles.body.title} ${styles.pt6}`}>
+              Mes compétences
+            </h2>
+            {/* div for border title */}
+            <div className={styles.body.borderTitle}></div>
+          </div>
           {/* div for grid  */}
           <div className={`${styles.grid.gridCol2} ${styles.grid.lgGridCol3}`}>
             {/* div for justify-content */}
             <div className={styles.flex.justifyCenter}>
               {/* box icon HTML */}
-              <div className={styles.boxIconSkills}>
+              <div
+                data-aos="flip-left"
+                data-aos-delay="50"
+                data-aos-duration="2000"
+                className={styles.boxIconSkills}
+              >
                 <Image src={IconHtml} />
                 Html
               </div>
@@ -33,7 +50,12 @@ export const SectionSkills = () => {
             {/* div for justify-content*/}
             <div className={styles.flex.justifyCenter}>
               {/* box icon CSS */}
-              <div className={styles.boxIconSkills}>
+              <div
+                data-aos="flip-right"
+                data-aos-delay="50"
+                data-aos-duration="2000"
+                className={styles.boxIconSkills}
+              >
                 <Image src={IconCss} />
                 Css
               </div>
@@ -41,7 +63,12 @@ export const SectionSkills = () => {
             {/* div for justify-content*/}
             <div className={styles.flex.justifyCenter}>
               {/* box icon JS */}
-              <div className={styles.boxIconSkills}>
+              <div
+                data-aos="flip-left"
+                data-aos-delay="50"
+                data-aos-duration="2000"
+                className={styles.boxIconSkills}
+              >
                 <Image src={IconJs} />
                 Javascript
               </div>
@@ -49,7 +76,12 @@ export const SectionSkills = () => {
             {/* div for justify-content*/}
             <div className={styles.flex.justifyCenter}>
               {/* box icon Node */}
-              <div className={styles.boxIconSkills}>
+              <div
+                data-aos="flip-right"
+                data-aos-delay="50"
+                data-aos-duration="2000"
+                className={styles.boxIconSkills}
+              >
                 <Image src={IconNode} />
                 Node.js
               </div>
@@ -57,7 +89,12 @@ export const SectionSkills = () => {
             {/* div for justify-content*/}
             <div className={styles.flex.justifyCenter}>
               {/* box icon React */}
-              <div className={styles.boxIconSkills}>
+              <div
+                data-aos="flip-left"
+                data-aos-delay="50"
+                data-aos-duration="2000"
+                className={styles.boxIconSkills}
+              >
                 <Image src={IconReact} />
                 React
               </div>
@@ -65,7 +102,12 @@ export const SectionSkills = () => {
             {/* div for justify-content*/}
             <div className={styles.flex.justifyCenter}>
               {/* box icon PHP */}
-              <div className={styles.boxIconSkills}>
+              <div
+                data-aos="flip-right"
+                data-aos-delay="50"
+                data-aos-duration="2000"
+                className={styles.boxIconSkills}
+              >
                 <Image src={IconPhp} />
                 Php
               </div>
