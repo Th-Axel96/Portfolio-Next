@@ -13,12 +13,24 @@ export const SectionProject = () => {
       <div className={styles.grid.colStart2}>
         {/* div contenair */}
         <div className={styles.containerDiv}>
-          {/* title */}
-          <h2 className={styles.body.title}>Mes projets</h2>
-          {/* div for border */}
-          <div className={styles.body.borderTitle}></div>
+          {/* div for AOS title & border */}
+          <div
+            data-aos="fade-right"
+            data-aos-delay="50"
+            data-aos-duration="2000"
+          >
+            {/* title */}
+            <h2 className={styles.body.title}>Mes projets</h2>
+            {/* div for border */}
+            <div className={styles.body.borderTitle}></div>
+          </div>
 
-          <p className={styles.body.paragraph}>
+          <p
+            data-aos="fade-right"
+            data-aos-delay="50"
+            data-aos-duration="2000"
+            className={styles.body.paragraph}
+          >
             Voici la listes des projets que j&apos;ai réalisé au cours de ma
             formation.
           </p>
@@ -27,7 +39,12 @@ export const SectionProject = () => {
           <div className={styles.card.CardGrid}>
             {/* cards Landing Page */}
             <div className={styles.flex.justifyCenter}>
-              <div className={styles.card.contentCard}>
+              <div
+                data-aos="flip-left"
+                data-aos-delay="50"
+                data-aos-duration="2000"
+                className={styles.card.contentCard}
+              >
                 <div data-mdb-ripple="true" data-mdb-ripple-color="light">
                   <Image src={TpLandingPage} className={styles.card.CardImg} />
                 </div>
@@ -39,11 +56,7 @@ export const SectionProject = () => {
                   </p>
                   <div className={styles.flex.justifyCenter}>
                     <button type="button" className={styles.card.btnLink}>
-                      <a
-                        href="https://tp-landingpage.netlify.app/"
-                       
-                        
-                      >
+                      <a href="https://tp-landingpage.netlify.app/">
                         Voir le projet
                       </a>
                     </button>
@@ -53,7 +66,12 @@ export const SectionProject = () => {
             </div>
             {/* cards Maze Bank */}
             <div className={styles.flex.justifyCenter}>
-              <div className={styles.card.contentCard}>
+              <div
+                data-aos="flip-right"
+                data-aos-delay="50"
+                data-aos-duration="2000"
+                className={styles.card.contentCard}
+              >
                 <div data-mdb-ripple="true" data-mdb-ripple-color="light">
                   <Image src={TpMazeBank} className={styles.card.CardImg} />
                 </div>
@@ -66,11 +84,7 @@ export const SectionProject = () => {
                   </p>
                   <div className={styles.flex.justifyCenter}>
                     <button type="button" className={styles.card.btnLink}>
-                      <a
-                        href="https://axel-mazebank.netlify.app/"
-                       
-                       
-                      >
+                      <a href="https://axel-mazebank.netlify.app/">
                         Voir le projet
                       </a>
                     </button>
@@ -80,7 +94,12 @@ export const SectionProject = () => {
             </div>
             {/* cards Wana Agency */}
             <div className={styles.flex.justifyCenter}>
-              <div className={styles.card.contentCard}>
+              <div
+                data-aos="flip-left"
+                data-aos-delay="50"
+                data-aos-duration="2000"
+                className={styles.card.contentCard}
+              >
                 <div data-mdb-ripple="true" data-mdb-ripple-color="light">
                   <Image src={TpWanaAgency} className={styles.card.CardImg} />
                 </div>
@@ -92,11 +111,7 @@ export const SectionProject = () => {
                   </p>
                   <div className={styles.flex.justifyCenter}>
                     <button type="button" className={styles.card.btnLink}>
-                      <a
-                        href="https://wana-agency.netlify.app/"
-                       
-                       
-                      >
+                      <a href="https://wana-agency.netlify.app/">
                         Voir le projet
                       </a>
                     </button>
@@ -106,7 +121,12 @@ export const SectionProject = () => {
             </div>
             {/* cards CV HTML*/}
             <div className={styles.flex.justifyCenter}>
-              <div className={styles.card.contentCard}>
+              <div
+                data-aos="flip-right"
+                data-aos-delay="50"
+                data-aos-duration="2000"
+                className={styles.card.contentCard}
+              >
                 <div data-mdb-ripple="true" data-mdb-ripple-color="light">
                   <Image src={CvVanilla} className={styles.card.CardImg} />
                 </div>
@@ -118,11 +138,7 @@ export const SectionProject = () => {
                   </p>
                   <div className={styles.flex.justifyCenter}>
                     <button type="button" className={styles.card.btnLink}>
-                      <a
-                        href="https://moussart-cv.netlify.app/"
-                        
-                       
-                      >
+                      <a href="https://moussart-cv.netlify.app/">
                         Voir le projet
                       </a>
                     </button>
