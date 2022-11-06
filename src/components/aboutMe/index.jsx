@@ -15,7 +15,7 @@ export const AboutMe = () => {
             data-aos-duration="2000"
           >
             {/* title about me */}
-            <h2 className={styles.body.title}>A propos de moi</h2>
+            <h2 id="aboutMe" className={styles.body.title}>A propos de moi</h2>
             {/* div for broder title */}
             <div className={styles.body.borderTitle}></div>
           </div>
@@ -52,7 +52,7 @@ export const AboutMe = () => {
                 className={`${styles.body.paragraph} ${styles.pt6}`}
               >
                 Peu de temps après, j&apos;ai commencé à me tourner vers le
-                Hardware, en démontant, changeant les pièces des PC et assemblé
+                Hardware, en démontant, changeant les pièces des PC et assembler
                 des configurations.
               </p>
               <p
@@ -61,9 +61,8 @@ export const AboutMe = () => {
                 data-aos-duration="2000"
                 className={`${styles.body.paragraph} ${styles.pt6}`}
               >
-                Décidant de me reconvertir, je voulais un métier qui me
-                passionne, j&apos;ai donc décidé de me tourner vers le
-                développement.
+                Décidant de me reconvertir, j&apos;ai souhaité me tourner vers
+                un métier qui me passionne : le développement.
               </p>
               <p
                 data-aos="fade-up-right"
@@ -71,9 +70,8 @@ export const AboutMe = () => {
                 data-aos-duration="2000"
                 className={`${styles.body.paragraph} ${styles.pt6}`}
               >
-                Partant d&apos;aucune connaissance dans le domaine du
-                developpement, j&apos;effectue une formation de développeur web
-                et web mobile.
+                N&apos;ayant aucune connaissance dans ce domaine, je me suis
+                inscrit à une formation de développeur web et web mobile.
               </p>
               <p
                 data-aos="fade-up-right"
@@ -81,8 +79,8 @@ export const AboutMe = () => {
                 data-aos-duration="2000"
                 className={`${styles.body.paragraph} ${styles.pt6}`}
               >
-                Je suis donc à la recherche d&apos;un stage pour validé mon
-                titre professionnelle et d&apos;autres opportunités qui me
+                Je suis aujourd&apos;hui à la recherche d&apos;un stage pour valider
+                mon titre professionnel et d&apos;autres opportunités qui me
                 seront offerte.
               </p>
             </div>
