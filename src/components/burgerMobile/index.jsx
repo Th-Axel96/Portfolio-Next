@@ -111,7 +111,7 @@ export const BurgerMenu = () => {
                   // data-bs-target="#offcanvasExample"
                   // aria-controls="offcanvasExample"
                   className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
-                  href="#"
+                  href="#aboutMe"
                 >
                   <PersonIcon className={styles.aside.navIcon} />A propos de moi
                 </a>
@@ -120,7 +120,7 @@ export const BurgerMenu = () => {
               <li className={styles.aside.navLi}>
                 <a
                   className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
-                  href="#"
+                  href="#mySkills"
                 >
                   <DataObjectIcon className={styles.aside.navIcon} />
                   Mes compétences
@@ -130,7 +130,7 @@ export const BurgerMenu = () => {
               <li>
                 <a
                   className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
-                  href="#"
+                  href="#myProject"
                 >
                   <TopicIcon className={styles.aside.navIcon} />
                   Mes projets
@@ -140,7 +140,7 @@ export const BurgerMenu = () => {
               <li className={styles.aside.navLi}>
                 <a
                   className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
-                  href="#"
+                  href="#contact"
                 >
                   <CallIcon className={styles.aside.navIcon} />
                   Contact
