@@ -11,7 +11,7 @@ export const SectionContact = () => {
     <div className={styles.grid.gridCol6}>
       {/* start grid */}
       <div className={styles.grid.colStart2}>
-        <div className={`${styles.containerDiv}`}>
+        <div id="contact" className={`${styles.containerDiv}`}>
           {/* div for AOS title & border */}
           <div
             data-aos="fade-right"
