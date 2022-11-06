@@ -22,7 +22,7 @@ export const SectionSkills = () => {
     <div className={styles.grid.gridCol6}>
       {/* container */}
       <div className={styles.grid.colStart2}>
-        <div className={styles.containerDiv}>
+        <div id="mySkills" className={styles.containerDiv}>
           {/* div for AOS title & border */}
           <div data-aos="fade-right" data-aos-delay="50" data-aos-duration="2000">
             {/* title */}
