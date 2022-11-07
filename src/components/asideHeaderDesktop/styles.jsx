@@ -26,7 +26,7 @@ export const styles = {
     HoverBlue: "hover:text-blue-400",
     // social icon
     socialIconBg:
-      "w-12 h-12 my-10 bg-gray-600 rounded-full hover:bg-blue-400 hover:animate-pulse",
+      "w-12 h-12 my-10 bg-gray-600 rounded-full hover:bg-blue-400 hover:animate-pulse cursor-pointer",
     socialIcon: "text-3xl text-white ",
     copyrightIco: "text-lg text-white mr-2",
     copyrightDiv: "h-40 text-white",

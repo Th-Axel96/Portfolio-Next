@@ -39,16 +39,18 @@ export const AsideHeader = () => {
         {/* div for social icon */}
         <div className={styles.flex.justifyCenter}>
           {/* link github */}
-          <a href="https://github.com/Th-Axel96" >
-            <div
-              className={`${styles.aside.socialIconBg} ${styles.flex.justifyCenter} ${styles.flex.itemsCenter}`}
-            >
-              <GitHubIcon className={styles.aside.socialIcon} />
-            </div>
-          </a>
+          <Link href="https://github.com/Th-Axel96">
+            <a target="_blank" rel="noopener noreferrer">
+              <div
+                className={`${styles.aside.socialIconBg} ${styles.flex.justifyCenter} ${styles.flex.itemsCenter}`}
+              >
+                <GitHubIcon className={styles.aside.socialIcon} />
+              </div>
+            </a>
+          </Link>
 
           {/* link linkdin */}
-          <a href="https://www.linkedin.com/in/axel-moussart/" >
+          <a href="https://www.linkedin.com/in/axel-moussart/">
             <div
               className={`${styles.aside.socialIconBg} ${styles.flex.justifyCenter} ${styles.flex.itemsCenter} ${styles.mx4}`}
             >
