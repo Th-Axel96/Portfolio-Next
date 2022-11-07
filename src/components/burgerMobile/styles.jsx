@@ -37,13 +37,13 @@ export const styles = {
     HoverBlue: "hover:text-blue-400",
     // social icon
     socialIconBg:
-      "w-12 h-12 bg-gray-600 rounded-full hover:bg-blue-400 hover:animate-pulse",
-    socialIcon: "text-4xl text-white",
+      "w-12 h-12  bg-gray-600 rounded-full hover:bg-blue-400 hover:animate-pulse",
+    socialIcon: "text-3xl text-white",
     copyrightIco: "text-lg text-white",
     copyrightDiv: "h-20 text-white",
     // burger menu mobile
-    burgerIco: "text-6xl text-black",
-    clearBurgerIco: "text-6xl text-white",
+    burgerIco: "text-5xl text-black",
+    clearBurgerIco: " text-4xl text-white",
   },
 
   // text
