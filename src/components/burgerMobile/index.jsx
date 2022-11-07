@@ -1,4 +1,5 @@
 import { styles } from "./styles";
+import Link from "next/link";
 
 // icon burger
 import MenuIcon from "@mui/icons-material/Menu";
@@ -69,7 +70,11 @@ export const BurgerMenu = () => {
           {/* div for social icon */}
           <div className={`${styles.flex.justifyCenter} ${styles.mb8}`}>
             {/* link github */}
-            <a href="https://github.com/Th-Axel96">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/Th-Axel96"
+            >
               <div
                 className={`${styles.aside.socialIconBg} ${styles.flex.justifyCenter} ${styles.flex.itemsCenter} `}
               >
@@ -77,7 +82,12 @@ export const BurgerMenu = () => {
               </div>
             </a>
             {/* link linkdin */}
-            <a href="https://www.linkedin.com/in/axel-moussart/">
+
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/axel-moussart/"
+            >
               <div
                 className={`${styles.aside.socialIconBg} ${styles.flex.justifyCenter} ${styles.flex.itemsCenter} ${styles.mx4}`}
               >
