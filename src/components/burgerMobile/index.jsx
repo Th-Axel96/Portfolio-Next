@@ -19,7 +19,6 @@ import FileOpenIcon from "@mui/icons-material/FileOpen";
 // icon Social
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import EmailIcon from "@mui/icons-material/Email";
 
 // icon copyright
 import CopyrightIcon from "@mui/icons-material/Copyright";
@@ -95,11 +94,17 @@ export const BurgerMenu = () => {
               </div>
             </a>
             {/* link cv */}
-            <div
-              className={`${styles.aside.socialIconBg} ${styles.flex.justifyCenter} ${styles.flex.itemsCenter}`}
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="/docs/cv-axel.pdf"
             >
-              <FileOpenIcon className={styles.aside.socialIcon} />
-            </div>
+              <div
+                className={`${styles.aside.socialIconBg} ${styles.flex.justifyCenter} ${styles.flex.itemsCenter}`}
+              >
+                <FileOpenIcon className={styles.aside.socialIcon} />
+              </div>
+            </a>
           </div>
           {/* aside nav */}
           <nav className={styles.aside.navAside}>
