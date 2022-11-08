@@ -44,8 +44,8 @@ export const styles = {
 
   // BODY
   body: {
-    title: "text-2xl text-indigo-800 uppercase font-open font-bold pt-8",
-    borderTitle: "border-b-4 border-blue-400 w-20 mt-2 mb-6",
+    title: "text-2xl text-indigo-800 uppercase font-open font-bold pt-16",
+    borderTitle: "border-b-4 border-blue-400 w-20 mt-2 mb-8",
     paragraph: "font-open text-sm lg:text-xl font-semibold",
   },
 
