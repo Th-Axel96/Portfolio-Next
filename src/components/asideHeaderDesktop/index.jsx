@@ -39,18 +39,25 @@ export const AsideHeader = () => {
         {/* div for social icon */}
         <div className={styles.flex.justifyCenter}>
           {/* link github */}
-          <Link href="https://github.com/Th-Axel96">
-            <a target="_blank" rel="noopener noreferrer">
-              <div
-                className={`${styles.aside.socialIconBg} ${styles.flex.justifyCenter} ${styles.flex.itemsCenter}`}
-              >
-                <GitHubIcon className={styles.aside.socialIcon} />
-              </div>
-            </a>
-          </Link>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/Th-Axel96"
+          >
+            <div
+              className={`${styles.aside.socialIconBg} ${styles.flex.justifyCenter} ${styles.flex.itemsCenter}`}
+            >
+              <GitHubIcon className={styles.aside.socialIcon} />
+            </div>
+          </a>
 
           {/* link linkdin */}
-          <a href="https://www.linkedin.com/in/axel-moussart/">
+
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/axel-moussart/"
+          >
             <div
               className={`${styles.aside.socialIconBg} ${styles.flex.justifyCenter} ${styles.flex.itemsCenter} ${styles.mx4}`}
             >
@@ -58,11 +65,17 @@ export const AsideHeader = () => {
             </div>
           </a>
           {/* link open CV */}
-          <div
-            className={`${styles.aside.socialIconBg} ${styles.flex.justifyCenter} ${styles.flex.itemsCenter}`}
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="/docs/cv-axel.pdf"
           >
-            <FileOpenIcon className={styles.aside.socialIcon} />
-          </div>
+            <div
+              className={`${styles.aside.socialIconBg} ${styles.flex.justifyCenter} ${styles.flex.itemsCenter}`}
+            >
+              <FileOpenIcon className={styles.aside.socialIcon} />
+            </div>
+          </a>
         </div>
         {/* aside nav */}
         <nav className={styles.aside.navAside}>
