@@ -26,7 +26,7 @@ export const AboutMe = () => {
               data-aos="flip-right"
               data-aos-delay="50"
               data-aos-duration="2000"
-              className={styles.flex.itemsCenter}
+              className={styles.flex.justifyItemsCenter}
             >
               {/* img illustration */}
               <Image src={ImgCoding} />

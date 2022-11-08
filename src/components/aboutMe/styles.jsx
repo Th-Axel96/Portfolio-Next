@@ -11,6 +11,7 @@ export const styles = {
   //   flex
   flex: {
     justifyCenter: "flex justify-center",
+    justifyItemsCenter:"flex justify-center items-center",
     itemsEnd: "flex items-end",
     itemsCenter: "flex items-center",
     justifyNameTyping: "h-5/6 flex flex-col justify-center items-center",
@@ -42,8 +43,8 @@ export const styles = {
 
   // BODY
   body: {
-    title: "text-2xl text-indigo-800 uppercase font-open font-bold pt-8",
-    borderTitle: "border-b-4 border-blue-400 w-20 mt-2 mb-6",
+    title: "text-2xl text-indigo-800 uppercase font-open font-bold pt-16",
+    borderTitle: "border-b-4 border-blue-400 w-20 mt-2 mb-16",
     paragraph: "font-open text-sm lg:text-xl font-semibold",
   },
 };
