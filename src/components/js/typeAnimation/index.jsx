@@ -11,11 +11,10 @@ export const Typing = () => {
         "Full-Stack", // Types 'Three' without deleting 'Two'
         2000,
       ]}
-      speed={5}
+      speed={50}
       wrapper="div"
       cursor={false}
       repeat={Infinity}
-      
     />
   );
 };
