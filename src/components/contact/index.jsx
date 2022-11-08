@@ -37,7 +37,7 @@ export const SectionContact = () => {
                 <div className={styles.contact.containerContact}>
                   <EmailIcon className={styles.contact.sizeIcon} />
                   <p className={`${styles.body.paragraph}`}>
-                    axelmoussart77@hotmail.com
+                    axelmoussartpro@gmail.com
                   </p>
                 </div>
               </a>
