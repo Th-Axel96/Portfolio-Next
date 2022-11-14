@@ -21,7 +21,7 @@ export const ContentHeaderMobile = () => {
             data-aos-duration="2000"
             className={`${styles.contentHeader.nameHeader}`}
           >
-            Portfolio Moussart Axel
+           Bienvenue sur mon Portfolio
           </h1>
           <h2
             data-aos="fade-up-right"
