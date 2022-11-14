@@ -46,7 +46,16 @@ export const SectionProject = () => {
                 className={styles.card.contentCard}
               >
                 <div data-mdb-ripple="true" data-mdb-ripple-color="light">
-                  <Image src={TpLandingPage} className={styles.card.CardImg} />
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://tp-landingpage.netlify.app/"
+                  >
+                    <Image
+                      src={TpLandingPage}
+                      className={styles.card.CardImg}
+                    />
+                  </a>
                 </div>
 
                 <div className={styles.p6}>
@@ -56,7 +65,11 @@ export const SectionProject = () => {
                   </p>
                   <div className={styles.flex.justifyCenter}>
                     <button type="button" className={styles.card.btnLink}>
-                      <a href="https://tp-landingpage.netlify.app/">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://tp-landingpage.netlify.app/"
+                      >
                         Voir le projet
                       </a>
                     </button>
@@ -73,7 +86,14 @@ export const SectionProject = () => {
                 className={styles.card.contentCard}
               >
                 <div data-mdb-ripple="true" data-mdb-ripple-color="light">
-                  <Image src={TpMazeBank} className={styles.card.CardImg} />
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://axel-mazebank.netlify.app/"
+                  >
+                    <Image src={TpMazeBank} className={styles.card.CardImg} />
+                  </a>
+                  
                 </div>
 
                 <div className={styles.p6}>
@@ -84,7 +104,11 @@ export const SectionProject = () => {
                   </p>
                   <div className={styles.flex.justifyCenter}>
                     <button type="button" className={styles.card.btnLink}>
-                      <a href="https://axel-mazebank.netlify.app/">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://axel-mazebank.netlify.app/"
+                      >
                         Voir le projet
                       </a>
                     </button>
@@ -101,7 +125,17 @@ export const SectionProject = () => {
                 className={styles.card.contentCard}
               >
                 <div data-mdb-ripple="true" data-mdb-ripple-color="light">
-                  <Image src={TpWanaAgency} className={styles.card.CardImg} />
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://wana-agency.netlify.app/"
+                  >
+                    <Image
+                      src={TpWanaAgency}
+                      height="800px"
+                      className={styles.card.CardImg}
+                    />
+                  </a>
                 </div>
 
                 <div className={styles.p6}>
@@ -111,7 +145,11 @@ export const SectionProject = () => {
                   </p>
                   <div className={styles.flex.justifyCenter}>
                     <button type="button" className={styles.card.btnLink}>
-                      <a href="https://wana-agency.netlify.app/">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://wana-agency.netlify.app/"
+                      >
                         Voir le projet
                       </a>
                     </button>
@@ -128,7 +166,17 @@ export const SectionProject = () => {
                 className={styles.card.contentCard}
               >
                 <div data-mdb-ripple="true" data-mdb-ripple-color="light">
-                  <Image src={CvVanilla} className={styles.card.CardImg} />
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://moussart-cv.netlify.app/"
+                  >
+                    <Image
+                      src={CvVanilla}
+                      height="600px"
+                      className={styles.card.CardImg}
+                    />
+                  </a>
                 </div>
 
                 <div className={styles.p6}>
@@ -138,7 +186,11 @@ export const SectionProject = () => {
                   </p>
                   <div className={styles.flex.justifyCenter}>
                     <button type="button" className={styles.card.btnLink}>
-                      <a href="https://moussart-cv.netlify.app/">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://moussart-cv.netlify.app/"
+                      >
                         Voir le projet
                       </a>
                     </button>

@@ -51,14 +51,15 @@ export const styles = {
 
   card: {
     contentCard:
-      " rounded-lg shadow-lg bg-gray-300 max-w-xs mt-8 border-x border-gray-400",
+      " rounded-lg shadow-lg bg-gray-300 max-w-xs mt-8 border-x border-gray-400 hover:bg-black hover:text-white ",
     titleProject:
       "uppercase flex justify-center text-xl font-open font-bold mb-4",
     paragraph:
-      " text-center font-open text-sm lg:text-lg font-semibold border-y-2 border-gray-400 py-4",
-    CardImg: "rounded-t-lg",
+      " text-center font-open text-sm lg:text-lg font-semibold border-y-2 border-gray-400 py-4 h-32 flex items-center",
+    CardImg:
+      "rounded-t-lg hover:scale-110 ease-in-out transition duration-1000",
     btnLink:
-      " inline-block px-6 py-2.5 bg-gray-600 text-white font-medium text-sm lg:text-lg leading-tight uppercase rounded shadow-md hover:bg-blue-400 hover:shadow-lg focus:bg-blue-400 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-400 active:shadow-lg transition duration-1000 ease-in-out mt-6",
+      " inline-block px-6 py-2.5 bg-gray-600 text-white font-medium text-sm lg:text-lg leading-tight uppercase rounded shadow-md hover:bg-blue-400 hover:shadow-lg focus:bg-blue-400 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-400 active:shadow-lg transition duration-1000 ease-in-out mt-6 hover:scale-110 ease-in-out",
     CardGrid: "lg:grid lg:grid-cols-3 md:grid md:grid-cols-2",
   },
 };
