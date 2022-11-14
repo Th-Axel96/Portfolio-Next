@@ -24,12 +24,12 @@ export const ContentHeader = () => {
                 className={styles.bgGLass}
               >
                 <h1 className={`${styles.contentHeader.nameHeader}`}>
-                  Portfolio Moussart Axel
+                  Bienvenue sur mon Portfolio
                 </h1>
-                <h2 className={styles.contentHeader.spanTyping}>
+                <span className={styles.contentHeader.spanTyping}>
                   Je suis Développeur Web&nbsp;
                   <Typing />
-                </h2>
+                </span>
               </div>
             </div>
           </div>
