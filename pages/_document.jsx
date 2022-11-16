@@ -32,7 +32,6 @@ export default function Document() {
         ></script>
       </Head>
       <body className="overflow-x-hidden">
-       
         <Main />
         <NextScript />
       </body>
