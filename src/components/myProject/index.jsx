@@ -7,7 +7,9 @@ import TpWanaAgency from "../../assets/img/wana-agency.png";
 
 // import icon
 import ConstructionIcon from "@mui/icons-material/Construction";
+// import Img
 
+import ToolsImg from "../../assets/img/under-tools.png";
 export const SectionProject = () => {
   return (
     // grid col 6
@@ -178,10 +180,9 @@ export const SectionProject = () => {
                       rel="noopener noreferrer"
                       href="https://wana-agency.netlify.app/"
                     >
-                    <button type="button" className={styles.card.btnLink}>
-                      Voir le projet
-                    </button>
-                  
+                      <button type="button" className={styles.card.btnLink}>
+                        Voir le projet
+                      </button>
                     </a>
                   </div>
                 </div>
@@ -255,9 +256,9 @@ export const SectionProject = () => {
                   data-mdb-ripple-color="light"
                   className={styles.h36}
                 >
-                  <ConstructionIcon
-                    className={styles.card.IcoUnderConstruction}
-                  />
+                   <div className={styles.card.IcoUnderConstruction}>
+                    <Image src={ToolsImg} alt="tools image"/>
+                  </div>
                 </div>
 
                 <div className={styles.p6}>
@@ -291,10 +292,9 @@ export const SectionProject = () => {
                   data-mdb-ripple="true"
                   data-mdb-ripple-color="light"
                 >
-                  {" "}
-                  <ConstructionIcon
-                    className={styles.card.IcoUnderConstruction}
-                  />
+                  <div className={styles.card.IcoUnderConstruction}>
+                    <Image src={ToolsImg} alt="tools image"/>
+                  </div>
                 </div>
 
                 <div className={styles.p6}>
