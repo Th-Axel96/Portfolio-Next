@@ -11,7 +11,7 @@ export const styles = {
   },
   //   flex
   flex: {
-    justifyCenter: "flex justify-center",
+    justifyCenter: "flex justify-center ",
     itemsEnd: "flex items-end",
     itemsCenter: "flex items-center",
     justifyNameTyping: "h-5/6 flex flex-col justify-center items-center",
@@ -25,6 +25,7 @@ export const styles = {
 
   // height
   hFull: "h-full",
+  h36: "h-36",
 
   fix: "fixed",
 
@@ -51,15 +52,17 @@ export const styles = {
 
   card: {
     contentCard:
-      " rounded-lg shadow-lg bg-gray-300 max-w-xs mt-8 border-x border-gray-400 hover:bg-black hover:text-white ",
+      " rounded-3xl shadow-lg shadow-black bg-black text-white font-open max-w-xs mt-8 border-b-4 border-blue-400  hover:bg-gray-300 hover:text-black transition ease-in-out duration-1000",
     titleProject:
       "uppercase flex justify-center text-xl font-open font-bold mb-4",
     paragraph:
       " text-center font-open text-sm lg:text-lg font-semibold border-y-2 border-gray-400 py-4 h-32 flex items-center",
-    CardImg:
-      "rounded-t-lg hover:scale-110 ease-in-out transition duration-1000",
+    CardImg: "rounded-t-3xl",
     btnLink:
-      " inline-block px-6 py-2.5 bg-gray-600 text-white font-medium text-sm lg:text-lg leading-tight uppercase rounded shadow-md hover:bg-blue-400 hover:shadow-lg focus:bg-blue-400 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-400 active:shadow-lg transition duration-1000 ease-in-out mt-6 hover:scale-110 ease-in-out",
+      " inline-block px-6 py-2.5 bg-gray-600 text-white font-open font-medium text-sm lg:text-lg leading-tight uppercase rounded shadow-md hover:bg-blue-400 hover:shadow-lg focus:bg-blue-400 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-400 active:shadow-lg transition duration-1000 ease-in-out mt-6 hover:scale-110 ease-in-out",
     CardGrid: "lg:grid lg:grid-cols-3 md:grid md:grid-cols-2",
+    CardHover: "transition hover:scale-110 ease-in-out  duration-1000",
+    IcoUnderConstruction:
+      "h-full w-full text-yellow-500 flex items-center justify-center pt-2 pb-2",
   },
 };

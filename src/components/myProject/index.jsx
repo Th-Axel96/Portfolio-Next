@@ -5,6 +5,9 @@ import TpMazeBank from "../../assets/img/tp-mazebank.png";
 import CvVanilla from "../../assets/img/cv-axel-html.png";
 import TpWanaAgency from "../../assets/img/wana-agency.png";
 
+// import icon
+import ConstructionIcon from "@mui/icons-material/Construction";
+
 export const SectionProject = () => {
   return (
     // grid col 6
@@ -38,14 +41,23 @@ export const SectionProject = () => {
           {/* div for lg grid  */}
           <div className={styles.card.CardGrid}>
             {/* cards Landing Page */}
-            <div className={styles.flex.justifyCenter}>
+            {/* flex & hover Card */}
+            <div
+              className={`${styles.flex.justifyCenter}  ${styles.card.CardHover}`}
+            >
               <div
                 data-aos="flip-left"
                 data-aos-delay="50"
                 data-aos-duration="2000"
                 className={styles.card.contentCard}
               >
-                <div data-mdb-ripple="true" data-mdb-ripple-color="light">
+                {/* Link a englob content */}
+                {/* height IMG */}
+                <div
+                  className={styles.h36}
+                  data-mdb-ripple="true"
+                  data-mdb-ripple-color="light"
+                >
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
@@ -64,28 +76,37 @@ export const SectionProject = () => {
                     Projet réaliser avec Bootstrap, reproduire une Landing Page.
                   </p>
                   <div className={styles.flex.justifyCenter}>
-                    <button type="button" className={styles.card.btnLink}>
-                      <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://tp-landingpage.netlify.app/"
-                      >
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://tp-landingpage.netlify.app/"
+                    >
+                      <button type="button" className={styles.card.btnLink}>
                         Voir le projet
-                      </a>
-                    </button>
+                      </button>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
             {/* cards Maze Bank */}
-            <div className={styles.flex.justifyCenter}>
+            {/* flex & hover card */}
+            <div
+              className={`${styles.flex.justifyCenter}  ${styles.card.CardHover}`}
+            >
               <div
                 data-aos="flip-right"
                 data-aos-delay="50"
                 data-aos-duration="2000"
                 className={styles.card.contentCard}
               >
-                <div data-mdb-ripple="true" data-mdb-ripple-color="light">
+                {/* Link a englob content */}
+                {/* height IMG */}
+                <div
+                  className={styles.h36}
+                  data-mdb-ripple="true"
+                  data-mdb-ripple-color="light"
+                >
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
@@ -93,38 +114,46 @@ export const SectionProject = () => {
                   >
                     <Image src={TpMazeBank} className={styles.card.CardImg} />
                   </a>
-                  
                 </div>
 
                 <div className={styles.p6}>
-                  <h5 className={styles.card.titleProject}>TP Landing Page</h5>
+                  <h5 className={styles.card.titleProject}>TP MazeBank</h5>
                   <p className={styles.card.paragraph}>
                     Concevoir une application bancaire avec de l&apos;algorythme
                     Javascript.
                   </p>
                   <div className={styles.flex.justifyCenter}>
-                    <button type="button" className={styles.card.btnLink}>
-                      <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://axel-mazebank.netlify.app/"
-                      >
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://axel-mazebank.netlify.app/"
+                    >
+                      <button type="button" className={styles.card.btnLink}>
                         Voir le projet
-                      </a>
-                    </button>
+                      </button>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
             {/* cards Wana Agency */}
-            <div className={styles.flex.justifyCenter}>
+            {/* flex & hover card */}
+            <div
+              className={`${styles.flex.justifyCenter}  ${styles.card.CardHover}`}
+            >
               <div
                 data-aos="flip-left"
                 data-aos-delay="50"
                 data-aos-duration="2000"
                 className={styles.card.contentCard}
               >
-                <div data-mdb-ripple="true" data-mdb-ripple-color="light">
+                {/* Link a englob content */}
+                {/* height IMG */}
+                <div
+                  className={styles.h36}
+                  data-mdb-ripple="true"
+                  data-mdb-ripple-color="light"
+                >
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
@@ -144,28 +173,38 @@ export const SectionProject = () => {
                     Projet de groupe, réaliser une Agence Web.
                   </p>
                   <div className={styles.flex.justifyCenter}>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://wana-agency.netlify.app/"
+                    >
                     <button type="button" className={styles.card.btnLink}>
-                      <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://wana-agency.netlify.app/"
-                      >
-                        Voir le projet
-                      </a>
+                      Voir le projet
                     </button>
+                  
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
             {/* cards CV HTML*/}
-            <div className={styles.flex.justifyCenter}>
+            {/* flex & hover card */}
+            <div
+              className={`${styles.flex.justifyCenter}  ${styles.card.CardHover}`}
+            >
               <div
                 data-aos="flip-right"
                 data-aos-delay="50"
                 data-aos-duration="2000"
                 className={styles.card.contentCard}
               >
-                <div data-mdb-ripple="true" data-mdb-ripple-color="light">
+                {/* Link a englob content */}
+                {/* height IMG */}
+                <div
+                  data-mdb-ripple="true"
+                  data-mdb-ripple-color="light"
+                  className={styles.h36}
+                >
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
@@ -193,6 +232,79 @@ export const SectionProject = () => {
                       >
                         Voir le projet
                       </a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* futur Projet 1 */}
+            {/* flex & hover card */}
+            <div
+              className={`${styles.flex.justifyCenter}  ${styles.card.CardHover}`}
+            >
+              <div
+                data-aos="flip-right"
+                data-aos-delay="50"
+                data-aos-duration="2000"
+                className={styles.card.contentCard}
+              >
+                {/* Link a englob content */}
+                {/* height IMG */}
+                <div
+                  data-mdb-ripple="true"
+                  data-mdb-ripple-color="light"
+                  className={styles.h36}
+                >
+                  <ConstructionIcon
+                    className={styles.card.IcoUnderConstruction}
+                  />
+                </div>
+
+                <div className={styles.p6}>
+                  <h5 className={styles.card.titleProject}>Future projet</h5>
+                  <p className={styles.card.paragraph}>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit!
+                  </p>
+                  <div className={styles.flex.justifyCenter}>
+                    <button type="button" className={styles.card.btnLink}>
+                      Voir le projet
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* futur project 2 */}
+            {/* flex & hover card */}
+            <div
+              className={`${styles.flex.justifyCenter}  ${styles.card.CardHover}`}
+            >
+              <div
+                data-aos="flip-right"
+                data-aos-delay="50"
+                data-aos-duration="2000"
+                className={styles.card.contentCard}
+              >
+                {/* Link a englob content */}
+                {/* height IMG */}
+                <div
+                  className={styles.h36}
+                  data-mdb-ripple="true"
+                  data-mdb-ripple-color="light"
+                >
+                  {" "}
+                  <ConstructionIcon
+                    className={styles.card.IcoUnderConstruction}
+                  />
+                </div>
+
+                <div className={styles.p6}>
+                  <h5 className={styles.card.titleProject}>Future projet</h5>
+                  <p className={styles.card.paragraph}>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit!
+                  </p>
+                  <div className={styles.flex.justifyCenter}>
+                    <button type="button" className={styles.card.btnLink}>
+                      Voir le projet
                     </button>
                   </div>
                 </div>
