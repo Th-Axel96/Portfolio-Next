@@ -128,7 +128,7 @@ export const BurgerMenu = () => {
                   className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
                   href="#aboutMe"
                 >
-                  <PersonIcon className={styles.aside.navIcon} />A propos de moi
+                  <PersonIcon className={styles.aside.navIcon} />A propos
                 </a>
               </li>
               {/* link skils */}

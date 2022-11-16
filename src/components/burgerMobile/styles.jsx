@@ -34,7 +34,7 @@ export const styles = {
     navAside: "pl-8 text-xl text-gray-400",
     navIcon: "text-3xl mr-2",
     navLi: "py-8",
-    HoverBlue: "hover:text-blue-400",
+    HoverBlue: "hover:text-blue-400 transition duration-1000 ease-in-out",
     // social icon
     socialIconBg:
       "w-12 h-12 bg-gray-600 rounded-full hover:bg-blue-400 hover:animate-pulse",
