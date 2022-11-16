@@ -15,7 +15,9 @@ export const AboutMe = () => {
             data-aos-duration="2000"
           >
             {/* title about me */}
-            <h2 id="aboutMe" className={styles.body.title}>A propos de moi</h2>
+            <h2 id="aboutMe" className={styles.body.title}>
+              A propos
+            </h2>
             {/* div for broder title */}
             <div className={styles.body.borderTitle}></div>
           </div>
@@ -44,6 +46,7 @@ export const AboutMe = () => {
                 commencé à jouer à des jeux en ligne (MMORPG, RTS, Hack
                 &apos;n&apos; slash) et parcourir le web depuis mon plus jeune
                 âge.
+                
               </p>
               <p
                 data-aos="fade-up-right"
@@ -79,9 +82,9 @@ export const AboutMe = () => {
                 data-aos-duration="2000"
                 className={`${styles.body.paragraph} ${styles.pt6}`}
               >
-                Je suis aujourd&apos;hui à la recherche d&apos;un stage pour valider
-                mon titre professionnel et d&apos;autres opportunités qui me
-                seront offerte.
+                Je suis aujourd&apos;hui à la recherche d&apos;un stage pour
+                valider mon titre professionnel et d&apos;autres opportunités
+                qui me seront offerte.
               </p>
             </div>
           </div>

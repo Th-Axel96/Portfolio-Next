@@ -11,7 +11,7 @@ export const styles = {
   //   flex
   flex: {
     justifyCenter: "flex justify-center",
-    justifyItemsCenter:"flex justify-center items-center",
+    justifyItemsCenter: "flex justify-center items-center",
     itemsEnd: "flex items-end",
     itemsCenter: "flex items-center",
     justifyNameTyping: "h-5/6 flex flex-col justify-center items-center",
@@ -21,7 +21,7 @@ export const styles = {
   // background
 
   bgGLass:
-    "w-5/12 h-40 bg-black/40 flex flex-col justify-center items-center rounded-full",
+    "p-8 bg-black/40 flex flex-col justify-center items-center rounded-full",
 
   // height
   hFull: "h-full",
