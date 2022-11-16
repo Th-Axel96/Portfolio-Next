@@ -70,7 +70,7 @@ export const styles = {
   contact: {
     
     containerContact:
-      "bg-black text-white py-4 w-60 lg:w-72 xl:w-80 border-b-4 border-blue-400 flex flex-col justify-center items-center rounded-xl hover:scale-110 transition duration-1000 ease-in-out hover:bg-gray-300 hover:text-black mb-8",
+      "bg-black text-white py-4 w-60 lg:w-72 xl:w-80 border-t-4 border-blue-400 flex flex-col justify-center items-center rounded-xl hover:scale-110 transition duration-1000 ease-in-out hover:bg-gray-300 hover:text-black mb-8",
     sizeIcon: "text-3xl mb-4",
   },
 };
