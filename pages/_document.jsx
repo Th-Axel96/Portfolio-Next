@@ -1,6 +1,7 @@
 import { Html, Head, Main, NextScript } from "next/document";
 import Script from "next/script";
 
+
 export default function Document() {
   return (
     <Html lang="fr">
@@ -30,7 +31,8 @@ export default function Document() {
           src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"
         ></script>
       </Head>
-      <body className="bg-blue-100">
+      <body className="overflow-x-hidden">
+       
         <Main />
         <NextScript />
       </body>
