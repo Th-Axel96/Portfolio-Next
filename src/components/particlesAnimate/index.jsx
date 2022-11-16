@@ -24,7 +24,7 @@ export const ParticlesAnimate = () => {
         autoPlay: true,
         background: {
           color: {
-            value: "#808080",
+            value: "BFDBFE",
           },
           image: "",
           position: "50% 50%",
@@ -154,10 +154,10 @@ export const ParticlesAnimate = () => {
               area: {
                 gradient: {
                   start: {
-                    value: "#ffffff",
+                    value: "",
                   },
                   stop: {
-                    value: "#000000",
+                    value: "",
                   },
                 },
                 radius: 1000,
@@ -166,7 +166,7 @@ export const ParticlesAnimate = () => {
                 color: {
                   value: "#000000",
                 },
-                length: 2000,
+                length: 5,
               },
             },
           },
@@ -304,7 +304,7 @@ export const ParticlesAnimate = () => {
             },
             decay: 0,
             distance: {},
-            direction: "right",
+            direction: "bottom",
             drift: 0,
             enable: true,
             gravity: {
@@ -618,9 +618,9 @@ export const ParticlesAnimate = () => {
               type: "images",
               options: {
                 images: {
-                  src: "https://particles.js.org/images/cyan_amongus.png",
-                  width: 500,
-                  height: 634,
+                  src: "http://localhost:3000/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbitmoji.2263b784.png&w=128&q=75",
+                  value: "30",
+                  quantity: 5,
                 },
               },
             },
@@ -631,7 +631,7 @@ export const ParticlesAnimate = () => {
               speed: 10,
               outModes: {
                 default: "none",
-                right: "destroy",
+                right: "",
               },
               straight: true,
             },
@@ -645,7 +645,7 @@ export const ParticlesAnimate = () => {
               },
               animation: {
                 enable: true,
-                speed: 10,
+                speed: 15,
                 sync: true,
               },
             },
