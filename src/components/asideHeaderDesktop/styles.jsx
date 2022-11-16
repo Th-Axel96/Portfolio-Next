@@ -27,7 +27,7 @@ export const styles = {
     // social icon
     socialIconBg:
       "w-12 h-12 my-10 bg-gray-600 rounded-full hover:bg-blue-400 hover:animate-pulse cursor-pointer ",
-    socialIcon: "text-3xl text-white ",
+    socialIcon: "text-3xl text-white transition hover:scale-110 ease-in-out duration-1000 hover:translate-y-2 hover:translate-x-2",
     copyrightIco: "text-lg text-white mr-2",
     copyrightDiv: "h-40 text-white",
   },

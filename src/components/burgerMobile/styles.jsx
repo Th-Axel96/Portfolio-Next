@@ -38,7 +38,7 @@ export const styles = {
     // social icon
     socialIconBg:
       "w-12 h-12 bg-gray-600 rounded-full hover:bg-blue-400 hover:animate-pulse",
-    socialIcon: "text-3xl text-white",
+    socialIcon: "text-3xl text-white transition duration-1000 hover:translate-y-2 hover:translate-x-2",
     copyrightIco: "text-lg text-white",
     copyrightDiv: "h-20 text-white",
     // burger menu mobile

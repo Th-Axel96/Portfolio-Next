@@ -20,6 +20,7 @@ export const SectionProject = () => {
         <div id="myProject" className={styles.containerDiv}>
           {/* div for AOS title & border */}
           <div
+            
             data-aos="fade-right"
             data-aos-delay="50"
             data-aos-duration="2000"
@@ -72,7 +73,7 @@ export const SectionProject = () => {
                   </a>
                 </div>
 
-                <div className={styles.p6}>
+                <div className={styles.p6} >
                   <h5 className={styles.card.titleProject}>TP Landing Page</h5>
                   <p className={styles.card.paragraph}>
                     Projet réaliser avec Bootstrap, reproduire une Landing Page.
@@ -256,8 +257,8 @@ export const SectionProject = () => {
                   data-mdb-ripple-color="light"
                   className={styles.h36}
                 >
-                   <div className={styles.card.IcoUnderConstruction}>
-                    <Image src={ToolsImg} alt="tools image"/>
+                  <div className={styles.card.IcoUnderConstruction}>
+                    <Image src={ToolsImg} alt="tools image" />
                   </div>
                 </div>
 
@@ -293,7 +294,7 @@ export const SectionProject = () => {
                   data-mdb-ripple-color="light"
                 >
                   <div className={styles.card.IcoUnderConstruction}>
-                    <Image src={ToolsImg} alt="tools image"/>
+                    <Image src={ToolsImg} alt="tools image" />
                   </div>
                 </div>
 

@@ -12,7 +12,7 @@ import IconGit from "../../assets/img/icon-git.svg";
 import IconWebpack from "../../assets/img/icon-webpack.svg";
 import IconBootstrap from "../../assets/img/icon-bootstrap.svg";
 import IconTailwind from "../../assets/img/icon-tailwind.svg";
-import IconWordPress from "../../assets/img/icon-wordpress.svg"
+import IconWordPress from "../../assets/img/icon-wordpress.svg";
 
 // aos animate
 import React, { useEffect } from "react";
@@ -54,7 +54,10 @@ export const SectionSkills = () => {
             >
               {/* box icon HTML */}
               <div className={styles.boxIconSkills}>
-                <Image src={IconHtml} />
+                {/* anime Icon CSS */}
+                <div className={styles.boxHoverIcon}>
+                  <Image src={IconHtml} />
+                </div>
                 Html
               </div>
             </div>
@@ -67,7 +70,10 @@ export const SectionSkills = () => {
             >
               {/* box icon CSS */}
               <div className={styles.boxIconSkills}>
-                <Image src={IconCss} />
+                {/* anime Icon CSS */}
+                <div className={styles.boxHoverIcon}>
+                  <Image src={IconCss} />
+                </div>
                 Css
               </div>
             </div>
@@ -80,7 +86,10 @@ export const SectionSkills = () => {
             >
               {/* box icon JS */}
               <div className={styles.boxIconSkills}>
-                <Image src={IconJs} />
+                {/* anime Icon CSS */}
+                <div className={styles.boxHoverIcon}>
+                  <Image src={IconJs} />
+                </div>
                 Javascript
               </div>
             </div>
@@ -93,7 +102,10 @@ export const SectionSkills = () => {
             >
               {/* box icon Node */}
               <div className={styles.boxIconSkills}>
-                <Image src={IconNode} />
+                {/* anime Icon CSS */}
+                <div className={styles.boxHoverIcon}>
+                  <Image src={IconNode} />
+                </div>
                 Node.js
               </div>
             </div>
@@ -106,7 +118,10 @@ export const SectionSkills = () => {
             >
               {/* box icon React */}
               <div className={styles.boxIconSkills}>
-                <Image src={IconReact} />
+                {/* anime Icon CSS */}
+                <div className={styles.boxHoverIcon}>
+                  <Image src={IconReact} />
+                </div>
                 React
               </div>
             </div>
@@ -119,7 +134,10 @@ export const SectionSkills = () => {
             >
               {/* box icon PHP */}
               <div className={styles.boxIconSkills}>
-                <Image src={IconPhp} />
+                {/* anime Icon CSS */}
+                <div className={styles.boxHoverIcon}>
+                  <Image src={IconPhp} />
+                </div>
                 Php
               </div>
             </div>
@@ -132,7 +150,10 @@ export const SectionSkills = () => {
             >
               {/* box icon Symfony */}
               <div className={styles.boxIconSkills}>
-                <Image src={IconSymfony} />
+                {/* anime Icon CSS */}
+                <div className={styles.boxHoverIcon}>
+                  <Image src={IconSymfony} />
+                </div>
                 Symfony
               </div>
             </div>
@@ -145,7 +166,10 @@ export const SectionSkills = () => {
             >
               {/* box icon Git */}
               <div className={styles.boxIconSkills}>
-                <Image src={IconGit} />
+                {/* anime Icon CSS */}
+                <div className={styles.boxHoverIcon}>
+                  <Image src={IconGit} />
+                </div>
                 Git
               </div>
             </div>
@@ -158,7 +182,10 @@ export const SectionSkills = () => {
             >
               {/* box icon webpack */}
               <div className={styles.boxIconSkills}>
-                <Image src={IconWebpack} />
+                {/* anime Icon CSS */}
+                <div className={styles.boxHoverIcon}>
+                  <Image src={IconWebpack} />
+                </div>
                 Webpack
               </div>
             </div>
@@ -172,7 +199,10 @@ export const SectionSkills = () => {
             >
               {/* box icon Tailwind */}
               <div className={styles.boxIconSkills}>
-                <Image src={IconTailwind} />
+                {/* anime Icon CSS */}
+                <div className={styles.boxHoverIcon}>
+                  <Image src={IconTailwind} />
+                </div>
                 Tailwind
               </div>
             </div>
@@ -185,7 +215,10 @@ export const SectionSkills = () => {
             >
               {/* box icon Bootstrap */}
               <div className={styles.boxIconSkills}>
-                <Image src={IconBootstrap} />
+                {/* anime Icon CSS */}
+                <div className={styles.boxHoverIcon}>
+                  <Image src={IconBootstrap} />
+                </div>
                 Bootstrap
               </div>
             </div>
@@ -198,7 +231,10 @@ export const SectionSkills = () => {
             >
               {/* box icon WordPress */}
               <div className={styles.boxIconSkills}>
-                <Image src={IconWordPress} />
+                {/* anime Icon CSS */}
+                <div className={styles.boxHoverIcon}>
+                  <Image src={IconWordPress} />
+                </div>
                 WordPress
               </div>
             </div>
