@@ -12,6 +12,7 @@ import IconGit from "../../assets/img/icon-git.svg";
 import IconWebpack from "../../assets/img/icon-webpack.svg";
 import IconBootstrap from "../../assets/img/icon-bootstrap.svg";
 import IconTailwind from "../../assets/img/icon-tailwind.svg";
+import IconWordPress from "../../assets/img/icon-wordpress.svg"
 
 // aos animate
 import React, { useEffect } from "react";
@@ -186,6 +187,19 @@ export const SectionSkills = () => {
               <div className={styles.boxIconSkills}>
                 <Image src={IconBootstrap} />
                 Bootstrap
+              </div>
+            </div>
+            {/* div for justify-content*/}
+            <div
+              data-aos="flip-right"
+              data-aos-delay="50"
+              data-aos-duration="2000"
+              className={styles.flex.justifyCenter}
+            >
+              {/* box icon WordPress */}
+              <div className={styles.boxIconSkills}>
+                <Image src={IconWordPress} />
+                WordPress
               </div>
             </div>
           </div>
