@@ -1,4 +1,6 @@
 import { styles } from "./styles";
+// import form
+import { FormContact } from "../formContact";
 
 // icon contact
 import EmailIcon from "@mui/icons-material/Email";
@@ -22,6 +24,9 @@ export const SectionContact = () => {
             <h2 className={styles.body.title}>Contact</h2>
             {/* div for border title*/}
             <div className={styles.body.borderTitle}></div>
+          </div>
+          <div>
+            <FormContact />
           </div>
           {/* div for rows on lg */}
           <div className={styles.flex.lgFlexRow}>
