@@ -24,7 +24,6 @@ export const ContentHeader = () => {
               <div
                 data-aos="flip-right"
                 data-aos-offset="200"
-                data-aos-delay="50"
                 data-aos-duration="1000"
                 data-aos-easing="ease-in-out"
                 data-aos-mirror="true"

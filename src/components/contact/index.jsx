@@ -17,7 +17,6 @@ export const SectionContact = () => {
           {/* div for AOS title & border */}
           <div
             data-aos="fade-right"
-            data-aos-delay="50"
             data-aos-duration="2000"
           >
             {/* title */}
@@ -34,7 +33,6 @@ export const SectionContact = () => {
             {/* mail */}
             <div
               data-aos="flip-left"
-              data-aos-delay="50"
               data-aos-duration="2000"
               className={styles.flex.justifyCenter}
             >
@@ -50,7 +48,6 @@ export const SectionContact = () => {
             {/* Phone */}
             <div
               data-aos="flip-right"
-              data-aos-delay="50"
               data-aos-duration="2000"
               className={`${styles.flex.justifyCenter}`}
             >
@@ -66,7 +63,6 @@ export const SectionContact = () => {
             {/* City Location */}
             <div
               data-aos="flip-left"
-              data-aos-delay="50"
               data-aos-duration="2000"
               className={styles.flex.justifyCenter}
             >

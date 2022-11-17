@@ -16,7 +16,6 @@ export const ContentHeaderMobile = () => {
         <div className={`${styles.flex.justifyNameTyping} `}>
           <h1
             data-aos="fade-up-right"
-            data-aos-delay="50"
             data-aos-duration="2000"
             data-aos-once="false"
             className={`${styles.contentHeader.nameHeader}`}
@@ -25,7 +24,6 @@ export const ContentHeaderMobile = () => {
           </h1>
           <h2
             data-aos="fade-up-right"
-            data-aos-delay="50"
             data-aos-duration="2000"
             data-aos-once="false"
             className={styles.contentHeader.spanTyping}
@@ -39,7 +37,6 @@ export const ContentHeaderMobile = () => {
           {/* rotate IMG */}
           <div
             data-aos="flip-right"
-            data-aos-delay="50"
             data-aos-duration="2000"
              data-aos-once="false"
             className={styles.py20}

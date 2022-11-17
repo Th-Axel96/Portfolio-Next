@@ -9,7 +9,6 @@ export const FormContact = () => {
         {/* div for label */}
         <div
           data-aos="flip-left"
-          data-aos-delay="50"
           data-aos-duration="2000"
           className={styles.flex.justifyCenter}
         >
@@ -25,7 +24,7 @@ export const FormContact = () => {
         {/* label & input email */}
         <div
           data-aos="flip-right"
-          data-aos-delay="50"
+         
           data-aos-duration="2000"
           className={styles.flex.justifyCenter}
         >
@@ -42,7 +41,7 @@ export const FormContact = () => {
       {/* label & input email */}
       <div
         data-aos="flip-left"
-        data-aos-delay="50"
+        
         data-aos-duration="2000"
         className={styles.flex.justifyCenter}
       >
@@ -58,7 +57,7 @@ export const FormContact = () => {
       {/* checkbox */}
       <div
         data-aos="fade-right"
-        data-aos-delay="50"
+       
         data-aos-duration="2000"
         className={styles.flex.justifyCenter}
       >
@@ -74,7 +73,7 @@ export const FormContact = () => {
 
       <div
         data-aos="flip-left"
-        data-aos-delay="50"
+       
         data-aos-duration="2000"
         className={styles.flex.justifyCenter}
       >

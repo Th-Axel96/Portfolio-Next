@@ -21,7 +21,7 @@ export const SectionProject = () => {
           {/* div for AOS title & border */}
           <div
             data-aos="fade-right"
-            data-aos-delay="50"
+           
             data-aos-duration="2000"
           >
             {/* title */}
@@ -32,7 +32,7 @@ export const SectionProject = () => {
           {/* 
           <p
             data-aos="fade-right"
-            data-aos-delay="50"
+            
             data-aos-duration="2000"
             className={styles.body.paragraph}
           >
@@ -49,7 +49,7 @@ export const SectionProject = () => {
             >
               <div
                 data-aos="flip-left"
-                data-aos-delay="50"
+                
                 data-aos-duration="2000"
                 className={styles.card.contentCard}
               >
@@ -98,7 +98,7 @@ export const SectionProject = () => {
             >
               <div
                 data-aos="flip-right"
-                data-aos-delay="50"
+                
                 data-aos-duration="2000"
                 className={styles.card.contentCard}
               >
@@ -145,7 +145,7 @@ export const SectionProject = () => {
             >
               <div
                 data-aos="flip-left"
-                data-aos-delay="50"
+                
                 data-aos-duration="2000"
                 className={styles.card.contentCard}
               >
@@ -195,7 +195,7 @@ export const SectionProject = () => {
             >
               <div
                 data-aos="flip-right"
-                data-aos-delay="50"
+                
                 data-aos-duration="2000"
                 className={styles.card.contentCard}
               >
@@ -245,7 +245,7 @@ export const SectionProject = () => {
             >
               <div
                 data-aos="flip-right"
-                data-aos-delay="50"
+                
                 data-aos-duration="2000"
                 className={styles.card.contentCard}
               >
@@ -281,7 +281,7 @@ export const SectionProject = () => {
             >
               <div
                 data-aos="flip-right"
-                data-aos-delay="50"
+                
                 data-aos-duration="2000"
                 className={styles.card.contentCard}
               >

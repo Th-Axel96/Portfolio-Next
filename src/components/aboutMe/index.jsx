@@ -11,7 +11,6 @@ export const AboutMe = () => {
           {/* div for AOS title & border */}
           <div
             data-aos="fade-right"
-            data-aos-delay="50"
             data-aos-duration="2000"
           >
             {/* title about me */}
@@ -26,7 +25,6 @@ export const AboutMe = () => {
             {/* col-1 */}
             <div
               data-aos="flip-right"
-              data-aos-delay="50"
               data-aos-duration="2000"
               className={styles.flex.justifyItemsCenter}
             >
@@ -38,7 +36,6 @@ export const AboutMe = () => {
             <div className={styles.flex.colCenter}>
               <p
                 data-aos="fade-up-right"
-                data-aos-delay="50"
                 data-aos-duration="2000"
                 className={`${styles.body.paragraph} ${styles.pt6}`}
               >
@@ -50,7 +47,6 @@ export const AboutMe = () => {
               </p>
               <p
                 data-aos="fade-up-right"
-                data-aos-delay="50"
                 data-aos-duration="2000"
                 className={`${styles.body.paragraph} ${styles.pt6}`}
               >
@@ -60,7 +56,6 @@ export const AboutMe = () => {
               </p>
               <p
                 data-aos="fade-up-right"
-                data-aos-delay="50"
                 data-aos-duration="2000"
                 className={`${styles.body.paragraph} ${styles.pt6}`}
               >
@@ -69,7 +64,6 @@ export const AboutMe = () => {
               </p>
               <p
                 data-aos="fade-up-right"
-                data-aos-delay="50"
                 data-aos-duration="2000"
                 className={`${styles.body.paragraph} ${styles.pt6}`}
               >
@@ -78,7 +72,6 @@ export const AboutMe = () => {
               </p>
               <p
                 data-aos="fade-up-right"
-                data-aos-delay="50"
                 data-aos-duration="2000"
                 className={`${styles.body.paragraph} ${styles.pt6}`}
               >

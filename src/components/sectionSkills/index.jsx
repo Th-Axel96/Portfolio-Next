@@ -33,7 +33,7 @@ export const SectionSkills = () => {
           {/* div for AOS title & border */}
           <div
             data-aos="fade-right"
-            data-aos-delay="50"
+           
             data-aos-duration="2000"
           >
             {/* title */}
@@ -48,7 +48,7 @@ export const SectionSkills = () => {
             {/* div for justify-content */}
             <div
               data-aos="flip-left"
-              data-aos-delay="50"
+            
               data-aos-duration="2000"
               className={styles.flex.justifyCenter}
             >
@@ -64,7 +64,7 @@ export const SectionSkills = () => {
             {/* div for justify-content*/}
             <div
               data-aos="flip-right"
-              data-aos-delay="50"
+              
               data-aos-duration="2000"
               className={styles.flex.justifyCenter}
             >
@@ -80,7 +80,6 @@ export const SectionSkills = () => {
             {/* div for justify-content*/}
             <div
               data-aos="flip-left"
-              data-aos-delay="50"
               data-aos-duration="2000"
               className={styles.flex.justifyCenter}
             >
@@ -96,7 +95,8 @@ export const SectionSkills = () => {
             {/* div for justify-content*/}
             <div
               data-aos="flip-right"
-              data-aos-delay="50"
+              
+              
               data-aos-duration="2000"
               className={styles.flex.justifyCenter}
             >
@@ -112,7 +112,7 @@ export const SectionSkills = () => {
             {/* div for justify-content*/}
             <div
               data-aos="flip-left"
-              data-aos-delay="50"
+              
               data-aos-duration="2000"
               className={styles.flex.justifyCenter}
             >
@@ -128,7 +128,7 @@ export const SectionSkills = () => {
             {/* div for justify-content*/}
             <div
               data-aos="flip-right"
-              data-aos-delay="50"
+              
               data-aos-duration="2000"
               className={styles.flex.justifyCenter}
             >
@@ -144,7 +144,6 @@ export const SectionSkills = () => {
             {/* div for justify-content*/}
             <div
               data-aos="flip-right"
-              data-aos-delay="50"
               data-aos-duration="2000"
               className={styles.flex.justifyCenter}
             >
@@ -160,7 +159,6 @@ export const SectionSkills = () => {
             {/* div for justify-content*/}
             <div
               data-aos="flip-right"
-              data-aos-delay="50"
               data-aos-duration="2000"
               className={styles.flex.justifyCenter}
             >
@@ -176,7 +174,6 @@ export const SectionSkills = () => {
             {/* div for justify-content*/}
             <div
               data-aos="flip-right"
-              data-aos-delay="50"
               data-aos-duration="2000"
               className={styles.flex.justifyCenter}
             >
@@ -193,7 +190,6 @@ export const SectionSkills = () => {
             {/* div for justify-content*/}
             <div
               data-aos="flip-right"
-              data-aos-delay="50"
               data-aos-duration="2000"
               className={styles.flex.justifyCenter}
             >
@@ -209,7 +205,6 @@ export const SectionSkills = () => {
             {/* div for justify-content*/}
             <div
               data-aos="flip-right"
-              data-aos-delay="50"
               data-aos-duration="2000"
               className={styles.flex.justifyCenter}
             >
@@ -225,7 +220,6 @@ export const SectionSkills = () => {
             {/* div for justify-content*/}
             <div
               data-aos="flip-right"
-              data-aos-delay="50"
               data-aos-duration="2000"
               className={styles.flex.justifyCenter}
             >
