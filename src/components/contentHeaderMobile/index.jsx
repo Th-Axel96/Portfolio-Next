@@ -11,27 +11,28 @@ import { RotateAnimation } from "../js/RotateImgHeader";
 export const ContentHeaderMobile = () => {
   return (
     <>
-      <div>
-        {/*  */}
+      <div id="acceuilMobile">
         <BurgerMenu />
         <div className={`${styles.flex.justifyNameTyping} `}>
           <h1
             data-aos="fade-up-right"
             data-aos-delay="50"
             data-aos-duration="2000"
+            data-aos-once="false"
             className={`${styles.contentHeader.nameHeader}`}
           >
-           Bienvenue sur mon Portfolio
+            Bienvenue sur mon Portfolio
           </h1>
           <h2
             data-aos="fade-up-right"
             data-aos-delay="50"
             data-aos-duration="2000"
+            data-aos-once="false"
             className={styles.contentHeader.spanTyping}
           >
-            Je suis Développeur
+            Je suis un développeur
             <span className={styles.contentHeader.spanTypingBorder}>
-              Web&nbsp;
+              web&nbsp;
               <Typing />
             </span>
           </h2>
@@ -40,6 +41,7 @@ export const ContentHeaderMobile = () => {
             data-aos="flip-right"
             data-aos-delay="50"
             data-aos-duration="2000"
+             data-aos-once="false"
             className={styles.py20}
           >
             <RotateAnimation />

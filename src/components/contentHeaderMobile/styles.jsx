@@ -64,9 +64,11 @@ export const styles = {
     nameHeader:
       "w-screen flex justify-center text-2xl font-open font-black pt-16",
     spanTypingBorder:
-      "flex items-center font-open text-xl border-b-2 border-blue-400",
+      "flex items-center font-open text-lg border-b-2 border-blue-400",
     spanTyping:
-      "flex flex-col items-center w-screen font-open text-xl pt-4 font-semibold",
+      "flex flex-col items-center w-screen font-open text-lg pt-4 font-semibold",
+    btnEncre: "flex justify-center items-end text-white -mt-40 animate-bounce",
+      
   },
 
   // hidden block
