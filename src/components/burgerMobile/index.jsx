@@ -1,5 +1,8 @@
 import { styles } from "./styles";
 import Link from "next/link";
+import React from "react";
+import ReactDOM from "react-dom";
+import AnchorLink from "react-anchor-link-smooth-scroll-v2";
 
 // icon burger
 import MenuIcon from "@mui/icons-material/Menu";
@@ -65,7 +68,10 @@ export const BurgerMenu = () => {
           </div>
 
           {/* flex col content aside */}
-          <h2 className={styles.aside.h2Name}>Moussart Axel</h2>
+          <h2 className={styles.aside.h2Name}>
+            <span className={styles.aside.spanHover}>M</span>oussart&nbsp;
+            <span className={styles.aside.spanHover}>A</span>xel
+          </h2>
           {/* div for social icon */}
           <div className={`${styles.flex.justifyCenter} ${styles.mb8}`}>
             {/* link github */}
@@ -111,17 +117,17 @@ export const BurgerMenu = () => {
             <ul>
               {/* link home */}
               <li className={styles.aside.navLi}>
-                <a
+                <AnchorLink
                   className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
-                  href="#"
+                  href="#acceuilMobile"
                 >
                   <HomeIcon className={styles.aside.navIcon} />
                   Accueil
-                </a>
+                </AnchorLink>
               </li>
               {/* link about me */}
               <li>
-                <a
+                <AnchorLink
                   // data-bs-toggle="offcanvas"
                   // data-bs-target="#offcanvasExample"
                   // aria-controls="offcanvasExample"
@@ -129,37 +135,37 @@ export const BurgerMenu = () => {
                   href="#aboutMe"
                 >
                   <PersonIcon className={styles.aside.navIcon} />A propos
-                </a>
+                </AnchorLink>
               </li>
               {/* link skils */}
               <li className={styles.aside.navLi}>
-                <a
+                <AnchorLink
                   className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
                   href="#mySkills"
                 >
                   <DataObjectIcon className={styles.aside.navIcon} />
                   Mes compétences
-                </a>
+                </AnchorLink>
               </li>
               {/* link projects */}
               <li>
-                <a
+                <AnchorLink
                   className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
                   href="#myProject"
                 >
                   <TopicIcon className={styles.aside.navIcon} />
                   Mes projets
-                </a>
+                </AnchorLink>
               </li>
               {/* link contact */}
               <li className={styles.aside.navLi}>
-                <a
+                <AnchorLink
                   className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
                   href="#contact"
                 >
                   <CallIcon className={styles.aside.navIcon} />
                   Contact
-                </a>
+                </AnchorLink>
               </li>
             </ul>
           </nav>

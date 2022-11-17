@@ -35,10 +35,13 @@ export const styles = {
     navIcon: "text-3xl mr-2",
     navLi: "py-8",
     HoverBlue: "hover:text-blue-400 transition duration-1000 ease-in-out",
+    spanHover:
+      "transition duration-1000 hover:-translate-y-2 hover:rotate-12 text-blue-400",
     // social icon
     socialIconBg:
       "w-12 h-12 bg-gray-600 rounded-full hover:bg-blue-400 hover:animate-pulse",
-    socialIcon: "text-3xl text-white transition duration-1000 hover:translate-y-2 hover:translate-x-2",
+    socialIcon:
+      "text-3xl text-white transition duration-1000 hover:translate-y-2 hover:translate-x-2",
     copyrightIco: "text-lg text-white",
     copyrightDiv: "h-20 text-white",
     // burger menu mobile
@@ -66,6 +69,7 @@ export const styles = {
     nameHeader: "text-white text-5xl font-open font-bold",
     spanTyping:
       "flex text-white font-open text-3xl border-b-2 border-blue-400 pt-4",
+    btnEncre: "flex justify-center items-end text-white -mt-40 animate-bounce",
   },
 
   // hidden block
