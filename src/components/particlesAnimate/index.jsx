@@ -613,34 +613,6 @@ export const ParticlesAnimate = () => {
             height: 0,
             width: 0,
           },
-          particles: {
-            
-            size: {
-              value: 40,
-            },
-            move: {
-              speed: 10,
-              outModes: {
-                default: "none",
-                right: "",
-              },
-              straight: true,
-            },
-            zIndex: {
-              value: 0,
-            },
-            rotate: {
-              value: {
-                min: 0,
-                max: 360,
-              },
-              animation: {
-                enable: true,
-                speed: 15,
-                sync: true,
-              },
-            },
-          },
           position: {
             x: -5,
             y: 55,
