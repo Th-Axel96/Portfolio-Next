@@ -17,7 +17,7 @@ export const styles = {
   // background
 
   bgGLass:
-    "p-8 bg-black/40 flex flex-col justify-center items-center rounded-full",
+    "p-12 bg-black/40 flex flex-col justify-center items-center rounded-full",
 
   // height
   hFull: "h-full",
@@ -54,8 +54,12 @@ export const styles = {
   contentHeader: {
     bgHeader: "bg-person-coding bg-cover bg-no-repeat",
     bgBlur: " h-screen w-full",
-    nameHeader: "text-white text-5xl font-open font-bold",
-    spanTyping: "flex text-white font-open text-3xl border-b-2 border-blue-400 pt-4",
+    nameHeader: "flex flex-row text-white text-6xl font-open font-bold ",
+    spanHover:
+      "transition duration-1000 hover:-translate-y-2 hover:rotate-12 text-blue-400",
+    spanTyping:
+      "flex text-white font-open text-3xl border-b-2 border-blue-400 pt-4",
+    btnEncre: "flex justify-center items-end text-white -mt-40 animate-bounce",
   },
 
   // hidden block
