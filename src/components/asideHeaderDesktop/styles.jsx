@@ -1,4 +1,4 @@
-// CSS asideHeader template 
+// CSS asideHeader template
 
 export const styles = {
   // grid
@@ -18,12 +18,13 @@ export const styles = {
   aside: {
     divBitmoji: "pt-4 flex justify-center ",
     asideBg: "bg-gray-900 fixed w-80 h-screen",
-    h2Name:
-      "text-white text-3xl  font-open font-bold  flex justify-center pt-8",
+    h2Name: "text-white text-4xl font-open font-bold flex justify-center pt-8",
     navAside: "pl-8 text-xl text-gray-400",
     navIcon: "text-3xl mr-2",
     navLi: "py-8",
     HoverBlue: "transition duration-1000 ease-in-out hover:text-blue-400",
+    spanHover:
+      "transition duration-1000 hover:-translate-y-2 hover:rotate-12 text-blue-400",
     // social icon
     socialIconBg:
       "w-12 h-12 my-10 bg-gray-600 rounded-full hover:bg-blue-400 hover:animate-pulse cursor-pointer ",

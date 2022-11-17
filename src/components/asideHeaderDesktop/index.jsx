@@ -2,6 +2,9 @@ import Link from "next/link";
 import { styles } from "./styles";
 import Image from "next/image";
 import bitmoji from "../../assets/img/bitmoji.png";
+import React from "react";
+import ReactDOM from "react-dom";
+import AnchorLink from "react-anchor-link-smooth-scroll-v2";
 
 // icon NAV
 import HomeIcon from "@mui/icons-material/Home";
@@ -14,7 +17,6 @@ import CallIcon from "@mui/icons-material/Call";
 // icon Social
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
-
 
 // icon copyright
 import CopyrightIcon from "@mui/icons-material/Copyright";
@@ -35,7 +37,10 @@ export const AsideHeader = () => {
           />
         </div>
         {/* flex col content aside */}
-        <h2 className={styles.aside.h2Name}>Moussart Axel</h2>
+        <h2 className={styles.aside.h2Name}>
+          <span className={styles.aside.spanHover}>M</span>oussart &nbsp;
+          <span className={styles.aside.spanHover}>A</span>xel
+        </h2>
         {/* div for social icon */}
         <div className={styles.flex.justifyCenter}>
           {/* link github */}
@@ -65,11 +70,7 @@ export const AsideHeader = () => {
             </div>
           </a>
           {/* link open CV */}
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="/docs/cv-axel.pdf"
-          >
+          <a target="_blank" rel="noopener noreferrer" href="/docs/cv-axel.pdf">
             <div
               className={`${styles.aside.socialIconBg} ${styles.flex.justifyCenter} ${styles.flex.itemsCenter}`}
             >
@@ -82,52 +83,52 @@ export const AsideHeader = () => {
           <ul>
             {/* link home */}
             <li className={styles.aside.navLi}>
-              <a
+              <AnchorLink
                 className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
-                href="#"
+                href="#accueilDesktop"
               >
                 <HomeIcon className={styles.aside.navIcon} />
                 Accueil
-              </a>
+              </AnchorLink>
             </li>
             {/* link about me */}
             <li>
-              <a
-                className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
+              <AnchorLink
                 href="#aboutMe"
+                className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
               >
                 <PersonIcon className={styles.aside.navIcon} />A propos
-              </a>
+              </AnchorLink>
             </li>
             {/* link skils */}
             <li className={styles.aside.navLi}>
-              <a
+              <AnchorLink
                 className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
                 href="#mySkills"
               >
                 <DataObjectIcon className={styles.aside.navIcon} />
                 Mes compétences
-              </a>
+              </AnchorLink>
             </li>
             {/* link project */}
             <li>
-              <a
+              <AnchorLink
                 className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
                 href="#myProject"
               >
                 <TopicIcon className={styles.aside.navIcon} />
                 Mes projets
-              </a>
+              </AnchorLink>
               {/* link contact */}
             </li>
             <li className={styles.aside.navLi}>
-              <a
+              <AnchorLink
                 className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
                 href="#contact"
               >
                 <CallIcon className={styles.aside.navIcon} />
                 Contact
-              </a>
+              </AnchorLink>
             </li>
           </ul>
         </nav>
