@@ -20,7 +20,6 @@ export const SectionProject = () => {
         <div id="myProject" className={styles.containerDiv}>
           {/* div for AOS title & border */}
           <div
-            
             data-aos="fade-right"
             data-aos-delay="50"
             data-aos-duration="2000"
@@ -30,7 +29,7 @@ export const SectionProject = () => {
             {/* div for border */}
             <div className={styles.body.borderTitle}></div>
           </div>
-
+          {/* 
           <p
             data-aos="fade-right"
             data-aos-delay="50"
@@ -39,7 +38,7 @@ export const SectionProject = () => {
           >
             Voici la liste des projets que j&apos;ai réalisé au cours de ma
             formation.
-          </p>
+          </p> */}
 
           {/* div for lg grid  */}
           <div className={styles.card.CardGrid}>
@@ -73,7 +72,7 @@ export const SectionProject = () => {
                   </a>
                 </div>
 
-                <div className={styles.p6} >
+                <div className={styles.p6}>
                   <h5 className={styles.card.titleProject}>TP Landing Page</h5>
                   <p className={styles.card.paragraph}>
                     Projet réaliser avec Bootstrap, reproduire une Landing Page.
