@@ -125,7 +125,7 @@ export const ParticlesAnimate = () => {
               quantity: 2,
             },
             repulse: {
-              distance: 200,
+              distance: 100,
               duration: 0.4,
               factor: 100,
               speed: 1,
@@ -614,16 +614,7 @@ export const ParticlesAnimate = () => {
             width: 0,
           },
           particles: {
-            shape: {
-              type: "images",
-              options: {
-                images: {
-                  src: "http://localhost:3000/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbitmoji.2263b784.png&w=128&q=75",
-                  value: "30",
-                  quantity: 5,
-                },
-              },
-            },
+            
             size: {
               value: 40,
             },
