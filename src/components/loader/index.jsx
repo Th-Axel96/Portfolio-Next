@@ -11,13 +11,11 @@ export default function Loader() {
   return (
     <div className="h-screen w-screen flex flex-col justify-center items-center">
       <motion.div
-        className="w-40 h-40 bg-blue-500"
-        
+        className="w-40 h-40 bg-blue-500 duration-1000 -translate-y-60 "
         animate={{
           scale: [1, 2, 2, 1, 1],
           rotate: [0, 0, 180, 180, 0],
           borderRadius: ["0%", "0%", "50%", "50%", "0%"],
-         
         }}
         transition={{
           duration: 2,
@@ -27,7 +25,9 @@ export default function Loader() {
           repeatDelay: 1,
         }}
       />
-      <p className="pt-40 font-open font-bold text-xl ">Page en cour de chargement...</p>
+      <p className="pt-40 font-open font-bold text-xl ">
+        Site en cours de chargement...
+      </p>
     </div>
     /* <Image
         className="h-full w-full animate-spin transition delay-700"
