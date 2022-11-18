@@ -5,9 +5,7 @@ import TpMazeBank from "../../assets/img/tp-mazebank.png";
 import CvVanilla from "../../assets/img/cv-axel-html.png";
 import TpWanaAgency from "../../assets/img/wana-agency.png";
 
-// import icon
-import ConstructionIcon from "@mui/icons-material/Construction";
-// import Img
+
 
 import ToolsImg from "../../assets/img/under-tools.png";
 export const SectionProject = () => {

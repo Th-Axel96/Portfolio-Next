@@ -23,10 +23,8 @@ export const ContentHeader = () => {
               {/* div for BG GLASS */}
               <div
                 data-aos="flip-right"
-                data-aos-offset="200"
                 data-aos-duration="1000"
                 data-aos-easing="ease-in-out"
-                data-aos-mirror="true"
                 data-aos-once="false"
                 className={styles.bgGLass}
               >
@@ -44,7 +42,7 @@ export const ContentHeader = () => {
             </div>
             <div className={styles.contentHeader.btnEncre}>
               <AnchorLink href="#aboutMe">
-                <KeyboardDoubleArrowDownIcon sx={{ fontSize: 75  }} />
+                <KeyboardDoubleArrowDownIcon sx={{ fontSize: 75 }} />
               </AnchorLink>
             </div>
           </div>

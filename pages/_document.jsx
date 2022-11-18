@@ -1,7 +1,6 @@
 import { Html, Head, Main, NextScript } from "next/document";
 import Script from "next/script";
 
-
 export default function Document() {
   return (
     <Html lang="fr">
@@ -30,11 +29,12 @@ export default function Document() {
           defer
           src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"
         ></script>
+
+      
         <title>Portfolio Moussart</title>
       </Head>
       <body className="overflow-x-hidden">
-        <div id="root">
-        </div>
+        <div id="root"></div>
         <Main />
         <NextScript />
       </body>

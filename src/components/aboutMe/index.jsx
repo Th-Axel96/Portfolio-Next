@@ -2,6 +2,8 @@ import { styles } from "./styles";
 import Image from "next/image";
 import ImgCoding from "../../assets/img/coding-ilustration.svg";
 
+import "animate.css";
+
 export const AboutMe = () => {
   return (
     // grid
@@ -10,8 +12,9 @@ export const AboutMe = () => {
         <div className={styles.containerDiv}>
           {/* div for AOS title & border */}
           <div
-            data-aos="fade-right"
+            data-aos="flip-right"
             data-aos-duration="2000"
+            data-aos-once="false"
           >
             {/* title about me */}
             <h2 id="aboutMe" className={styles.body.title}>
@@ -26,6 +29,7 @@ export const AboutMe = () => {
             <div
               data-aos="flip-right"
               data-aos-duration="2000"
+              data-aos-once="false"
               className={styles.flex.justifyItemsCenter}
             >
               {/* img illustration */}
@@ -37,17 +41,18 @@ export const AboutMe = () => {
               <p
                 data-aos="fade-up-right"
                 data-aos-duration="2000"
+                data-aos-once="false"
                 className={`${styles.body.paragraph} ${styles.pt6}`}
               >
                 Passionné par le monde de l&apos;informatique, j&apos;ai
                 commencé à jouer à des jeux en ligne (MMORPG, RTS, Hack
                 &apos;n&apos; slash) et parcourir le web depuis mon plus jeune
                 âge.
-                
               </p>
               <p
                 data-aos="fade-up-right"
                 data-aos-duration="2000"
+                data-aos-once="false"
                 className={`${styles.body.paragraph} ${styles.pt6}`}
               >
                 Peu de temps après, j&apos;ai commencé à me tourner vers le
@@ -57,6 +62,7 @@ export const AboutMe = () => {
               <p
                 data-aos="fade-up-right"
                 data-aos-duration="2000"
+                data-aos-once="false"
                 className={`${styles.body.paragraph} ${styles.pt6}`}
               >
                 Décidant de me reconvertir, j&apos;ai souhaité me tourner vers
@@ -65,6 +71,7 @@ export const AboutMe = () => {
               <p
                 data-aos="fade-up-right"
                 data-aos-duration="2000"
+                data-aos-once="false"
                 className={`${styles.body.paragraph} ${styles.pt6}`}
               >
                 N&apos;ayant aucune connaissance dans ce domaine, je me suis
@@ -73,6 +80,7 @@ export const AboutMe = () => {
               <p
                 data-aos="fade-up-right"
                 data-aos-duration="2000"
+                data-aos-once="false"
                 className={`${styles.body.paragraph} ${styles.pt6}`}
               >
                 Je suis aujourd&apos;hui à la recherche d&apos;un stage pour

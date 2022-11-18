@@ -10,6 +10,7 @@ export const FormContact = () => {
         <div
           data-aos="flip-left"
           data-aos-duration="2000"
+          data-aos-once="false"
           className={styles.flex.justifyCenter}
         >
           <label id="hover-test" className={styles.contact.LabelContact}>
@@ -24,7 +25,7 @@ export const FormContact = () => {
         {/* label & input email */}
         <div
           data-aos="flip-right"
-         
+          data-aos-once="false"
           data-aos-duration="2000"
           className={styles.flex.justifyCenter}
         >
@@ -41,7 +42,7 @@ export const FormContact = () => {
       {/* label & input email */}
       <div
         data-aos="flip-left"
-        
+        data-aos-once="false"
         data-aos-duration="2000"
         className={styles.flex.justifyCenter}
       >
@@ -57,7 +58,7 @@ export const FormContact = () => {
       {/* checkbox */}
       <div
         data-aos="fade-right"
-       
+        data-aos-once="false"
         data-aos-duration="2000"
         className={styles.flex.justifyCenter}
       >
@@ -73,7 +74,7 @@ export const FormContact = () => {
 
       <div
         data-aos="flip-left"
-       
+        data-aos-once="false"
         data-aos-duration="2000"
         className={styles.flex.justifyCenter}
       >

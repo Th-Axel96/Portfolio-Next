@@ -14,16 +14,7 @@ import IconBootstrap from "../../assets/img/icon-bootstrap.svg";
 import IconTailwind from "../../assets/img/icon-tailwind.svg";
 import IconWordPress from "../../assets/img/icon-wordpress.svg";
 
-// aos animate
-import React, { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
-
 export const SectionSkills = () => {
-  useEffect(() => {
-    AOS.init();
-    AOS.refresh();
-  }, []);
   return (
     // div for grid col6
     <div className={styles.grid.gridCol6}>
@@ -31,11 +22,7 @@ export const SectionSkills = () => {
       <div className={styles.grid.colStart2}>
         <div id="mySkills" className={styles.containerDiv}>
           {/* div for AOS title & border */}
-          <div
-            data-aos="fade-right"
-           
-            data-aos-duration="2000"
-          >
+          <div data-aos="fade-right" data-aos-duration="2000">
             {/* title */}
             <h2 className={`${styles.body.title} ${styles.pt6}`}>
               Mes compétences
@@ -48,7 +35,6 @@ export const SectionSkills = () => {
             {/* div for justify-content */}
             <div
               data-aos="flip-left"
-            
               data-aos-duration="2000"
               className={styles.flex.justifyCenter}
             >
@@ -64,7 +50,6 @@ export const SectionSkills = () => {
             {/* div for justify-content*/}
             <div
               data-aos="flip-right"
-              
               data-aos-duration="2000"
               className={styles.flex.justifyCenter}
             >
@@ -95,8 +80,6 @@ export const SectionSkills = () => {
             {/* div for justify-content*/}
             <div
               data-aos="flip-right"
-              
-              
               data-aos-duration="2000"
               className={styles.flex.justifyCenter}
             >
@@ -112,7 +95,6 @@ export const SectionSkills = () => {
             {/* div for justify-content*/}
             <div
               data-aos="flip-left"
-              
               data-aos-duration="2000"
               className={styles.flex.justifyCenter}
             >
@@ -128,7 +110,6 @@ export const SectionSkills = () => {
             {/* div for justify-content*/}
             <div
               data-aos="flip-right"
-              
               data-aos-duration="2000"
               className={styles.flex.justifyCenter}
             >

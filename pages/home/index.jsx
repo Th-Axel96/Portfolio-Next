@@ -6,8 +6,7 @@ import { SectionContact } from "@src/components/contact";
 import { ParticlesAnimate } from "@src/components/particlesAnimate";
 
 import Loader from "@src/components/loader";
-// scrollProgress 
-
+// scrollProgress
 
 // use state
 import React, { useState, useEffect } from "react";
@@ -24,14 +23,13 @@ const HomePage = () => {
   return loader ? (
     <Loader />
   ) : (
-    <> 
-   
+    <>
       <HeaderGlobal />
-      <ParticlesAnimate />
       <AboutMe />
       <SectionSkills />
       <SectionProject />
       <SectionContact />
+      <ParticlesAnimate />
     </>
   );
 };
