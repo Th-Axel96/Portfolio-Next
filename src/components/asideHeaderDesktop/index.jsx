@@ -21,10 +21,16 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 // icon copyright
 import CopyrightIcon from "@mui/icons-material/Copyright";
 
+
+
 // aside for desktop
 export const AsideHeader = () => {
   return (
     <aside className={`${styles.grid.gridCol6}`}>
+      
+
+     
+     
       {/* div for fixed bar */}
       <div className={styles.aside.asideBg}>
         {/* content aside fixed */}

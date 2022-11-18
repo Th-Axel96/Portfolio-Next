@@ -59,7 +59,7 @@ export const styles = {
       "transition duration-1000 hover:-translate-y-2 hover:rotate-12 text-blue-400",
     spanTyping:
       "flex text-white font-open text-3xl border-b-2 border-blue-400 pt-4",
-    btnEncre: "flex justify-center items-end text-white -mt-40 animate-bounce",
+    btnEncre: "flex justify-center items-end text-white -mt-40 animate-bounce hover:text-blue-500 duration-1000",
   },
 
   // hidden block

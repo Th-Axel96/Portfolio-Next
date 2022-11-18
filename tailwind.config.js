@@ -3,6 +3,9 @@ module.exports = {
   content: ["./pages/**/*.{js,ts,jsx,tsx}", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      width: {
+        '146': '37.5rem',
+      },
       backgroundImage: {
         "person-coding": "url('/person-coding-blur.jpg')",
       },

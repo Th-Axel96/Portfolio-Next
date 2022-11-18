@@ -81,11 +81,11 @@ export const styles = {
     contactInput:
       "h-20 w-72 bg-blue-200 border border-black rounded-lg z-0 mb-10 mr-5 pl-4",
     contactInputMessage:
-      "h-32 w-72 bg-blue-200 border border-black rounded-lg z-0 mb-8 mr-3 pr-2 pl-4",
+      "h-32 w-72 md:w-146 bg-blue-200 border border-black rounded-lg z-0 mb-8 mr-3 pr-2 pl-4",
 
     // btn styles
     contactBtn:
-      "inline-block px-6 py-2.5 bg-gray-600 text-white font-open font-semibold text-sm lg:text-lg leading-tight uppercase rounded shadow-md hover:bg-blue-400 hover:shadow-lg focus:bg-blue-400 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-400 active:shadow-lg transition duration-1000 ease-in-out mt-8 mb-24",
+      "inline-block px-6 py-2.5 bg-gray-600 text-white font-open font-semibold text-sm lg:text-lg leading-tight uppercase rounded shadow-md hover:bg-blue-400 hover:shadow-lg focus:bg-blue-400 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-400 active:shadow-lg transition duration-1000 ease-in-out mt-8 mb-24 hover:scale-110",
     Checkbox:
       "form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer",
 LabelChecbbox:"font-open font-semibold"

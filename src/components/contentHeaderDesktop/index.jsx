@@ -44,7 +44,7 @@ export const ContentHeader = () => {
             </div>
             <div className={styles.contentHeader.btnEncre}>
               <AnchorLink href="#aboutMe">
-                <KeyboardDoubleArrowDownIcon sx={{ fontSize: 75 }} />
+                <KeyboardDoubleArrowDownIcon sx={{ fontSize: 75  }} />
               </AnchorLink>
             </div>
           </div>
