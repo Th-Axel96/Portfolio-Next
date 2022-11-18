@@ -27,8 +27,10 @@ export const styles = {
       "transition duration-1000 hover:-translate-y-2 hover:rotate-12 text-blue-400",
     // social icon
     socialIconBg:
-      "w-12 h-12 my-10 bg-gray-600 rounded-full hover:bg-blue-400 hover:animate-pulse cursor-pointer ",
-    socialIcon: "text-3xl text-white",
+      "w-10 h-10 my-10 bg-gray-600 rounded-full hover:bg-blue-400 hover:animate-pulse cursor-pointer ",
+
+    socialIcon:
+      "text-4xl text-white hover:transition hover:scale-110 hover:translate-x-1 hover:translate-y-1 hover:ease-in-out hover:duration-1000",
     copyrightIco: "text-lg text-white mr-2",
     copyrightDiv: "h-40 text-white",
   },

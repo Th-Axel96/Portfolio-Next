@@ -73,7 +73,7 @@ export const SectionProject = () => {
                 <div className={styles.p6}>
                   <h5 className={styles.card.titleProject}>TP Landing Page</h5>
                   <p className={styles.card.paragraph}>
-                    Projet réaliser avec Bootstrap, reproduire une Landing Page.
+                    Projet réalisé avec Bootstrap, reproduire une Landing Page.
                   </p>
                   <div className={styles.flex.justifyCenter}>
                     <a
@@ -260,7 +260,7 @@ export const SectionProject = () => {
                 </div>
 
                 <div className={styles.p6}>
-                  <h5 className={styles.card.titleProject}>Future projet</h5>
+                  <h5 className={styles.card.titleProject}>Futur projet</h5>
                   <p className={styles.card.paragraph}>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit!
                   </p>
@@ -296,7 +296,7 @@ export const SectionProject = () => {
                 </div>
 
                 <div className={styles.p6}>
-                  <h5 className={styles.card.titleProject}>Future projet</h5>
+                  <h5 className={styles.card.titleProject}>Futur projet</h5>
                   <p className={styles.card.paragraph}>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit!
                   </p>
