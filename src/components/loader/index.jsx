@@ -1,19 +1,17 @@
 import React from "react";
-import LoaderImg from "./1476.gif";
-import Image from "next/image";
-import Bitmoji from "../../assets/img/bitmoji.png";
+
 import { ParticlesAnimate } from "../particlesAnimate";
 
 // import function for LOADER
 import { FuséeInterval } from "../fuséeInterval";
-import { Countdown } from "../countdownLoader";
 
+import { MotionSky } from "../motionSky";
 // libray framerMotion
-import { motion } from "framer-motion";
 
 export default function Loader() {
   return (
-    <div className="overflow-x-hidden">
+    <div className="overflow-x-hidden overflow-y-hidden">
+      {/* <MotionSky /> */}
       {/* <Countdown /> */}
       <FuséeInterval />
       <ParticlesAnimate />

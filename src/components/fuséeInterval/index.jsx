@@ -16,28 +16,31 @@ import { motion } from "framer-motion";
 //     };
 //   }, []);
 
+import { MotionSky } from "../motionSky";
 import { Countdown } from "../countdownLoader";
 
 export const FuséeInterval = () => {
   return (
     <>
+      {/* motion SKY animate IMG */}
+      <div className="flex justify-center w-full ">
+        <MotionSky />
+      </div>
       <div className="flex w-full h-96 justify-center items-center">
         {/* styles for decompteur need styles */}
         <div className="text-2xl font-open font-bold flex  flex-col items-center  bg-white/20 p-4 rounded-2xl border-t-4 border-blue-400 hover:scale-150 hover:duration-1000 transition hover:ease-in-out">
           <p className="pb-4">Chargement...</p>
           <div className="">
-
-          <Countdown  />
+            <Countdown />
           </div>
-         
         </div>
       </div>
-      <div className="flex w-full md:h-72 h-60 items-end justify-center">
+      <div className="flex w-full md:h-72 h-60 items-end justify-center ">
         {/* // fusée 1 */}
         <div className="-rotate-6">
           <motion.div
             animate={{
-              y: -800,
+              y: -1000,
               x: -400,
             }}
             transition={{
@@ -52,7 +55,7 @@ export const FuséeInterval = () => {
         <div className="md:px-12  rotate-3">
           <motion.div
             animate={{
-              y: -800,
+              y: -2000,
               x: 200,
             }}
             transition={{

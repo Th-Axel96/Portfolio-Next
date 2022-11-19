@@ -17,7 +17,7 @@ const HomePage = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoader(false);
-    }, 5000);
+    },0);
   }, []);
 
   return loader ? (
@@ -29,7 +29,9 @@ const HomePage = () => {
       <SectionSkills />
       <SectionProject />
       <SectionContact />
+      
       <ParticlesAnimate />
+      
     </>
   );
 };

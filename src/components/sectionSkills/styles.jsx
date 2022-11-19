@@ -47,7 +47,7 @@ export const styles = {
   },
   // box ICON skilss
   boxIconSkills:
-   
-  "shadow-lg shadow-black flex flex-col text-white font-open text-lg font-bold uppercase justify-center items-center w-32 h-40 bg-black rounded-3xl border-t-4 border-blue-400 p-4 mb-12 hover:scale-110 transition duration-1000 ease-in-out hover:bg-gray-300 hover:text-black",
-boxHoverIcon:"h-full w-full transition duration-1000 hover:translate-y-2 hover:rotate-12"
+    "shadow-xl shadow-blue-400  flex flex-col font-open text-lg font-bold uppercase justify-center items-center w-32 h-40 bg-white/10 rounded-3xl border-t-8 border-blue-400 p-4 mb-12 hover:scale-110 transition duration-1000 ease-in-out hover:bg-black hover:text-white",
+  boxHoverIcon:
+    "h-full w-full transition duration-1000 hover:translate-y-2 hover:rotate-12 hover:scale-110",
 };
