@@ -5,6 +5,8 @@ import TpMazeBank from "../../assets/img/tp-mazebank.png";
 import CvVanilla from "../../assets/img/cv-axel-html.png";
 import TpWanaAgency from "../../assets/img/wana-agency.png";
 
+
+
 import ToolsImg from "../../assets/img/under-tools.png";
 export const SectionProject = () => {
   return (
@@ -15,7 +17,11 @@ export const SectionProject = () => {
         {/* div contenair */}
         <div id="myProject" className={styles.containerDiv}>
           {/* div for AOS title & border */}
-          <div data-aos="fade-right" data-aos-duration="2000">
+          <div
+            data-aos="fade-right"
+           
+            data-aos-duration="2000"
+          >
             {/* title */}
             <h2 className={styles.body.title}>Mes projets</h2>
             {/* div for border */}
@@ -36,15 +42,22 @@ export const SectionProject = () => {
           <div className={styles.card.CardGrid}>
             {/* cards Landing Page */}
             {/* flex & hover Card */}
-            <div className={`${styles.flex.justifyCenter} `}>
+            <div
+              className={`${styles.flex.justifyCenter}  ${styles.card.CardHover}`}
+            >
               <div
                 data-aos="flip-left"
+                
                 data-aos-duration="2000"
-                className={`${styles.card.contentCard}  ${styles.card.CardHover}`}
+                className={styles.card.contentCard}
               >
                 {/* Link a englob content */}
                 {/* height IMG */}
-                <div data-mdb-ripple="true" data-mdb-ripple-color="light">
+                <div
+                  className={styles.h36}
+                  data-mdb-ripple="true"
+                  data-mdb-ripple-color="light"
+                >
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
@@ -78,15 +91,22 @@ export const SectionProject = () => {
             </div>
             {/* cards Maze Bank */}
             {/* flex & hover card */}
-            <div className={`${styles.flex.justifyCenter}  `}>
+            <div
+              className={`${styles.flex.justifyCenter}  ${styles.card.CardHover}`}
+            >
               <div
                 data-aos="flip-right"
+                
                 data-aos-duration="2000"
-                className={`${styles.card.contentCard}  ${styles.card.CardHover}`}
+                className={styles.card.contentCard}
               >
                 {/* Link a englob content */}
                 {/* height IMG */}
-                <div data-mdb-ripple="true" data-mdb-ripple-color="light">
+                <div
+                  className={styles.h36}
+                  data-mdb-ripple="true"
+                  data-mdb-ripple-color="light"
+                >
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
@@ -118,15 +138,22 @@ export const SectionProject = () => {
             </div>
             {/* cards Wana Agency */}
             {/* flex & hover card */}
-            <div className={`${styles.flex.justifyCenter}  `}>
+            <div
+              className={`${styles.flex.justifyCenter}  ${styles.card.CardHover}`}
+            >
               <div
                 data-aos="flip-left"
+                
                 data-aos-duration="2000"
-                className={`${styles.card.contentCard}  ${styles.card.CardHover}`}
+                className={styles.card.contentCard}
               >
                 {/* Link a englob content */}
                 {/* height IMG */}
-                <div data-mdb-ripple="true" data-mdb-ripple-color="light">
+                <div
+                  className={styles.h36}
+                  data-mdb-ripple="true"
+                  data-mdb-ripple-color="light"
+                >
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
@@ -161,15 +188,22 @@ export const SectionProject = () => {
             </div>
             {/* cards CV HTML*/}
             {/* flex & hover card */}
-            <div className={`${styles.flex.justifyCenter} `}>
+            <div
+              className={`${styles.flex.justifyCenter}  ${styles.card.CardHover}`}
+            >
               <div
                 data-aos="flip-right"
+                
                 data-aos-duration="2000"
-                className={`${styles.card.contentCard}  ${styles.card.CardHover}`}
+                className={styles.card.contentCard}
               >
                 {/* Link a englob content */}
                 {/* height IMG */}
-                <div data-mdb-ripple="true" data-mdb-ripple-color="light">
+                <div
+                  data-mdb-ripple="true"
+                  data-mdb-ripple-color="light"
+                  className={styles.h36}
+                >
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
@@ -204,15 +238,22 @@ export const SectionProject = () => {
             </div>
             {/* futur Projet 1 */}
             {/* flex & hover card */}
-            <div className={`${styles.flex.justifyCenter} `}>
+            <div
+              className={`${styles.flex.justifyCenter}  ${styles.card.CardHover}`}
+            >
               <div
                 data-aos="flip-right"
+                
                 data-aos-duration="2000"
-                className={`${styles.card.contentCard}  ${styles.card.CardHover}`}
+                className={styles.card.contentCard}
               >
                 {/* Link a englob content */}
                 {/* height IMG */}
-                <div data-mdb-ripple="true" data-mdb-ripple-color="light">
+                <div
+                  data-mdb-ripple="true"
+                  data-mdb-ripple-color="light"
+                  className={styles.h36}
+                >
                   <div className={styles.card.IcoUnderConstruction}>
                     <Image src={ToolsImg} alt="tools image" />
                   </div>
@@ -233,15 +274,22 @@ export const SectionProject = () => {
             </div>
             {/* futur project 2 */}
             {/* flex & hover card */}
-            <div className={`${styles.flex.justifyCenter} `}>
+            <div
+              className={`${styles.flex.justifyCenter}  ${styles.card.CardHover}`}
+            >
               <div
                 data-aos="flip-right"
+                
                 data-aos-duration="2000"
-                className={`${styles.card.contentCard}  ${styles.card.CardHover}`}
+                className={styles.card.contentCard}
               >
                 {/* Link a englob content */}
                 {/* height IMG */}
-                <div data-mdb-ripple="true" data-mdb-ripple-color="light">
+                <div
+                  className={styles.h36}
+                  data-mdb-ripple="true"
+                  data-mdb-ripple-color="light"
+                >
                   <div className={styles.card.IcoUnderConstruction}>
                     <Image src={ToolsImg} alt="tools image" />
                   </div>

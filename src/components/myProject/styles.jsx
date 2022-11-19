@@ -52,17 +52,16 @@ export const styles = {
 
   card: {
     contentCard:
-      " rounded-3xl shadow-2xl mx-4  hover:bg-black hover:text-white shadow-blue-400 bg-white/10 font-open max-w-xs mt-8 mb-8 border-t-8 border-blue-400 transition duration-1000 ",
+      " rounded-3xl shadow-2xl  shadow-blue-400 bg-white/10 hover:text-white  font-open max-w-xs mt-8 mx-4 mb-8 border-t-8 border-blue-400 transition duration-1000 hover:bg-black  ease-in-out",
     titleProject:
-      "transition duration-1000 uppercase flex justify-center text-xl font-open font-bold mb-4",
+      "uppercase flex justify-center text-xl font-open font-bold mb-4",
     paragraph:
-      " text-center font-open text-sm lg:text-lg font-semibold border-y-2 border-blue-400 transition duration-1000 hover:border-white py-4 h-32 flex items-center",
+      " text-center font-open text-sm lg:text-lg font-semibold border-y-2 border-gray-400 py-4 h-32 flex items-center",
     CardImg: "rounded-t-2xl ",
     btnLink:
-      "flex  shadow-lg shadow-blue-400 inline-block px-6 py-2.5 bg-blue-400/50 font-open font-bold text-md  lg:text-lg leading-tight uppercase rounded-xl hover:bg-blue-400 focus:bg-blue-400 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-400  transition duration-1000 ease-in-out mt-6 hover:scale-110 ease-in-out",
+      "shadow-md  shadow-blue-400 px-6 py-2.5 bg-blue-400/60  font-bold  text-sm lg:text-lg leading-tight uppercase rounded-xl    transition duration-1000 mt-6 hover:scale-110 ease-in-out",
     CardGrid: "lg:grid lg:grid-cols-3 md:grid md:grid-cols-2",
-    CardHover:
-      " duration-1000 ease-in-out  hover:bg-black hover:text-white  ",
+    CardHover: "transition hover:scale-110   ease-in-out duration-1000 ",
     IcoUnderConstruction:
       "h-full w-full flex items-center justify-center pt-2 pb-2",
   },
