@@ -13,8 +13,8 @@ import { motion } from "framer-motion";
 
 export default function Loader() {
   return (
-    <div className="h-screen w-screen ">
-      <Countdown />
+    <div className="overflow-x-hidden">
+      {/* <Countdown /> */}
       <FuséeInterval />
       <ParticlesAnimate />
     </div>
