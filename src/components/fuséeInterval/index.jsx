@@ -49,7 +49,7 @@ export const FuséeInterval = () => {
               duration: 7,
             }}
           >
-            <Image height="100px" width="100px" src={RocketImg} />
+            <Image height="60px" width="60px" src={RocketImg} />
           </motion.div>
         </div>
         {/* // fusée 2 */}
@@ -65,7 +65,7 @@ export const FuséeInterval = () => {
               duration: 5,
             }}
           >
-            <Image height="100px" width="100px" src={RocketImg} />
+            <Image height="60px" width="60px" src={RocketImg} />
           </motion.div>
         </div>
         {/* // fusée 3 */}
@@ -85,7 +85,7 @@ export const FuséeInterval = () => {
               duration: 5,
             }}
           >
-            <Image height="100px" width="100px" src={RocketImg} />
+            <Image height="60px" width="60px" src={RocketImg} />
           </motion.div>
         </div>
         {/* fusée 4 */}
@@ -100,7 +100,7 @@ export const FuséeInterval = () => {
               duration: 5,
             }}
           >
-            <Image height="100px" width="100px" src={RocketImg} />
+            <Image height="60px" width="60px" src={RocketImg} />
           </motion.div>
         </div>
       </div>
