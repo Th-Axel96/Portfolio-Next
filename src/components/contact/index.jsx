@@ -6,7 +6,8 @@ import { FormContact } from "../formContact";
 import EmailIcon from "@mui/icons-material/Email";
 import PhoneIphoneIcon from "@mui/icons-material/PhoneIphone";
 import LocationCityIcon from "@mui/icons-material/LocationCity";
-import { FuséeAnimate1 } from "../_object/fuséeAnimate";
+
+
 
 export const SectionContact = () => {
   return (
@@ -71,7 +72,6 @@ export const SectionContact = () => {
             </div>
           </div>
         </div>
-        {/* <FuséeAnimate1 /> */}
       </div>
     </div>
   );

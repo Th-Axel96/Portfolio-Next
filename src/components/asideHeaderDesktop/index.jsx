@@ -5,6 +5,7 @@ import bitmoji from "../../assets/img/bitmoji.png";
 import React from "react";
 import ReactDOM from "react-dom";
 import AnchorLink from "react-anchor-link-smooth-scroll-v2";
+import { motion } from "framer-motion";
 
 // icon NAV
 import HomeIcon from "@mui/icons-material/Home";
@@ -20,17 +21,12 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 
 // icon copyright
 import CopyrightIcon from "@mui/icons-material/Copyright";
-
-
+import { Transition } from "react-spring";
 
 // aside for desktop
 export const AsideHeader = () => {
   return (
     <aside className={`${styles.grid.gridCol6}`}>
-      
-
-     
-     
       {/* div for fixed bar */}
       <div className={styles.aside.asideBg}>
         {/* content aside fixed */}
@@ -88,54 +84,109 @@ export const AsideHeader = () => {
         <nav className={styles.aside.navAside}>
           <ul>
             {/* link home */}
-            <li className={styles.aside.navLi}>
-              <AnchorLink
-                className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
-                href="#accueilDesktop"
-              >
-                <HomeIcon className={styles.aside.navIcon} />
-                Accueil
-              </AnchorLink>
-            </li>
+            <motion.div
+              whileHover={{
+                x: 70,
+
+                scale: 1.3,
+              }}
+              transition={{
+                duration: 1.2,
+              }}
+            >
+              <li className={styles.aside.navLi}>
+                <AnchorLink
+                  className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
+                  href="#accueilDesktop"
+                >
+                  <HomeIcon className={styles.aside.navIcon} />
+                  Accueil
+                </AnchorLink>
+              </li>
+            </motion.div>
             {/* link about me */}
-            <li>
-              <AnchorLink
-                href="#aboutMe"
-                className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
-              >
-                <PersonIcon className={styles.aside.navIcon} />A propos
-              </AnchorLink>
-            </li>
+            <motion.div
+              whileHover={{
+                x: 70,
+
+                scale: 1.3,
+              }}
+              transition={{
+                duration: 1.2,
+              }}
+            >
+              <li>
+                <AnchorLink
+                  href="#aboutMe"
+                  className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
+                >
+                  <PersonIcon className={styles.aside.navIcon} />A propos
+                </AnchorLink>
+              </li>
+            </motion.div>
             {/* link skils */}
-            <li className={styles.aside.navLi}>
-              <AnchorLink
-                className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
-                href="#mySkills"
-              >
-                <DataObjectIcon className={styles.aside.navIcon} />
-                Mes compétences
-              </AnchorLink>
-            </li>
+            <motion.div
+              whileHover={{
+                x: 70,
+
+                scale: 1.3,
+              }}
+              transition={{
+                duration: 1.2,
+              }}
+            >
+              <li className={styles.aside.navLi}>
+                <AnchorLink
+                  className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
+                  href="#mySkills"
+                >
+                  <DataObjectIcon className={styles.aside.navIcon} />
+                  Mes compétences
+                </AnchorLink>
+              </li>
+            </motion.div>
             {/* link project */}
-            <li>
-              <AnchorLink
-                className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
-                href="#myProject"
-              >
-                <TopicIcon className={styles.aside.navIcon} />
-                Mes projets
-              </AnchorLink>
-              {/* link contact */}
-            </li>
-            <li className={styles.aside.navLi}>
-              <AnchorLink
-                className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
-                href="#contact"
-              >
-                <CallIcon className={styles.aside.navIcon} />
-                Contact
-              </AnchorLink>
-            </li>
+            <motion.div
+              whileHover={{
+                x: 70,
+
+                scale: 1.3,
+              }}
+              transition={{
+                duration: 1.2,
+              }}
+            >
+              <li>
+                <AnchorLink
+                  className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
+                  href="#myProject"
+                >
+                  <TopicIcon className={styles.aside.navIcon} />
+                  Mes projets
+                </AnchorLink>
+              </li>
+            </motion.div>
+            {/* link contact */}
+            <motion.div
+              whileHover={{
+                x: 70,
+
+                scale: 1.3,
+              }}
+              transition={{
+                duration: 1.2,
+              }}
+            >
+              <li className={styles.aside.navLi}>
+                <AnchorLink
+                  className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
+                  href="#contact"
+                >
+                  <CallIcon className={styles.aside.navIcon} />
+                  Contact
+                </AnchorLink>
+              </li>
+            </motion.div>
           </ul>
         </nav>
         {/* copyright */}

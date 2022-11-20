@@ -22,7 +22,8 @@ export const styles = {
     navAside: "pl-8 text-xl text-gray-400",
     navIcon: "text-3xl mr-2",
     navLi: "py-8",
-    HoverBlue: "transition duration-1000 ease-in-out hover:text-blue-400",
+    HoverBlue:
+      "transition duration-1000 ease-in-out hover:text-blue-400 focus:text-blue-400 active:text-blue-400",
     spanHover:
       "transition duration-1000 hover:-translate-y-2 hover:rotate-12 text-blue-400",
     // social icon
