@@ -25,7 +25,7 @@ export const styles = {
 
   // height
   hFull: "h-full",
-  h36: "h-36",
+  h36: "",
 
   fix: "fixed",
 
@@ -56,7 +56,7 @@ export const styles = {
     titleProject:
       "uppercase flex justify-center text-xl font-open font-bold mb-4",
     paragraph:
-      " text-center font-open text-sm lg:text-lg font-semibold border-y-2 border-gray-400 py-4 h-32 flex items-center",
+      " text-center font-open text-sm lg:text-lg font-semibold border-y-2 border-blue-400 py-4 h-32 flex items-center",
     CardImg: "rounded-t-2xl ",
     btnLink:
       "shadow-md  shadow-blue-400 px-6 py-2.5 bg-blue-400/60  font-bold  text-sm lg:text-lg leading-tight uppercase rounded-xl    transition duration-1000 mt-6 hover:scale-110 ease-in-out",

@@ -37,26 +37,28 @@ export const FuséeInterval = () => {
       </div>
       <div className="flex w-full md:h-72 h-60 items-end justify-center ">
         {/* // fusée 1 */}
-        <div className="-rotate-6">
+        <div className="-rotate-1">
           <motion.div
             animate={{
-              y: -1000,
-              x: -400,
+              y: -1500,
+              x: -40,
+              rotate: [0, -6, 6, -6, 6, -6, 6],
             }}
             transition={{
               delay: 1,
-              duration: 5,
+              duration: 7,
             }}
           >
             <Image height="100px" width="100px" src={RocketImg} />
           </motion.div>
         </div>
         {/* // fusée 2 */}
-        <div className="md:px-12  rotate-3">
+        <div className="md:px-12  rotate-1">
           <motion.div
             animate={{
-              y: -2000,
-              x: 200,
+              y: -1000,
+              x: [0, 50, -50, 0],
+              rotate: [-1, 15, -15, 2],
             }}
             transition={{
               delay: 1.2,
@@ -67,11 +69,16 @@ export const FuséeInterval = () => {
           </motion.div>
         </div>
         {/* // fusée 3 */}
-        <div className=" -rotate-6">
+        <div className=" -rotate-1">
           <motion.div
             animate={{
-              y: -1000,
-              x: -300,
+              y: -1500,
+              x: [0 ,100,-100],
+              rotate: [
+                0, 3, -3, 3, -3, 0, 3, -3, 3, -3, 0, 3, -3, 3, -3, 0, 3, -3, 3,
+                -3, 0, 3, -3, 3, -3, 0, 3, -3, 3, -3, 0, 3, -3, 3, -3, 0, 3, -3,
+                3, -3, 0, 3, -3, 3, -3,
+              ],
             }}
             transition={{
               delay: 1.5,
@@ -82,11 +89,11 @@ export const FuséeInterval = () => {
           </motion.div>
         </div>
         {/* fusée 4 */}
-        <div className=" md:pl-12 -rotate-6">
+        <div className=" md:pl-12 -rotate-1">
           <motion.div
             animate={{
-              y: -800,
-              x: -500,
+              y: -1800,
+              x: -50,
             }}
             transition={{
               delay: 1.5,

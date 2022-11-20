@@ -6,6 +6,7 @@ import { FormContact } from "../formContact";
 import EmailIcon from "@mui/icons-material/Email";
 import PhoneIphoneIcon from "@mui/icons-material/PhoneIphone";
 import LocationCityIcon from "@mui/icons-material/LocationCity";
+import { FuséeAnimate1 } from "../_object/fuséeAnimate";
 
 export const SectionContact = () => {
   return (
@@ -15,10 +16,7 @@ export const SectionContact = () => {
       <div className={styles.grid.colStart2}>
         <div id="contact" className={`${styles.containerDiv}`}>
           {/* div for AOS title & border */}
-          <div
-            data-aos="fade-right"
-            data-aos-duration="2000"
-          >
+          <div data-aos="fade-right" data-aos-duration="2000">
             {/* title */}
             <h2 className={styles.body.title}>Contact</h2>
             {/* div for border title*/}
@@ -73,6 +71,7 @@ export const SectionContact = () => {
             </div>
           </div>
         </div>
+        {/* <FuséeAnimate1 /> */}
       </div>
     </div>
   );

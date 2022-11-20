@@ -16,7 +16,7 @@ export const styles = {
     itemsCenter: "flex items-center",
     justifyNameTyping: "h-5/6 flex flex-col justify-center items-center",
     colCenter: "flex flex-col justify-center xl:mr-32",
-    lgFlexRow:"lg:flex lg:flex-row justify-center"
+    lgFlexRow: "lg:flex lg:flex-row justify-center",
   },
 
   // background
@@ -34,7 +34,7 @@ export const styles = {
   pt6: "pt-6",
   p6: "p-6",
   m4: "p-4",
-  lgPx:"lg:mx-8 xl:mx-16",
+  lgPx: "lg:mx-8 xl:mx-16",
 
   // container
   containerDiv: "mx-4 xl:ml-32",
@@ -68,9 +68,8 @@ export const styles = {
 
   // contact
   contact: {
-    
     containerContact:
-      "bg-black text-white py-4 w-60 lg:w-72 xl:w-80 border-t-4 border-blue-400 flex flex-col justify-center items-center rounded-xl hover:scale-110 transition duration-1000 ease-in-out hover:bg-gray-300 hover:text-black mb-8",
+      "shadow-2xl shadow-blue-400 bg-white-400/10   py-4 w-60 lg:w-72 xl:w-80 border-t-8 border-blue-400 flex flex-col justify-center items-center rounded-3xl hover:scale-110 transition duration-1000 ease-in-out hover:bg-black hover:text-white mb-8",
     sizeIcon: "text-3xl mb-4",
   },
 };
