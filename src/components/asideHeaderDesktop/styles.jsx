@@ -21,7 +21,7 @@ export const styles = {
     h2Name: "text-white text-4xl font-open font-bold flex justify-center pt-8",
     navAside: "pl-8 text-xl text-gray-400",
     navIcon: "text-3xl mr-2",
-    navLi: "py-8",
+    navLi: "my-8",
     HoverBlue:
       "transition duration-1000 ease-in-out hover:text-blue-400 focus:text-blue-400 active:text-blue-400",
     spanHover:

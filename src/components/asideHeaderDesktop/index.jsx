@@ -88,7 +88,7 @@ export const AsideHeader = () => {
               whileHover={{
                 x: 70,
 
-                scale: 1.3,
+                scale: 1.2,
               }}
               transition={{
                 duration: 1.2,
@@ -109,7 +109,7 @@ export const AsideHeader = () => {
               whileHover={{
                 x: 70,
 
-                scale: 1.3,
+                scale: 1.2,
               }}
               transition={{
                 duration: 1.2,
@@ -129,7 +129,7 @@ export const AsideHeader = () => {
               whileHover={{
                 x: 70,
 
-                scale: 1.3,
+                scale: 1.2,
               }}
               transition={{
                 duration: 1.2,
@@ -150,7 +150,7 @@ export const AsideHeader = () => {
               whileHover={{
                 x: 70,
 
-                scale: 1.3,
+                scale: 1.2,
               }}
               transition={{
                 duration: 1.2,
@@ -171,7 +171,7 @@ export const AsideHeader = () => {
               whileHover={{
                 x: 70,
 
-                scale: 1.3,
+                scale: 1.2,
               }}
               transition={{
                 duration: 1.2,
