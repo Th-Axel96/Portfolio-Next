@@ -35,6 +35,7 @@ export const FuséeInterval = () => {
 
         <motion.div
           className="z-20"
+          
           animate={{
             rotate: [
               1, -1, -2, -1, 1, 2, 3, 2, 1, -1, -2, -3, 1, -1, -2, -1, 1, 2, 3,
@@ -42,13 +43,14 @@ export const FuséeInterval = () => {
             ],
             x: [5, -5, -5, 5, -5, 5, -5],
             y: [5, -5, -5, 5, -5, 5, -5],
+            scale:1.8
           }}
           transition={{
             times: [0, 1, 1],
             duration: 5,
           }}
         >
-          <div className="text-2xl font-open font-bold flex  flex-col items-center shadow-xl shadow-blue-400  bg-white/20 p-4 rounded-2xl border-t-4 border-blue-400 hover:scale-150 hover:duration-1000 transition hover:ease-in-out">
+          <div className="text-2xl font-open font-bold flex  flex-col items-center shadow-xl shadow-blue-400  bg-white/20 p-4 rounded-2xl border-t-4 border-blue-400">
             {/* exemples MOTION  */}
             {/* <motion.div
               style={{
