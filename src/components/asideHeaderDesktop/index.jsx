@@ -64,7 +64,8 @@ export const AsideHeader = () => {
                   duration: 2,
                   ease: "easeInOut",
                   repeat: Infinity,
-                  repeatDelay: 4,
+                  repeatDelay: 7,
+                  delay:1
                 }}
               >
                 <GitHubIcon className={styles.aside.socialIcon} />
@@ -92,8 +93,8 @@ export const AsideHeader = () => {
                   duration: 2,
                   ease: "easeInOut",
                   repeat: Infinity,
-                  repeatDelay: 4,
-                  delay: 2,
+                  repeatDelay: 7,
+                  delay: 4,
                 }}
               >
                 <LinkedInIcon className={`${styles.aside.socialIcon} `} />
@@ -115,8 +116,8 @@ export const AsideHeader = () => {
                   duration: 2,
                   ease: "easeInOut",
                   repeat: Infinity,
-                  repeatDelay: 4,
-                  delay: 4,
+                  repeatDelay: 7,
+                  delay: 7,
                 }}
               >
                 <FileOpenIcon className={styles.aside.socialIcon} />
