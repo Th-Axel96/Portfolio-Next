@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 // function Timer decompte 
 
 export const Countdown = (props) => {
-  const { startingSeconds = 5 } = props;
+  const { startingSeconds = 3 } = props;
 
   const [secs, setSeconds] = useState(startingSeconds);
   useEffect(() => {

@@ -21,7 +21,6 @@ import { motion } from "framer-motion";
 
 import { MotionSky } from "../motionSky";
 import { Countdown } from "../countdownLoader";
-import { duration } from "@mui/material";
 
 export const FuséeInterval = () => {
   return (
@@ -35,7 +34,6 @@ export const FuséeInterval = () => {
 
         <motion.div
           className="z-20"
-          
           animate={{
             rotate: [
               1, -1, -2, -1, 1, 2, 3, 2, 1, -1, -2, -3, 1, -1, -2, -1, 1, 2, 3,
@@ -43,7 +41,7 @@ export const FuséeInterval = () => {
             ],
             x: [5, -5, -5, 5, -5, 5, -5],
             y: [5, -5, -5, 5, -5, 5, -5],
-            scale:1.8
+            scale: 1.8,
           }}
           transition={{
             times: [0, 1, 1],
@@ -70,12 +68,23 @@ export const FuséeInterval = () => {
               }}
               transition={{ duration: 4, ease: "linear" }}
             /> */}
- 
-              <p className="pb-4">Chargement...</p>
-           
-            <div className="">
-              <Countdown />
+
+            <p className="pb-4">Chargement...</p>
+
+            <div className="pb-4">
+              <motion.div
+                style={{
+                  width: 0,
+                  height: 20,
+                }}
+                animate={{
+                  backgroundColor: ["#FF0000", "#FF9900", "#66CC00"],
+                  width: 150,
+                }}
+                transition={{ duration: 3 }}
+              />
             </div>
+            <Countdown />
           </div>
         </motion.div>
       </div>
@@ -89,8 +98,8 @@ export const FuséeInterval = () => {
               rotate: [0, -6, 6, -6, 6, -6, 6],
             }}
             transition={{
-              delay: 1,
-              duration: 7,
+              delay: 0.5,
+              duration: 4,
             }}
           >
             <Image height="60px" width="60px" src={RocketImg} />
@@ -105,8 +114,8 @@ export const FuséeInterval = () => {
               rotate: [-1, 15, -15, 2],
             }}
             transition={{
-              delay: 1.2,
-              duration: 5,
+              delay: 0.5,
+              duration: 4,
             }}
           >
             <Image height="60px" width="60px" src={RocketImg} />
@@ -125,8 +134,8 @@ export const FuséeInterval = () => {
               ],
             }}
             transition={{
-              delay: 1.5,
-              duration: 5,
+              delay: 0.5,
+              duration: 4,
             }}
           >
             <Image height="60px" width="60px" src={RocketImg} />
@@ -144,8 +153,8 @@ export const FuséeInterval = () => {
               ],
             }}
             transition={{
-              delay: 1.5,
-              duration: 5,
+              delay: 0.5,
+              duration: 4,
             }}
           >
             <Image height="60px" width="60px" src={RocketImg} />
