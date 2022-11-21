@@ -7,13 +7,13 @@ import AnchorLink from "react-anchor-link-smooth-scroll-v2";
 
 export const ContentHeader = () => {
   return (
-    <header>
-      // div for grid cols 6 &
-      <div className={`${styles.grid.gridCol6}`}>
-        {/* div for grid start & bg image ? */}
-        <div className={`${styles.grid.colStart2}  `}>
-          {/* div for BG header */}
-          <div id="accueilDesktop" className={styles.contentHeader.bgHeader}>
+    // div for grid cols 6 &
+    <div className={`${styles.grid.gridCol6}`}>
+      {/* div for grid start & bg image ? */}
+      <div className={`${styles.grid.colStart2}  `}>
+        {/* div for BG header */}
+        <div id="accueilDesktop" className={styles.contentHeader.bgHeader}>
+          <header>
             {/* div for blur */}
             <div className={styles.contentHeader.bgBlur}>
               {/* div for content text */}
@@ -47,9 +47,9 @@ export const ContentHeader = () => {
                 </AnchorLink>
               </div>
             </div>
-          </div>
+          </header>
         </div>
       </div>
-    </header>
+    </div>
   );
 };

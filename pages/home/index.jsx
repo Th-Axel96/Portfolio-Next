@@ -4,6 +4,7 @@ import { SectionSkills } from "@src/components/sectionSkills";
 import { SectionProject } from "@src/components/myProject";
 import { SectionContact } from "@src/components/contact";
 import { ParticlesAnimate } from "@src/components/particlesAnimate";
+import { AnimeFramer } from "@src/components/animeFrame";
 
 import Loader from "@src/components/loader";
 // scrollProgress
@@ -29,6 +30,7 @@ const HomePage = () => {
       <SectionSkills />
       <SectionProject />
       <SectionContact />
+      <AnimeFramer />
       <ParticlesAnimate />
       
     </>
