@@ -54,7 +54,21 @@ export const AsideHeader = () => {
             <div
               className={`${styles.aside.socialIconBg} ${styles.flex.justifyCenter} ${styles.flex.itemsCenter}`}
             >
-              <GitHubIcon className={styles.aside.socialIcon} />
+              <motion.div
+                animate={{
+                  scale: [1, 2, 2, 1],
+                  rotate: [0, 30, -0, -30, 0],
+                  y: [0, 5, -5, 5, 0],
+                }}
+                transition={{
+                  duration: 2,
+                  ease: "easeInOut",
+                  repeat: Infinity,
+                  repeatDelay: 4,
+                }}
+              >
+                <GitHubIcon className={styles.aside.socialIcon} />
+              </motion.div>
             </div>
           </a>
 
@@ -68,7 +82,22 @@ export const AsideHeader = () => {
             <div
               className={`${styles.aside.socialIconBg} ${styles.flex.justifyCenter} ${styles.flex.itemsCenter} ${styles.mx4}`}
             >
-              <LinkedInIcon className={`${styles.aside.socialIcon} `} />
+              <motion.div
+                animate={{
+                  scale: [1, 2, 2, 1],
+                  rotate: [0, 30, -0, -30, 0],
+                  y: [0, 5, -5, 5, 0],
+                }}
+                transition={{
+                  duration: 2,
+                  ease: "easeInOut",
+                  repeat: Infinity,
+                  repeatDelay: 4,
+                  delay: 2,
+                }}
+              >
+                <LinkedInIcon className={`${styles.aside.socialIcon} `} />
+              </motion.div>
             </div>
           </a>
           {/* link open CV */}
@@ -76,7 +105,22 @@ export const AsideHeader = () => {
             <div
               className={`${styles.aside.socialIconBg} ${styles.flex.justifyCenter} ${styles.flex.itemsCenter}`}
             >
-              <FileOpenIcon className={styles.aside.socialIcon} />
+              <motion.div
+                animate={{
+                  scale: [1, 2, 2, 1],
+                  rotate: [0, 30, -0, -30, 0],
+                  y: [0, 5, -5, 5, 0],
+                }}
+                transition={{
+                  duration: 2,
+                  ease: "easeInOut",
+                  repeat: Infinity,
+                  repeatDelay: 4,
+                  delay: 4,
+                }}
+              >
+                <FileOpenIcon className={styles.aside.socialIcon} />
+              </motion.div>
             </div>
           </a>
         </div>
