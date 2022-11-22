@@ -32,7 +32,7 @@ export const styles = {
     asideBg: "bg-gray-900 w-80 h-screen",
     h2Name:
       "text-white text-3xl  font-alice font-bold  flex justify-center py-8",
-    navAside: "pl-8 text-xl text-gray-400",
+    navAside: "pl-8 text-xl font-alice text-gray-400",
     navIcon: "text-3xl mr-2",
     navLi: "py-8",
     HoverBlue: "hover:text-blue-400 transition duration-1000 ease-in-out",
@@ -67,9 +67,9 @@ export const styles = {
   contentHeader: {
     bgHeader: "bg-person-coding bg-cover bg-no-repeat",
     bgBlur: " h-screen w-full",
-    nameHeader: "text-white text-5xl font-open font-bold",
+    nameHeader: "text-white text-5xl font-alice font-bold",
     spanTyping:
-      "flex text-white font-open text-3xl border-b-2 border-blue-400 pt-4",
+      "flex text-white font-alice text-3xl border-b-2 border-blue-400 pt-4",
     btnEncre: "flex justify-center items-end text-white -mt-40 animate-bounce",
   },
 
