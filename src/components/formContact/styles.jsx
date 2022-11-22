@@ -76,7 +76,7 @@ export const styles = {
 
     // label & input section contact
     LabelContact:
-      "bg-blue-200  font-open font-semibold text-lg leading-6 absolute -mt-2.5 z-10  pr-2 pl-2 ",
+      "bg-blue-100  font-open font-semibold text-lg leading-6 absolute -mt-2.5 z-10  pr-2 pl-2 ",
 
     contactInput:
       "h-20 w-72 bg-white/10 border border-black rounded-lg z-0 mb-10 mr-5 pl-4",
@@ -87,7 +87,7 @@ export const styles = {
     contactBtn:
       "inline-block px-6 py-2.5 bg-blue-400 shadow-lg  shadow-blue-400 font-open font-semibold text-sm lg:text-lg leading-tight uppercase rounded-2xl  hover:bg-blue-400 hover:shadow-lg focus:bg-blue-400 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-400 active:shadow-lg transition duration-1000 ease-in-out mt-8 mb-24 hover:scale-110",
     Checkbox:
-      "form-check-input appearance-none h-4 w-4 border border-blue-400 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer",
+      "form-check-input appearance-none h-4 w-4 border border-blue-200 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer",
 LabelChecbbox:"font-open font-semibold"
     },
 };

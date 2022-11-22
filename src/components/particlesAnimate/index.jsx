@@ -24,7 +24,7 @@ export const ParticlesAnimate = () => {
         autoPlay: true,
         background: {
           color: {
-            value: "BFDBFE",
+            value: "DBEAFE",
           },
           image: "",
           position: "50% 50%",
@@ -220,8 +220,10 @@ export const ParticlesAnimate = () => {
               retries: 0,
             },
           },
+
+          // snow
           color: {
-            value: "#fff",
+            value: "#60A5FA",
             animation: {
               h: {
                 count: 0,
@@ -286,7 +288,7 @@ export const ParticlesAnimate = () => {
           move: {
             angle: {
               offset: 0,
-              value: 10,
+              value: 30,
             },
             attract: {
               distance: 200,
@@ -357,11 +359,11 @@ export const ParticlesAnimate = () => {
           number: {
             density: {
               enable: false,
-              area: 800,
+              area: 1000,
               factor: 1000,
             },
             limit: 0,
-            value: 200,
+            value: 80,
           },
           opacity: {
             random: {

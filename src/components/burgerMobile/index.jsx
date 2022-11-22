@@ -1,11 +1,13 @@
 import { styles } from "./styles";
 import Link from "next/link";
-import React from "react";
+
 import ReactDOM from "react-dom";
 import AnchorLink from "react-anchor-link-smooth-scroll-v2";
+import { motion } from "framer-motion";
+import React, { useState } from "react";
 
 // icon burger
-import MenuIcon from "@mui/icons-material/Menu";
+
 import ClearIcon from "@mui/icons-material/Clear";
 
 import Image from "next/image";
@@ -18,6 +20,7 @@ import DataObjectIcon from "@mui/icons-material/DataObject";
 import TopicIcon from "@mui/icons-material/Topic";
 import CallIcon from "@mui/icons-material/Call";
 import FileOpenIcon from "@mui/icons-material/FileOpen";
+import BurgerImg from "../../assets/img/burger-bar.png";
 
 // icon Social
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -27,160 +30,198 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import CopyrightIcon from "@mui/icons-material/Copyright";
 
 export const BurgerMenu = () => {
+  const [show, setShow] = useState(false);
+  const toggle = () => {
+    setShow(!show);
+  };
   return (
     // btn for burger
     <div className={styles.paddingIcoMenu}>
-      <button
-        type="button"
-        data-bs-toggle="offcanvas"
-        data-bs-target="#offcanvasExample"
-        aria-controls="offcanvasExample"
-      >
+      <button onClick={toggle} type="button">
         {/* ico menu burger */}
-        <MenuIcon className={styles.aside.burgerIco} />
+
+        <div className={styles.aside.burgerIco}>
+          <Image height="50px" width="50px" src={BurgerImg} />
+        </div>
       </button>
+      {show === true ? (
+        // {/* div for OFF CANVA */}
 
-      {/* div for OFF CANVA */}
-      <div
-        className={styles.offCanvaMenuBurger}
-        // tabindex="-1"
-        id="offcanvasExample"
-      >
-        {/* content aside fixed */}
-        <div className={styles.aside.asideBg}>
-          {/*div for  clear ICON */}
-          <div className="flex justify-end">
-            {/* bg icon rounded */}
-            <button
-              className={`${styles.aside.socialIconBg} ${styles.marginIcoCLear}`}
-              type="button"
-              data-bs-toggle="offcanvas"
-              data-bs-target="#offcanvasExample"
-              aria-controls="offcanvasExample"
-            >
-              <ClearIcon className={`${styles.aside.clearBurgerIco}`} />
-            </button>
-          </div>
+        <div className={styles.offCanvaMenuBurger}>
+          {/* content aside fixed */}
+          <div className={styles.aside.asideBg}>
+            {/*div for  clear ICON */}
+            <div className={`${styles.aside.socialIconBg}`}>
+              <button className={`${styles.aside.clearBurgerIco}`} onClick={toggle}>
+                <ClearIcon />
+              </button>
+            </div>
+            <div className="flex justify-end">{/* bg icon rounded */}</div>
 
-          {/* bitmoji */}
-          <div className={styles.aside.divBitmoji}>
-            <Image src={bitmoji} width="125px" height="125px" />
-          </div>
+            {/* bitmoji */}
+            <div className={styles.aside.divBitmoji}>
+              <Image src={bitmoji} width="125px" height="125px" />
+            </div>
 
-          {/* flex col content aside */}
-          <h2 className={styles.aside.h2Name}>
-            <span className={styles.aside.spanHover}>M</span>oussart&nbsp;
-            <span className={styles.aside.spanHover}>A</span>xel
-          </h2>
-          {/* div for social icon */}
-          <div className={`${styles.flex.justifyCenter} ${styles.mb8}`}>
-            {/* link github */}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://github.com/Th-Axel96"
-            >
-              <div
-                className={`${styles.aside.socialIconBg} ${styles.flex.justifyCenter} ${styles.flex.itemsCenter} `}
+            {/* flex col content aside */}
+            <h2 className={styles.aside.h2Name}>
+              <span className={styles.aside.spanHover}>M</span>oussart&nbsp;
+              <span className={styles.aside.spanHover}>A</span>xel
+            </h2>
+            {/* div for social icon */}
+            <div className={`${styles.flex.justifyCenter} ${styles.mb8}`}>
+              {/* link github */}
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/Th-Axel96"
               >
-                <GitHubIcon className={styles.aside.socialIcon} />
-              </div>
-            </a>
-            {/* link linkdin */}
+                <div
+                  className={`${styles.aside.socialIconBg} ${styles.flex.justifyCenter} ${styles.flex.itemsCenter} `}
+                >
+                  <motion.div
+                    animate={{
+                      scale: [1, 2, 2, 1],
+                      rotate: [0, 30, -0, -30, 0],
+                      y: [0, 5, -5, 5, 0],
+                    }}
+                    transition={{
+                      duration: 2,
+                      ease: "easeInOut",
+                      repeat: Infinity,
+                      repeatDelay: 7,
+                      delay: 1,
+                    }}
+                  >
+                    <GitHubIcon className={styles.aside.socialIcon} />
+                  </motion.div>
+                </div>
+              </a>
+              {/* link linkdin */}
 
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.linkedin.com/in/axel-moussart/"
-            >
-              <div
-                className={`${styles.aside.socialIconBg} ${styles.flex.justifyCenter} ${styles.flex.itemsCenter} ${styles.mx4}`}
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.linkedin.com/in/axel-moussart/"
               >
-                <LinkedInIcon className={`${styles.aside.socialIcon} `} />
-              </div>
-            </a>
-            {/* link cv */}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="/docs/cv-axel.pdf"
-            >
-              <div
-                className={`${styles.aside.socialIconBg} ${styles.flex.justifyCenter} ${styles.flex.itemsCenter}`}
+                <div
+                  className={`${styles.aside.socialIconBg} ${styles.flex.justifyCenter} ${styles.flex.itemsCenter} ${styles.mx4}`}
+                >
+                  <motion.div
+                    animate={{
+                      scale: [1, 2, 2, 1],
+                      rotate: [0, 30, -0, -30, 0],
+                      y: [0, 5, -5, 5, 0],
+                    }}
+                    transition={{
+                      duration: 2,
+                      ease: "easeInOut",
+                      repeat: Infinity,
+                      repeatDelay: 7,
+                      delay: 4,
+                    }}
+                  >
+                    <LinkedInIcon className={`${styles.aside.socialIcon} `} />
+                  </motion.div>
+                </div>
+              </a>
+              {/* link cv */}
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="/docs/cv-axel.pdf"
               >
-                <FileOpenIcon className={styles.aside.socialIcon} />
-              </div>
-            </a>
-          </div>
-          {/* aside nav */}
-          <nav className={styles.aside.navAside}>
-            <ul>
-              {/* link home */}
-              <li className={styles.aside.navLi}>
-                <AnchorLink
-                  className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
-                  href="#acceuilMobile"
+                <div
+                  className={`${styles.aside.socialIconBg} ${styles.flex.justifyCenter} ${styles.flex.itemsCenter}`}
                 >
-                  <HomeIcon className={styles.aside.navIcon} />
-                  Accueil
-                </AnchorLink>
-              </li>
-              {/* link about me */}
-              <li>
-                <AnchorLink
-                  // data-bs-toggle="offcanvas"
-                  // data-bs-target="#offcanvasExample"
-                  // aria-controls="offcanvasExample"
-                  className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
-                  href="#aboutMe"
-                >
-                  <PersonIcon className={styles.aside.navIcon} />A propos
-                </AnchorLink>
-              </li>
-              {/* link skils */}
-              <li className={styles.aside.navLi}>
-                <AnchorLink
-                  className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
-                  href="#mySkills"
-                >
-                  <DataObjectIcon className={styles.aside.navIcon} />
-                  Mes compétences
-                </AnchorLink>
-              </li>
-              {/* link projects */}
-              <li>
-                <AnchorLink
-                  className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
-                  href="#myProject"
-                >
-                  <TopicIcon className={styles.aside.navIcon} />
-                  Mes projets
-                </AnchorLink>
-              </li>
-              {/* link contact */}
-              <li className={styles.aside.navLi}>
-                <AnchorLink
-                  className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
-                  href="#contact"
-                >
-                  <CallIcon className={styles.aside.navIcon} />
-                  Contact
-                </AnchorLink>
-              </li>
-            </ul>
-          </nav>
-          {/* copyright */}
-          <div
-            className={`${styles.flex.itemsEnd} ${styles.aside.copyrightDiv} ${styles.flex.justifyCenter}`}
-          >
-            <p>
-              <CopyrightIcon className={`${styles.aside.copyrightIco} `} />
-              Copyright &nbsp;
-              <span className={styles.text.fontBold}>Moussart Axel</span>
-            </p>
+                  <motion.div
+                    animate={{
+                      scale: [1, 2, 2, 1],
+                      rotate: [0, 30, -0, -30, 0],
+                      y: [0, 5, -5, 5, 0],
+                    }}
+                    transition={{
+                      duration: 2,
+                      ease: "easeInOut",
+                      repeat: Infinity,
+                      repeatDelay: 7,
+                      delay: 7,
+                    }}
+                  >
+                    <FileOpenIcon className={styles.aside.socialIcon} />
+                  </motion.div>
+                </div>
+              </a>
+            </div>
+            {/* aside nav */}
+            <nav className={styles.aside.navAside}>
+              <ul>
+                {/* link home */}
+                <li className={styles.aside.navLi}>
+                  <AnchorLink
+                    className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
+                    href="#acceuilMobile"
+                  >
+                    <HomeIcon className={styles.aside.navIcon} />
+                    Accueil
+                  </AnchorLink>
+                </li>
+                {/* link about me */}
+                <li>
+                  <AnchorLink
+                    className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
+                    href="#aboutMe"
+                  >
+                    <PersonIcon className={styles.aside.navIcon} />A propos
+                  </AnchorLink>
+                </li>
+                {/* link skils */}
+                <li className={styles.aside.navLi}>
+                  <AnchorLink
+                    className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
+                    href="#mySkills"
+                  >
+                    <DataObjectIcon className={styles.aside.navIcon} />
+                    Mes compétences
+                  </AnchorLink>
+                </li>
+                {/* link projects */}
+                <li>
+                  <AnchorLink
+                    className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
+                    href="#myProject"
+                  >
+                    <TopicIcon className={styles.aside.navIcon} />
+                    Mes projets
+                  </AnchorLink>
+                </li>
+                {/* link contact */}
+                <li className={styles.aside.navLi}>
+                  <AnchorLink
+                    className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
+                    href="#contact"
+                  >
+                    <CallIcon className={styles.aside.navIcon} />
+                    Contact
+                  </AnchorLink>
+                </li>
+              </ul>
+            </nav>
+            {/* copyright */}
+            <div
+              className={`${styles.flex.itemsEnd} ${styles.aside.copyrightDiv} ${styles.flex.justifyCenter}`}
+            >
+              <p>
+                <CopyrightIcon className={`${styles.aside.copyrightIco} `} />
+                Copyright &nbsp;
+                <span className={styles.text.fontBold}>Moussart Axel</span>
+              </p>
+            </div>
           </div>
         </div>
-      </div>
+      ) : (
+        ""
+      )}
     </div>
   );
 };

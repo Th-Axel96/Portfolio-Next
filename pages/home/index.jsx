@@ -30,7 +30,6 @@ const HomePage = () => {
       <SectionSkills />
       <SectionProject />
       <SectionContact />
-      <AnimeFramer />
       <ParticlesAnimate />
       
     </>

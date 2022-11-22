@@ -12,10 +12,11 @@ export const styles = {
     itemsEnd: "flex items-end",
     itemsCenter: "flex items-center",
     justifyColItemsCenter: "flex flex-col justify-center items-center",
+    justifyEnd:"flex justify-end",
   },
 
   offCanvaMenuBurger:
-    "offcanvas offcanvas-start  fixed bottom-0  bg-gray-600 invisible bg-clip-padding shadow-sm outline-none transition duration-1000 ease-in-out text-gray-700 top-0 left-0 border-none w-80",
+    "  fixed bottom-0  bg-gray-600 z-20 bg-clip-padding shadow-sm outline-none transition duration-1000 ease-in-out text-gray-700 top-0 left-0 border-none w-80",
 
   // background
 
@@ -27,7 +28,7 @@ export const styles = {
 
   //    aside
   aside: {
-    divBitmoji: " flex justify-center ",
+    divBitmoji: "flex justify-center ",
     asideBg: "bg-gray-900 w-80 h-screen",
     h2Name:
       "text-white text-3xl  font-open font-bold  flex justify-center py-8",
@@ -45,8 +46,8 @@ export const styles = {
     copyrightIco: "text-lg text-white",
     copyrightDiv: "h-20 text-white",
     // burger menu mobile
-    burgerIco: "text-5xl text-black",
-    clearBurgerIco: " text-4xl text-white",
+    burgerIco: "-mt-4  fixed z-20",
+    clearBurgerIco: "flex justify-center items-center h-12 w-12 text-white",
   },
 
   // text
@@ -59,7 +60,7 @@ export const styles = {
   mx4: "mx-4",
   mb8: "mb-8",
   marginIcoCLear: "mt-2 mr-2",
-  paddingIcoMenu: "pl-4 pt-4",
+  paddingIcoMenu: "ml-4 mt-4",
 
   // contentHeader
 
