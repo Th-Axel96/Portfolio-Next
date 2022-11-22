@@ -18,7 +18,7 @@ export const styles = {
   aside: {
     divBitmoji: "pt-4 flex justify-center ",
     asideBg: "bg-gray-900 fixed w-80 h-screen",
-    h2Name: "text-white text-4xl font-open font-bold flex justify-center pt-8",
+    h2Name: "text-white text-4xl font-alice font-bold flex justify-center pt-8",
     navAside: "pl-8 text-xl text-gray-400",
     navIcon: "text-3xl mr-2",
     navLi: "my-8",

@@ -42,7 +42,7 @@ export const AboutMe = () => {
                 data-aos="fade-up-right"
                 data-aos-duration="2000"
                 data-aos-once="false"
-                className={`${styles.body.paragraph} ${styles.pt6}`}
+                className={`${styles.body.paragraph} `}
               >
                 Passionné par le monde de l&apos;informatique, j&apos;ai
                 commencé à jouer à des jeux en ligne (MMORPG, RTS, Hack
@@ -53,7 +53,7 @@ export const AboutMe = () => {
                 data-aos="fade-up-right"
                 data-aos-duration="2000"
                 data-aos-once="false"
-                className={`${styles.body.paragraph} ${styles.pt6}`}
+                className={`${styles.body.paragraph} `}
               >
                 Peu de temps après, j&apos;ai commencé à me tourner vers le
                 Hardware, en démontant, changeant les pièces des PC et assembler
@@ -63,7 +63,7 @@ export const AboutMe = () => {
                 data-aos="fade-up-right"
                 data-aos-duration="2000"
                 data-aos-once="false"
-                className={`${styles.body.paragraph} ${styles.pt6}`}
+                className={`${styles.body.paragraph} `}
               >
                 Décidant de me reconvertir, j&apos;ai souhaité me tourner vers
                 un métier qui me passionne : le développement.
@@ -72,7 +72,7 @@ export const AboutMe = () => {
                 data-aos="fade-up-right"
                 data-aos-duration="2000"
                 data-aos-once="false"
-                className={`${styles.body.paragraph} ${styles.pt6}`}
+                className={`${styles.body.paragraph}`}
               >
                 N&apos;ayant aucune connaissance dans ce domaine, je me suis
                 inscrit à une formation de développeur web et web mobile.
@@ -81,12 +81,13 @@ export const AboutMe = () => {
                 data-aos="fade-up-right"
                 data-aos-duration="2000"
                 data-aos-once="false"
-                className={`${styles.body.paragraph} ${styles.pt6}`}
+                className={`${styles.body.paragraph}`}
               >
                 Je suis aujourd&apos;hui à la recherche d&apos;un stage pour
                 valider mon titre professionnel et d&apos;autres opportunités
                 qui me seront offerte.
               </p>
+
             </div>
           </div>
         </div>

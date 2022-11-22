@@ -52,11 +52,11 @@ export const styles = {
 
   card: {
     contentCard:
-      " rounded-3xl shadow-2xl  shadow-blue-400 bg-white/10 hover:text-white  font-open max-w-xs mt-8 mx-4 mb-8 border-t-8 border-blue-400 transition duration-1000 hover:bg-black  ease-in-out",
+      " rounded-3xl shadow-2xl  shadow-blue-400 bg-white/10 backdrop-blur-sm hover:text-white  font-alice max-w-xs mt-8 mx-4 mb-8 border-t-8 border-blue-400 transition duration-1000 hover:bg-black  ease-in-out",
     titleProject:
-      "uppercase flex justify-center text-xl font-open font-bold mb-4",
+      "uppercase flex justify-center text-xl font-alice font-bold mb-4",
     paragraph:
-      " text-center font-open text-sm lg:text-lg font-semibold border-y-2 border-blue-400 py-4 h-32 flex items-center",
+      " text-center font-alice text-sm lg:text-lg font-semibold border-y-2 border-blue-400 py-4 h-32 flex items-center",
     CardImg: "rounded-t-2xl ",
     btnLink:
       "shadow-md  shadow-blue-400 px-6 py-2.5 bg-blue-400/60  font-bold  text-sm lg:text-lg leading-tight uppercase rounded-xl    transition duration-1000 mt-6 hover:scale-110 ease-in-out",

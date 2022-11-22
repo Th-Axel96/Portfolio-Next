@@ -35,13 +35,15 @@ export const BurgerMenu = () => {
     setShow(!show);
   };
   return (
-    // btn for burger
-    <div className={styles.paddingIcoMenu}>
+ 
+    <div>
+   
+      {/* // btn for burger */}
       <button onClick={toggle} type="button">
         {/* ico menu burger */}
 
         <div className={styles.aside.burgerIco}>
-          <Image height="50px" width="50px" src={BurgerImg} />
+          <Image height="40px" width="40px" src={BurgerImg} />
         </div>
       </button>
       {show === true ? (
@@ -51,12 +53,16 @@ export const BurgerMenu = () => {
           {/* content aside fixed */}
           <div className={styles.aside.asideBg}>
             {/*div for  clear ICON */}
-            <div className={`${styles.aside.socialIconBg}`}>
-              <button className={`${styles.aside.clearBurgerIco}`} onClick={toggle}>
-                <ClearIcon />
-              </button>
+            <div className="pl-4 pt-4">
+              <div className={styles.aside.socialIconBg}>
+                <button
+                  className={`${styles.aside.clearBurgerIco}`}
+                  onClick={toggle}
+                >
+                  <ClearIcon />
+                </button>
+              </div>
             </div>
-            <div className="flex justify-end">{/* bg icon rounded */}</div>
 
             {/* bitmoji */}
             <div className={styles.aside.divBitmoji}>
@@ -71,6 +77,7 @@ export const BurgerMenu = () => {
             {/* div for social icon */}
             <div className={`${styles.flex.justifyCenter} ${styles.mb8}`}>
               {/* link github */}
+
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -159,6 +166,7 @@ export const BurgerMenu = () => {
                 {/* link home */}
                 <li className={styles.aside.navLi}>
                   <AnchorLink
+                    onClick={toggle}
                     className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
                     href="#acceuilMobile"
                   >
@@ -169,6 +177,7 @@ export const BurgerMenu = () => {
                 {/* link about me */}
                 <li>
                   <AnchorLink
+                    onClick={toggle}
                     className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
                     href="#aboutMe"
                   >
@@ -178,6 +187,7 @@ export const BurgerMenu = () => {
                 {/* link skils */}
                 <li className={styles.aside.navLi}>
                   <AnchorLink
+                    onClick={toggle}
                     className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
                     href="#mySkills"
                   >
@@ -188,6 +198,7 @@ export const BurgerMenu = () => {
                 {/* link projects */}
                 <li>
                   <AnchorLink
+                    onClick={toggle}
                     className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
                     href="#myProject"
                   >
@@ -198,6 +209,7 @@ export const BurgerMenu = () => {
                 {/* link contact */}
                 <li className={styles.aside.navLi}>
                   <AnchorLink
+                    onClick={toggle}
                     className={`${styles.aside.HoverBlue} ${styles.flex.itemsEnd}`}
                     href="#contact"
                   >

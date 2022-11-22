@@ -54,11 +54,11 @@ export const styles = {
   contentHeader: {
     bgHeader: "bg-person-coding bg-cover bg-no-repeat",
     bgBlur: " h-screen w-full",
-    nameHeader: "flex flex-row text-white text-6xl font-open font-bold ",
+    nameHeader: "flex flex-row text-white text-6xl font-alice font-bold ",
     spanHover:
       "transition duration-1000 hover:-translate-y-2 hover:rotate-12 text-blue-400",
     spanTyping:
-      "flex text-white font-open text-3xl border-b-2 border-blue-400 pt-4",
+      "flex text-white font-alice text-3xl border-b-2 border-blue-400 pt-4",
     btnEncre: "flex justify-center items-end text-white -mt-40 hover:text-blue-500 animate__animated animate__bounce animate__slow animate__infinite",
   },
 

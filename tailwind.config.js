@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       width: {
-        '146': '37.5rem',
+        146: "37.5rem",
       },
       backgroundImage: {
         "person-coding": "url('/person-coding-blur.jpg')",
@@ -16,8 +16,10 @@ module.exports = {
 
       fontFamily: {
         spartan: ["League Spartan", "sans-serif"],
-        open: ["Open Sans", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
+        alice: ["Alice", "serif"],
+        indieflower: ["Indie Flower", "cursive"],
+        open: ["Open Sans", "sans-serif"],
       },
     },
   },

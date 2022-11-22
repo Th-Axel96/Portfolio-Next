@@ -5,7 +5,7 @@ import { BurgerMenu } from "../burgerMobile";
 import { Typing } from "../js/typeAnimation";
 
 // img
-import DevImgHeader from "../../assets/img/Developer-img.svg";
+
 import { RotateAnimation } from "../js/RotateImgHeader";
 
 export const ContentHeaderMobile = () => {

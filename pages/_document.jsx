@@ -7,11 +7,8 @@ export default function Document() {
       <Head>
         {/* CDN google Fonts */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=League+Spartan&family=Open+Sans:wght@300&family=Poppins:wght@300&display=swap"
-          rel="stylesheet"
-        />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Alice&family=Indie+Flower&family=Open+Sans&display=swap" rel="stylesheet"/>
         {/* CDN Tailwind elements */}
         <link
           rel="stylesheet"

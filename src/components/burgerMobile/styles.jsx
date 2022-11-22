@@ -31,7 +31,7 @@ export const styles = {
     divBitmoji: "flex justify-center ",
     asideBg: "bg-gray-900 w-80 h-screen",
     h2Name:
-      "text-white text-3xl  font-open font-bold  flex justify-center py-8",
+      "text-white text-3xl  font-alice font-bold  flex justify-center py-8",
     navAside: "pl-8 text-xl text-gray-400",
     navIcon: "text-3xl mr-2",
     navLi: "py-8",
@@ -46,7 +46,7 @@ export const styles = {
     copyrightIco: "text-lg text-white",
     copyrightDiv: "h-20 text-white",
     // burger menu mobile
-    burgerIco: "-mt-4  fixed z-20",
+    burgerIco: "-mt-4  pl-2 fixed z-20",
     clearBurgerIco: "flex justify-center items-center h-12 w-12 text-white",
   },
 
