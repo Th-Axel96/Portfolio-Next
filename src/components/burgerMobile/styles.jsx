@@ -46,7 +46,7 @@ export const styles = {
     copyrightIco: "text-lg text-white",
     copyrightDiv: "h-20 text-white",
     // burger menu mobile
-    burgerIco: "-mt-4  pl-2 fixed z-20",
+    burgerIco: "h-14 flex items-center pl-4",
     clearBurgerIco: "flex justify-center items-center h-12 w-12 text-white",
   },
 

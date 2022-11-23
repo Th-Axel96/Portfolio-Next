@@ -2,7 +2,7 @@ import { styles } from "./styles";
 import Image from "next/image";
 import ImgCoding from "../../assets/img/coding-ilustration.svg";
 
-import "animate.css";
+
 
 export const AboutMe = () => {
   return (
@@ -40,7 +40,7 @@ export const AboutMe = () => {
             <div className={styles.flex.colCenter}>
               <p
                 data-aos="fade-up-right"
-                data-aos-duration="2000"
+                data-aos-duration="1000"
                 data-aos-once="false"
                 className={`${styles.body.paragraph} `}
               >

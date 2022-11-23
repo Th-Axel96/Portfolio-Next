@@ -28,6 +28,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 
 // icon copyright
 import CopyrightIcon from "@mui/icons-material/Copyright";
+import { ScrollProgress } from "../scrollProgress";
 
 export const BurgerMenu = () => {
   const [show, setShow] = useState(false);
@@ -35,17 +36,24 @@ export const BurgerMenu = () => {
     setShow(!show);
   };
   return (
- 
     <div>
-   
-      {/* // btn for burger */}
-      <button onClick={toggle} type="button">
-        {/* ico menu burger */}
+      {/* div content bandeau header mobile */}
+      <div className="h-14 w-screen bg-gray-900 fixed z-20 shadow shadow-blue-400">
+        {/* // btn for burger */}
+        <button onClick={toggle} type="button">
+          {/* ico menu burger */}
 
-        <div className={styles.aside.burgerIco}>
-          <Image height="40px" width="40px" src={BurgerImg} />
+          <div className={styles.aside.burgerIco}>
+            <Image height="40px" width="40px" src={BurgerImg} />
+          </div>
+        </button>
+        {/* scroll for mobile */}
+        <div className="h-1.5 bg-blue-200 shadow shadow-blue-400">
+          <div>
+            <ScrollProgress />
+          </div>
         </div>
-      </button>
+      </div>
       {show === true ? (
         // {/* div for OFF CANVA */}
 

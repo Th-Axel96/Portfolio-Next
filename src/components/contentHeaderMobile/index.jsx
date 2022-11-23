@@ -4,6 +4,8 @@ import Image from "next/image";
 import { BurgerMenu } from "../burgerMobile";
 import { Typing } from "../js/typeAnimation";
 
+
+
 // img
 
 import { RotateAnimation } from "../js/RotateImgHeader";

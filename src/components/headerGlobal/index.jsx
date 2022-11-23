@@ -8,6 +8,8 @@ import { ContentHeaderMobile } from "../contentHeaderMobile";
 
 import { ScrollProgress } from "../scrollProgress";
 
+import { ScrollReturnToTop } from "../returnToTop";
+
 // header for desktop
 export const HeaderGlobal = () => {
   // function show with useState
@@ -17,13 +19,16 @@ export const HeaderGlobal = () => {
   };
   return (
     <>
-      <ScrollProgress />
+      <div className="hidden xl:block">
+        <ScrollProgress />
+      </div>
       <header className="hidden xl:block">
         <AsideHeader />
         <ContentHeader />
       </header>
       <div className="xl:hidden">
         <ContentHeaderMobile />
+        <ScrollReturnToTop />
       </div>
     </>
   );

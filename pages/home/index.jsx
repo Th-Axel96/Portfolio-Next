@@ -6,6 +6,8 @@ import { SectionContact } from "@src/components/contact";
 import { ParticlesAnimate } from "@src/components/particlesAnimate";
 import { AnimeFramer } from "@src/components/animeFrame";
 
+
+
 import Loader from "@src/components/loader";
 // scrollProgress
 
@@ -31,6 +33,7 @@ const HomePage = () => {
       <SectionProject />
       <SectionContact />
       <ParticlesAnimate />
+
       
     </>
   );
