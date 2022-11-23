@@ -8,6 +8,7 @@ module.exports = {
       },
       backgroundImage: {
         "person-coding": "url('/person-coding-blur.jpg')",
+        "elf-attack-1": "url'('/elf-attack-1.png')",
       },
       colors: {
         gold: "#f8b700",

@@ -7,7 +7,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import PhoneIphoneIcon from "@mui/icons-material/PhoneIphone";
 import LocationCityIcon from "@mui/icons-material/LocationCity";
 
-import { motion } from "framer-motion";
+
 
 
 export const SectionContact = () => {

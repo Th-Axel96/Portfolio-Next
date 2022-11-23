@@ -17,8 +17,8 @@ export const styles = {
     justifyNameTyping: "h-5/6 flex flex-col justify-center items-center",
     colCenter: "flex flex-col justify-center xl:mr-32",
     lgFlexRow: "lg:flex lg:flex-row justify-center",
-    mdRow: "md:flex md:flex-row",
-    mdJustifyCenter: "md:flex md:justify-center",
+    mdRow: "md:flex md:flex-row ",
+    mdJustifyCenter: "md:flex md:justify-center ",
   },
 
   // background
@@ -70,24 +70,26 @@ export const styles = {
 
   // contact
   contact: {
+    bgContentContact: "bg-white/10 pt-12  border-x-2 border-white/80 rounded-xl border-bleu-400 mb-16 mx-4 lg:mx-32 xl:mx-44 2xl:mx-80",
     containerContact:
       "bg-black text-white py-4 w-60 lg:w-72 xl:w-80 border-t-4 border-blue-400 flex flex-col justify-center items-center rounded-xl hover:scale-110 transition duration-1000 ease-in-out hover:bg-gray-300 hover:text-black mb-8",
     sizeIcon: "text-3xl mb-4",
 
     // label & input section contact
+    placingBg:"",
     LabelContact:
-      "bg-gray-900  font-alice font-semibold text-lg text-white leading-6 absolute -mt-2.5 z-10  pr-2 pl-2 ",
+      "bg-gray-900  border border-blue-400 rounded rounded-xl  font-alice font-semibold text-lg text-white leading-6 absolute -mt-3.5 z-10  px-4 py-1",
 
     contactInput:
-      "h-20 w-72 bg-gray-900/80 backdrop-blur-sm border border-black rounded-lg z-0 mb-10 mr-5 pl-4",
+      "h-20 w-72 bg-gray-900/80 backdrop-blur-sm  rounded-lg z-0 mb-10 mx-7 pl-4",
     contactInputMessage:
-      "h-32 w-72 md:w-146 bg-gray-900/80 border backdrop-blur-sm border-black rounded-lg z-0 mb-8 mr-3 pr-2 pl-4",
+      "h-32 w-72 md:w-146 bg-gray-900/80   backdrop-blur-sm rounded-lg z-0 mb-8 mx-7 pl-4",
 
     // btn styles
     contactBtn:
-      "inline-block px-6 py-2.5 bg-blue-400 shadow-md  shadow-blue-400 font-alice font-semibold text-sm lg:text-lg leading-tight uppercase rounded-2xl  hover:bg-blue-400 hover:shadow-lg focus:bg-blue-400 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-400 active:shadow-lg transition duration-1000 ease-in-out mt-8 mb-24 hover:scale-110",
+      "inline-block px-6 py-2.5 bg-blue-400 shadow-md  shadow-blue-400 font-alice font-semibold text-sm lg:text-lg leading-tight uppercase rounded-2xl  hover:bg-blue-400 hover:shadow-lg focus:bg-blue-400 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-400 active:shadow-lg transition duration-1000 ease-in-out  mb-8 hover:scale-110",
     Checkbox:
-      "form-check-input appearance-none h-4 w-4 border border-blue-200 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer",
-LabelChecbbox:"font-alice text-white text-xl"
-    },
+      " flex justify-center form-check-input appearance-none h-4 w-4 border border-blue-200 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer",
+    LabelChecbbox: " font-alice text-white text-xl",
+  },
 };

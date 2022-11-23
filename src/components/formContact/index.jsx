@@ -2,10 +2,17 @@ import { styles } from "./styles";
 
 export const FormContact = () => {
   return (
-    <div>
+    <div
+      data-aos="fade-right"
+      data-aos-once="false"
+      data-aos-duration="2000"
+      className={`${styles.contact.bgContentContact} ${styles.contact.placingBg} `}
+    >
       {/* label & input name */}
       {/* div for rows md && justify-center */}
       <div className={`${styles.flex.mdRow} ${styles.flex.mdJustifyCenter}`}>
+        {/* div content background global group */}
+
         {/* div for label */}
         <div
           data-aos="flip-left"
@@ -16,7 +23,8 @@ export const FormContact = () => {
           <label id="hover-test" className={styles.contact.LabelContact}>
             Votre Nom :
           </label>
-          <input id="hover-input"
+          <input
+            id="hover-input"
             placeholder="Saisisez votre Nom"
             type="text"
             className={styles.contact.contactInput}
@@ -29,9 +37,7 @@ export const FormContact = () => {
           data-aos-duration="2000"
           className={styles.flex.justifyCenter}
         >
-          <label  className={styles.contact.LabelContact}>
-            Votre Email :
-          </label>
+          <label className={styles.contact.LabelContact}>Votre Email :</label>
           <input
             placeholder="Saisisez votre Email"
             type="text"
@@ -46,9 +52,7 @@ export const FormContact = () => {
         data-aos-duration="2000"
         className={styles.flex.justifyCenter}
       >
-        <label  className={styles.contact.LabelContact}>
-          Votre Message :
-        </label>
+        <label className={styles.contact.LabelContact}>Votre Message :</label>
         <input
           placeholder="Saisisez votre Message"
           type="text"
@@ -56,21 +60,6 @@ export const FormContact = () => {
         />
       </div>
       {/* checkbox */}
-      <div
-        data-aos="fade-right"
-        data-aos-once="false"
-        data-aos-duration="2000"
-        className={styles.flex.justifyCenter}
-      >
-        <input
-          type="checkbox"
-          className={styles.contact.Checkbox}
-          id="exampleCheck1"
-        />
-        <label class={styles.contact.LabelChecbbox} for="exampleCheck1">
-          J&apos;accepte que mes données soient utilisées.
-        </label>
-      </div>
 
       <div
         data-aos="flip-left"

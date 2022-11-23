@@ -1,5 +1,8 @@
 import { motion, useScroll, useSpring } from "framer-motion";
 
+
+
+
 export const ScrollProgress = () => {
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
@@ -13,7 +16,9 @@ export const ScrollProgress = () => {
       <motion.div
         className="h-1.5 lg:h-2 w-full  bg-gradient-to-r from-cyan-500 to-blue-500 fixed z-30 origin-left "
         style={{ scaleX,
+          
          }}
+
       />
     </>
   );

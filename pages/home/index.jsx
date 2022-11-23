@@ -3,10 +3,9 @@ import { AboutMe } from "@src/components/aboutMe";
 import { SectionSkills } from "@src/components/sectionSkills";
 import { SectionProject } from "@src/components/myProject";
 import { SectionContact } from "@src/components/contact";
+import { SectionFooter } from "@src/components/footer";
 import { ParticlesAnimate } from "@src/components/particlesAnimate";
-import { AnimeFramer } from "@src/components/animeFrame";
-
-
+// import { AnimeFramer } from "@src/components/animeFrame";
 
 import Loader from "@src/components/loader";
 // scrollProgress
@@ -20,7 +19,7 @@ const HomePage = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoader(false);
-    },3000);
+    }, 3000);
   }, []);
 
   return loader ? (
@@ -28,13 +27,13 @@ const HomePage = () => {
   ) : (
     <>
       <HeaderGlobal />
+      {/* <AnimeFramer/> */}
       <AboutMe />
       <SectionSkills />
       <SectionProject />
       <SectionContact />
+      <SectionFooter />
       <ParticlesAnimate />
-
-      
     </>
   );
 };
