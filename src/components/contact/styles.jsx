@@ -47,7 +47,7 @@ export const styles = {
 
   // BODY
   body: {
-    title: "text-2xl text-indigo-800 uppercase font-alice font-bold pt-16",
+    title: "text-2xl text-blue-400 uppercase font-alice font-bold pt-16",
     borderTitle: "border-b-4 border-blue-400 w-20 mt-2 mb-16",
     paragraph: "font-alice text-sm xl:text-xl font-semibold",
   },
@@ -69,7 +69,7 @@ export const styles = {
   // contact
   contact: {
     containerContact:
-      "shadow-2xl shadow-blue-400 bg-white-400/10   py-4 w-60 lg:w-72 xl:w-80 border-t-8 border-blue-400 flex flex-col justify-center items-center rounded-3xl hover:scale-110 transition duration-1000 ease-in-out hover:bg-black hover:text-white mb-8",
+      "shadow-md shadow-blue-400 bg-white-400/10 font-alice text-white backdrop-blur-md py-4 w-60 lg:w-72 xl:w-80 border-t-8 border-blue-400 flex flex-col justify-center items-center rounded-3xl hover:scale-110 transition duration-1000 ease-in-out hover:bg-black hover:text-blue-400 mb-8",
     sizeIcon: "text-3xl mb-4",
   },
 };

@@ -62,11 +62,11 @@ export const styles = {
     bgHeader: "bg-person-coding bg-cover bg-no-repeat",
     bgBlur: " h-screen w-full",
     nameHeader:
-      "w-screen flex justify-center text-2xl font-alice font-black pt-24",
+      "w-screen flex justify-center text-white text-2xl font-alice font-black pt-24",
     spanTypingBorder:
       "flex items-center font-open text-lg border-b-2 border-blue-400",
     spanTyping:
-      "flex flex-col items-center w-screen font-alice text-lg pt-4 font-semibold",
+      "flex flex-col items-center w-screen font-alice text-white text-lg pt-4 font-semibold",
     btnEncre: "flex justify-center items-end text-white -mt-40 animate-bounce",
       
   },

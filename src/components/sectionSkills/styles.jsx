@@ -41,13 +41,13 @@ export const styles = {
 
   // BODY
   body: {
-    title: "text-2xl text-indigo-800 uppercase font-open font-bold pt-16",
+    title: "text-2xl text-blue-400 uppercase font-open font-bold pt-16",
     borderTitle: "border-b-4 border-blue-400 w-20 mt-2 mb-16",
     paragraph: "font-open text-sm font-semibold",
   },
   // box ICON skilss
   boxIconSkills:
-    "shadow-xl  backdrop-blur-sm shadow-blue-400  flex flex-col font-alice text-lg font-bold uppercase justify-center items-center w-32 h-40 bg-white/10 rounded-3xl border-t-8 border-blue-400 p-4 mb-12 hover:scale-110 transition duration-1000 ease-in-out hover:bg-black hover:text-white",
+    "shadow-md backdrop-blur-sm shadow-blue-400  flex flex-col font-alice text-lg text-white font-bold uppercase justify-center items-center w-32 h-40 bg-white/10 rounded-3xl border-t-4 border-blue-400 p-4 mb-12 hover:scale-110 transition duration-1000 ease-in-out hover:bg-black hover:text-blue-400",
   boxHoverIcon:
     "h-full w-full transition duration-1000 hover:translate-y-2 hover:rotate-12 hover:scale-110",
 };

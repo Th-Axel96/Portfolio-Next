@@ -12,6 +12,7 @@ import ClearIcon from "@mui/icons-material/Clear";
 
 import Image from "next/image";
 import bitmoji from "../../assets/img/bitmoji.png";
+import Poulpe from "../../assets/img/poulpe27px.png";
 
 // icon NAV
 import HomeIcon from "@mui/icons-material/Home";
@@ -21,6 +22,7 @@ import TopicIcon from "@mui/icons-material/Topic";
 import CallIcon from "@mui/icons-material/Call";
 import FileOpenIcon from "@mui/icons-material/FileOpen";
 import BurgerImg from "../../assets/img/burger-bar.png";
+import MenuIcon from "@mui/icons-material/Menu";
 
 // icon Social
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -44,11 +46,19 @@ export const BurgerMenu = () => {
           {/* ico menu burger */}
 
           <div className={styles.aside.burgerIco}>
-            <Image height="40px" width="40px" src={BurgerImg} />
+            <MenuIcon sx={{ fontSize: 40 }} />
+            {/* <Image height="40px" width="40px" src={BurgerImg} /> */}
+            <div className="flex justify-center w-screen pr-20">
+              <h1 className=" text-2xl font-alice">Moussart Axel</h1>
+            </div>
           </div>
+            {/* <div >
+              <Image src={Poulpe} height="70px" width="70px" />
+            </div> */}
         </button>
+
         {/* scroll for mobile */}
-        <div className="h-1.5 bg-blue-200 shadow shadow-blue-400">
+        <div className="h-1.5 bg-blue-200 shadow  shadow-blue-400">
           <div>
             <ScrollProgress />
           </div>

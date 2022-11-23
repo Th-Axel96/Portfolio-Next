@@ -43,8 +43,8 @@ export const styles = {
 
   // BODY
   body: {
-    title: "text-2xl text-indigo-800 uppercase font-alice font-bold pt-16",
+    title: "text-2xl text-blue-400 uppercase font-alice font-bold pt-16",
     borderTitle: "border-b-4 border-blue-400 w-20 mt-2 mb-16",
-    paragraph: "my-4 text-center px-2 py-2 backdrop-blur-sm shadow-blue-400 shadow-xl border-white border-2 bg-white/40 h-full rounded-xl  font-alice text-sm lg:text-xl font-semibold",
+    paragraph: "my-4 text-center px-2 py-2 backdrop-blur-sm shadow-blue-400 shadow-lg border-white border-2 bg-white/40 h-full rounded-xl  font-alice text-sm lg:text-xl font-semibold",
   },
 };

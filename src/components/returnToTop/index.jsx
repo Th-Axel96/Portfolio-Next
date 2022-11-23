@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 import { width } from "@mui/system";
+import { Repeat } from "@mui/icons-material";
 
 // Add the smooth behavior to go to top
 export const goToTop = () => {
@@ -33,14 +34,22 @@ export function ScrollReturnToTop() {
           onClick={goToTop}
           initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1, transition: { duration: 0.5 } }}
-          exit={{ y: 100, opacity: 0, transition: { duration: 0.5 } }}
+          exit={{ y: 100, opacity: 0, transition: { duration: 3} }}
           whileHover={{
             scale: 1.2,
             transition: { duration: 0.2 },
           }}
-          whileTap={{ scale: 1 }}
+          
         >
-          <motion.div className="h-12 w-12 bg-blue-400 rounded-full flex justify-center items-center bottom-0 ">
+          <motion.div className="h-12 w-12 bg-blue-400/60 rounded-full flex justify-center items-center bottom-0 "
+          animate={{
+            y:[0, -20 , 0]
+          }}
+        transition={{
+            duration:5,
+            repeat:Infinity
+        }}
+          >
             <ArrowUpwardIcon />
           </motion.div>
         </motion.button>

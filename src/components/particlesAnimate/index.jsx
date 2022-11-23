@@ -24,7 +24,7 @@ export const ParticlesAnimate = () => {
         autoPlay: true,
         background: {
           color: {
-            value: "DBEAFE",
+            value: "#111827",
           },
           image: "",
           position: "50% 50%",
