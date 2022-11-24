@@ -48,7 +48,7 @@ export const FuséeInterval = () => {
             duration: 5,
           }}
         >
-          <div className="text-2xl font-open font-bold flex  flex-col items-center shadow-xl shadow-blue-400  bg-white/20 p-4 rounded-2xl border-t-4 border-blue-400">
+          <div className="text-2xl font-alice text-white font-bold flex  flex-col items-center shadow-md shadow-blue-400  bg-white/20 p-4 rounded-2xl border-t-4 border-blue-400">
             {/* exemples MOTION  */}
             {/* <motion.div
               style={{
