@@ -11,6 +11,7 @@ export const Typing = () => {
         "FullStack", // Types 'Three' without deleting 'Two'
         2000,
       ]}
+      className="font-alice"
       speed={30}
       wrapper="div"
       cursor={false}
