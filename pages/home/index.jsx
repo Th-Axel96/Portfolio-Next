@@ -9,6 +9,7 @@ import { ParticlesAnimate } from "@src/components/particlesAnimate";
 
 import Loader from "@src/components/loader";
 // scrollProgress
+import CursorAnimated from "@src/components/cursorAnimated";
 
 // use state
 import React, { useState, useEffect } from "react";
@@ -26,6 +27,7 @@ const HomePage = () => {
     <Loader />
   ) : (
     <>
+      <CursorAnimated />
       <HeaderGlobal />
       {/* <AnimeFramer/> */}
       <AboutMe />
