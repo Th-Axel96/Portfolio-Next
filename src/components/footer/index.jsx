@@ -16,6 +16,7 @@ export const SectionFooter = () => {
               <p>
                 <CopyrightIcon className={`${styles.aside.copyrightIco} `} />
                 Copyright &nbsp;
+                
                 <span className={styles.text.fontBold}>Moussart Axel</span>
               </p>
             </div>
